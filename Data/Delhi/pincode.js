@@ -1,7 +1,7 @@
 const pincodeList = [
     {
         "Area Name": "New Delhi G.P.O.",
-        "pincode": "803202",
+        "pincode": "110001",
         "Post Office Name": "New Delhi Head Office"
     },
     {
