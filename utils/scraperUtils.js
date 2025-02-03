@@ -7,6 +7,11 @@ async function autoScroll(page, scrollFeed) {
 
             async function scroll() {
                 var wrapper = document.querySelector(scrollFeed);
+                if (!wrapper) {
+                    console.error(`Element ${scrollFeed} not found`);
+                    resolve();
+                    return;
+                }
                 var scrollHeightBefore = wrapper.scrollHeight;
                 wrapper.scrollBy(0, distance);
                 totalHeight += distance;
