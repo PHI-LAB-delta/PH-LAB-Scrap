@@ -1,0 +1,18 @@
+{
+  "name": "thredscrap",
+  "version": "1.0.0",
+  "description": "\"root to create own client\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "prince-raj",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "puppeteer": "^24.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
