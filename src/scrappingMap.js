@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const { appendinArrayOfObject, isContactNumber, ensureFileExists, cleanText } = require('../utils/commonUtils');
 const { autoScroll } = require('../utils/scraperUtils');
+const { checkCoordinates } = require('./boundaryCheck')
 
 let uniqueData = new Set();
 const errorZip = new Map();
@@ -288,9 +289,16 @@ const run = async (locationAreaList, businessDataJsonPath, businessFileName, typ
         console.log("Scarpping for : ", locationArea);
 
         const results = await searchGoogleMaps(locationArea, locationAreaList, type);
+        console.log("data process for boundary check ... ");
+        // filter data with boundary
+        const withinBoundaryData = await checkCoordinates(
+            lc.targetOsmType,
+            lc.targetOsmId,
+            results
+        );
+        // append data 
         console.log("data process for saving ... ");
-
-        appendinArrayOfObject(businessFileName, businessDataJsonPath, results);
+        appendinArrayOfObject(businessFileName, businessDataJsonPath, withinBoundaryData);
         console.log("data saved");
     }
     console.log("Data collection completed!");

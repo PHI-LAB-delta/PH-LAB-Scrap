@@ -139,5 +139,4 @@ const getZoomLevelFromUrl = (url) => {
     }
 }
 
-
 module.exports = { extractTileId, extractJsonData, appendinArrayOfObject, isContactNumber, getDataCordinate, getZoomLevelFromUrl, ensureFileExists, cleanText }

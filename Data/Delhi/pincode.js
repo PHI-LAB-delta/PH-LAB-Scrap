@@ -1,7 +1,7 @@
 const pincodeList = [
     {
         "Area Name": "New Delhi G.P.O.",
-        "pincode": "110001",
+        "pincode": "803202",
         "Post Office Name": "New Delhi Head Office"
     },
     {
@@ -40,19 +40,9 @@ const pincodeList = [
         "Post Office Name": "Green Park"
     },
     {
-        "Area Name": "Hauz Khas",
-        "pincode": "110016",
-        "Post Office Name": "Hauz Khas"
-    },
-    {
         "Area Name": "Malviya Nagar",
         "pincode": "110017",
         "Post Office Name": "Malviya Nagar"
-    },
-    {
-        "Area Name": "Saket",
-        "pincode": "110017",
-        "Post Office Name": "Saket"
     },
     {
         "Area Name": "Kalkaji",

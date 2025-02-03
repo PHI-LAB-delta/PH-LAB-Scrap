@@ -1,7 +1,7 @@
 const { run } = require('./src/scrappingMap');
 const { pincodeList } = require('./Data/Delhi/pincode')
-
-let fileName = "delhiOutletData.json";
+let area = 'delhi';
+let fileName = `${area}OutletData.json`;
 let pathName = "Data/delhi";
 
 const promptList = {
@@ -38,14 +38,17 @@ const promptList = {
 
 async function main() {
     const localContext = {
-        "extractFrom3rdWeb": false
+        "extractFrom3rdWeb": false,
+        "area": area,
+        "targetOsmId": "1942586",
+        "targetOsmType": "R"
     }
-    for (let [key, prompt] of Object.entries(promptList)) {
-        for (let i = 0; i < prompt.length; i++) {
-            const localAreaList = pincodeList.map((val, ind) => { return val.pincode });
-            await run(localAreaList, pathName, fileName, prompt[i], localContext);
-        }
-    }
+    // for (let [key, prompt] of Object.entries(promptList)) {
+    //     for (let i = 0; i < prompt.length; i++) {
+    const localAreaList = pincodeList.map((val, ind) => { return val.pincode });
+    await run(localAreaList, pathName, fileName, "shops", localContext);
+    //     }
+    // }
 }
 
 main();
