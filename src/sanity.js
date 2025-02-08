@@ -6,20 +6,18 @@ const { streamArray } = require('stream-json/streamers/StreamArray');
 const { stringify } = require('csv-stringify');
 
 function calculateWeight(stars, numberOfReviews, websites) {
-    const numReviews = parseInt(numberOfReviews) || 0;
-    const reviewFactor = Math.log(numReviews + 1) / Math.log(30);
+    const reviews = typeof numberOfReviews === "string" ? parseInt(numberOfReviews, 10) : numberOfReviews;
 
-    let weight = (stars / 5) * reviewFactor;
+    const normalizedStars = stars / 5;
 
-    const hasWebsite = websites && websites.length > 0 && websites[0] !== "NA";
+    const normalizedReviews = reviews / (reviews + 100);
 
-    if (hasWebsite) {
-        weight *= 1.2;
-    } else {
-        weight *= 1.3;
-    }
+    const websiteExists = Array.isArray(websites) && websites.length > 0 && websites[0] !== "NA";
+    const websiteFactor = websiteExists ? 1 : 0;
 
-    return Math.min(weight * 100, 100).toFixed(2) + "%";
+    const weight = (normalizedStars * 0.5) + (normalizedReviews * 0.3) + (websiteFactor * 0.2);
+
+    return (weight * 100).toFixed(2) + "%";
 }
 
 function removeAttributes(fileName, pathName) {

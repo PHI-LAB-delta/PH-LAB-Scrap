@@ -10,7 +10,7 @@ let pathName = "Data/delhi";
 async function main() {
 
     // scrapping
-    // await scrapping();
+    await scrapping();
     // code sanity
     sanity();
 
