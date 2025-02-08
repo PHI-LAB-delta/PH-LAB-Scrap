@@ -10,9 +10,15 @@ let pathName = "Data/delhi";
 async function main() {
 
     // scrapping
+    console.log("🚀 Starting web scraping...");
     await scrapping();
-    // code sanity
+    console.log("✅ Web scraping completed.");
+
+    // Code sanity check
+    console.log("🔍 Running code sanity check...");
     sanity();
+    console.log("✅ Code sanity check passed.");
+
 
 }
 
