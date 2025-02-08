@@ -18,7 +18,7 @@ async function searchGoogleMaps(localArea, localAreaList, type) {
         puppeteer.use(stealthPlugin());
 
         browser = await puppeteer.launch({
-            headless: false,
+            headless: true,
         });
 
         const page = await browser.newPage();
@@ -86,9 +86,7 @@ async function searchGoogleMaps(localArea, localAreaList, type) {
         for (const business of businessData) {
             if (business.googleUrl) {
                 // Business Data
-                console.log(business);
                 const detailedData = await scrapeDetailsFromWebsite(browser, business.googleUrl);
-                console.log(detailedData);
                 for (const [key, value] of Object.entries(detailedData)) {
                     if (business.hasOwnProperty(key) && value != "NA")
                         business[key] = value;
@@ -192,7 +190,10 @@ async function scrapeDetailsFromWebsite(browser, googleUrl) {
         });
 
         // Extracting Reviews from the Review part
-        const reviews = await scrapeGoogleReviews(page);
+        const reviews = [];
+        if (localContext["extractReviews"]) {
+            reviews = await scrapeGoogleReviews(page);
+        }
 
         // Extracting emails from 3rd websites
         const emailsArray = "";
@@ -286,7 +287,7 @@ const run = async (locationAreaList, businessDataJsonPath, businessFileName, typ
     console.log("starting scrapping.... ");
 
     for (const locationArea of locationAreaList) {
-        console.log("Scarpping for : ", locationArea);
+        console.log("Scrapping for : ", locationArea);
 
         const results = await searchGoogleMaps(locationArea, locationAreaList, type);
         console.log("data process for boundary check ... ");

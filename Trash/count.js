@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const jsonFilePath = "Data/Delhi/delhiOutletData.json";
+const jsonFilePath = "Data/Delhi/filtered_delhiOutletData.json";
 const jsonDataSync = fs.readFileSync(jsonFilePath, 'utf8');
 const jsonData = JSON.parse(jsonDataSync);
 let data = Array.from(jsonData);
@@ -13,7 +13,7 @@ data.forEach(val => {
     setdata.add(val.placeId)
 })
 
-console.log(data.length, " :: ", setdata.size);
+// console.log(data.length, " :: ", setdata.size);
 
 
 // data.forEach(single => {
