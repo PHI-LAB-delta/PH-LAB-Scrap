@@ -13,7 +13,7 @@ function calculateWeight(stars, numberOfReviews, websites) {
     const normalizedReviews = reviews / (reviews + 100);
 
     const websiteExists = Array.isArray(websites) && websites.length > 0 && websites[0] !== "NA";
-    const websiteFactor = websiteExists ? 1 : 0;
+    const websiteFactor = websiteExists ? 0.4 : 0.6;
 
     const weight = (normalizedStars * 0.5) + (normalizedReviews * 0.3) + (websiteFactor * 0.2);
 
@@ -40,7 +40,7 @@ function removeAttributes(fileName, pathName) {
         if (
             value["numberOfReviews"] === "NA" ||
             (numReviews <= 10 && value["websites"] && value["websites"].includes("NA")) ||
-            value["phone"] === "NA"
+            value["phone"] === "NA" || value["status"] == "Temporarily closed" || value["status"] == "Permanently closed"
         ) {
             return;
         }
