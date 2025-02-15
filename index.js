@@ -8,30 +8,52 @@ const { getOutletData } = require("./Db/db");
 const { getPJPForDay } = require('./utils/PJPUtils');
 const { getConst } = require("./utils/consts");
 const { checkCoordinates } = require("./src/boundaryCheck");
+const { saveToCSV } = require('./utils/commonUtils');
 const fs = require('fs').promises;
 let area = 'delhi';
 let fileName = `${area}OutletData.json`;
 let pathName = "Data/delhi";
 let pathNameCompany = `${pathName}/companyData`;
 
-let lob = "marsinddemo";
+let lob = "";
 async function main() {
 
+    const args = process.argv;
+    lob = args[2]
+    const handleExecution = {
+        toScrapData: args[3],
+        toDoSanityForLLMSimilarity: args[4],
+        toGetPJPData: args[5],
+    }
+    if (lob || lob.length) {
+        console.log("Please enter the lob to proceed");
+        return;
+    }
+
+
     // scrapping
-    console.log("🚀 Starting web scraping...");
-    await scrapping();
-    console.log("✅ Web scraping completed.");
+    if (handleExecution.toScrapData) {
+        console.log("🚀 Starting web scraping...");
+        await scrapping();
+        console.log("✅ Web scraping completed.");
+    }
 
     // Code sanity check
-    console.log("🔍 Running code sanity check...");
-    const sanityFor = "llmSimalarity";
-    sanity(sanityFor);
-    console.log("✅ Code sanity check passed.");
+    if (handleExecution.toDoSanityForLLMSimilarity) {
+        console.log("🔍 Running code sanity check...");
+        const sanityFor = "llmSimalarity";
+        sanity(sanityFor);
+        console.log("✅ Code sanity check passed.");
+    }
 
     // PJP - company data
-    const companyPJPDetails = await getPJPForDay();
-    await getOutletDataAndStoreinJSON(companyPJPDetails, lob);
+
+    if (handleExecution.toGetPJPData) {
+        const companyPJPDetails = await getPJPForDay();
+        await getOutletDataAndStoreinCSV(companyPJPDetails, lob);
+    }
     // simar code -
+
 
 
 
@@ -47,7 +69,7 @@ async function main() {
 
 }
 
-const getOutletDataAndStoreinJSON = async (companyPJPDetails, lob) => {
+const getOutletDataAndStoreinCSV = async (companyPJPDetails, lob) => {
     let lc = config.areaFor;
 
     const companyOutletPJPList = [...new Set(
@@ -56,7 +78,7 @@ const getOutletDataAndStoreinJSON = async (companyPJPDetails, lob) => {
 
     const pjpOutletDetails = await getOutletData(lob, companyOutletPJPList);
 
-    console.log("Total number of outlet today in PJP : ", pjpOutletDetails);
+    console.log(`Total number of outlet today in PJP with correct data and in ${lc.area}: `, pjpOutletDetails.length);
 
     const withinBoundaryData = await checkCoordinates(
         lc.targetOsmType,
@@ -64,17 +86,15 @@ const getOutletDataAndStoreinJSON = async (companyPJPDetails, lob) => {
         pjpOutletDetails
     );
 
-    let fileNameTosave = `${pathNameCompany}/${fileName}`;
 
-    await fs.mkdir(pathNameCompany, { recursive: true });
-    await fs.writeFile(fileNameTosave, JSON.stringify(withinBoundaryData, null, 2));
+    saveToCSV(pathNameCompany, fileName, withinBoundaryData)
 
-    console.log(`LOB Data saved successfully in ${fileNameTosave}`);
+    console.log(`LOB Data saved successfully in ${pathName}/${fileName}`);
 };
 
 const sanity = (sanityFor) => {
     const attributeToConsider = getAttributeToConsider(sanityFor);
-    removeAttributes(`${sanityFor}_${fileName}`, pathName, attributeToConsider);
+    removeAttributes(`${sanityFor}_${fileName}`, fileName, pathName, attributeToConsider);
 }
 
 async function scrapping() {

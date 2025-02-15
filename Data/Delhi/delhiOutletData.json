@@ -1,1 +1,4243 @@
-[]
+[
+    {
+        "placeId": "Jw5e5c8L9DDkRR5ID8niIvIs",
+        "address": " Rajiv Chowk, B Block, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": " 1800 889 8000",
+        "latitude": 28.63417,
+        "longitude": 77.2192,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/H%26M/data=!4m7!3m6!1s0x390cfdc273b997c3:0x8bbc8878f2039247!8m2!3d28.63417!4d77.2192!16s%2Fg%2F11c1s3229r!19sChIJw5e5c8L9DDkRR5ID8niIvIs?authuser=0&hl=en&rclk=1",
+        "outlet_name": "H&M",
+        "ratingText": "4.3 stars 17,167 Reviews",
+        "stars": 4.3,
+        "numberOfReviews": "17,167",
+        "websites": [
+            "https://www2.hm.com/en_in/customer-service/shopping-at-hm/local-store.IN0014.html?utm_source=google_location&utm_medium=organic&utm_content=IN0014&utm_campaign=pi_INQ1400X301212"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jq6qqPzb9DDkRqspUorgpw3o",
+        "address": " SHOP NO 172 , ENTRY FROM GATE NO 6, Palika Bazar, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Perfume store",
+        "phone": " 011 2332 1031",
+        "latitude": 28.6307131,
+        "longitude": 77.2193827,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Jain+Super+Store/data=!4m7!3m6!1s0x390cfd363faaaaab:0x7ac329b8a254caaa!8m2!3d28.6307131!4d77.2193827!16s%2Fg%2F1tdmnfns!19sChIJq6qqPzb9DDkRqspUorgpw3o?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Jain Super Store",
+        "ratingText": "4.4 stars 159 Reviews",
+        "stars": 4.4,
+        "numberOfReviews": "159",
+        "websites": [
+            "https://www.jainperfumers.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JZxOonzf9DDkRJ0-B-vFQ3m4",
+        "address": " number 4, E Block, E-5, Rajiv Chowk, opposite Metro Gate, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Home goods store",
+        "phone": " 011 4019 7665",
+        "latitude": 28.6330279,
+        "longitude": 77.2213922,
+        "status": "Available",
+        "type": "On-site services",
+        "googleUrl": "https://www.google.com/maps/place/MINISO+CP/data=!4m7!3m6!1s0x390cfd379fa81367:0x6ede50f1fa814f27!8m2!3d28.6330279!4d77.2213922!16s%2Fg%2F11hcy_61d2!19sChIJZxOonzf9DDkRJ0-B-vFQ3m4?authuser=0&hl=en&rclk=1",
+        "outlet_name": "MINISO CP",
+        "ratingText": "4.2 stars 5,602 Reviews",
+        "stars": 4.2,
+        "numberOfReviews": "5,602",
+        "websites": [
+            "http://www.minisoindia.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jd-3rnjD9DDkRCk-jwCG6sn8",
+        "address": " Hamilton House, CONNAUGHT PLACE, A-1, next to Starbucks Coffee, Block A, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": " 011 4304 8296",
+        "latitude": 28.6322495,
+        "longitude": 77.2178216,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Fabindia,+Connaught+Place+%28A+Block%29/data=!4m7!3m6!1s0x390cfd309eebed77:0x7fb2ba21c0a34f0a!8m2!3d28.6322495!4d77.2178216!16s%2Fg%2F1wf36z_s!19sChIJd-3rnjD9DDkRCk-jwCG6sn8?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Fabindia, Connaught Place (A Block)",
+        "ratingText": "4.3 stars 2,001 Reviews",
+        "stars": 4.3,
+        "numberOfReviews": "2,001",
+        "websites": [
+            "http://www.fabindia.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JO1Zdzkn9DDkRSUeULbmtONo",
+        "address": " No M55, Ground Floor, Opposite Haldiram, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Cosmetics store",
+        "phone": " 095134 43856",
+        "latitude": 28.6337683,
+        "longitude": 77.2224373,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/The+Body+Shop/data=!4m7!3m6!1s0x390cfd49ce5d563b:0xda38adb92d944749!8m2!3d28.6337683!4d77.2224373!16s%2Fg%2F11bwfm6vn_!19sChIJO1Zdzkn9DDkRSUeULbmtONo?authuser=0&hl=en&rclk=1",
+        "outlet_name": "The Body Shop",
+        "ratingText": "4.3 stars 349 Reviews",
+        "stars": 4.3,
+        "numberOfReviews": "349",
+        "websites": [
+            "https://stores.thebodyshop.in/the-body-shop-cosmetics-store-connaught-place-new-delhi-257991/Home?utm_source=locator&utm_medium=googleplaces"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jbw25cTf9DDkRt54TjVfjwyk",
+        "address": " Ground Floor, Odeon Cine Complex, Middle Cir, D Block, Connaught Place, New Delhi, Delhi 110001 Located in: Odeon",
+        "sub_channel": "Electronics store",
+        "phone": " 084474 13473",
+        "latitude": 28.634153,
+        "longitude": 77.2213305,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/Croma+-+Odeon+CP/data=!4m7!3m6!1s0x390cfd3771b90d6f:0x29c3e3578d139eb7!8m2!3d28.634153!4d77.2213305!16s%2Fg%2F12hlzsxzl!19sChIJbw25cTf9DDkRt54TjVfjwyk?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Croma - Odeon CP",
+        "ratingText": "4.3 stars 6,445 Reviews",
+        "stars": 4.3,
+        "numberOfReviews": "6,445",
+        "websites": [
+            "https://store.croma.com/croma-odeon-cp-electronics-retail-and-repair-shop-cannaught-place-new-delhi-263477/Home?utm_source=locator&utm_medium=googleplaces"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J7RrOnBv9DDkRY2urtGlPLUg",
+        "address": " Building No. 1, 1-A, Radial Rd Number 2, Block A, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": " 011 4401 6000",
+        "latitude": 28.6323437,
+        "longitude": 77.2177076,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/UNIQLO+Connaught+Place,+Delhi/data=!4m7!3m6!1s0x390cfd1b9cce1aed:0x482d4f69b4ab6b63!8m2!3d28.6323437!4d77.2177076!16s%2Fg%2F11jszpq1_n!19sChIJ7RrOnBv9DDkRY2urtGlPLUg?authuser=0&hl=en&rclk=1",
+        "outlet_name": "UNIQLO Connaught Place, Delhi",
+        "ratingText": "4.3 stars 630 Reviews",
+        "stars": 4.3,
+        "numberOfReviews": "630",
+        "websites": [
+            "https://www.uniqlo.com/in/en/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J3w2BVEj9DDkRfWNOZEiDkdw",
+        "address": " Block G, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "PharmacyOpen ⋅ Closes 11 pm",
+        "phone": " 080 4101 8123",
+        "latitude": 28.6339233,
+        "longitude": 77.217019,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Apollo+Pharmacy+-+Connaught+Place/data=!4m7!3m6!1s0x390cfd4854810ddf:0xdc918348644e637d!8m2!3d28.6339233!4d77.217019!16s%2Fg%2F124yb7n0b!19sChIJ3w2BVEj9DDkRfWNOZEiDkdw?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Apollo Pharmacy - Connaught Place",
+        "ratingText": "3.8 stars 227 Reviews",
+        "stars": 3.8,
+        "numberOfReviews": "227",
+        "websites": [
+            "https://www.apollopharmacy.in/?utm_source=gmb&utm_medium=organic&utm_campaign=sulekhapromanage-apollo-pharmacy"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J1TYCHTj9DDkRguyXSs-TBkY",
+        "address": " GF Plaza cinema bldg, Block H, Connaught Place, New Delhi, Delhi 110001 Floor 0 · PVR Plaza-CP,Delhi",
+        "sub_channel": "Clothing store",
+        "phone": " 096500 03401",
+        "latitude": 28.6350721,
+        "longitude": 77.2195027,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Marks+and+Spencer/data=!4m7!3m6!1s0x390cfd381d0236d5:0x460693cf4a97ec82!8m2!3d28.6350721!4d77.2195027!16s%2Fg%2F12hkcbt6f!19sChIJ1TYCHTj9DDkRguyXSs-TBkY?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Marks and Spencer",
+        "ratingText": "4.2 stars 1,273 Reviews",
+        "stars": 4.2,
+        "numberOfReviews": "1,273",
+        "websites": [
+            "https://www.marksandspencer.in/store"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JcRt8HEj9DDkRLqZLs82Xhew",
+        "address": " Shop No. 2G Ground Floor Marine Arcade Rajiv chowk metro station Gate no 1, Block G, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Pharmacy",
+        "phone": " 098994 41605",
+        "latitude": 28.6338409,
+        "longitude": 77.2174297,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/Nath+Brothers/data=!4m7!3m6!1s0x390cfd481c7c1b71:0xec8597cdb34ba62e!8m2!3d28.6338409!4d77.2174297!16s%2Fg%2F1tdb76dp!19sChIJcRt8HEj9DDkRLqZLs82Xhew?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Nath Brothers",
+        "ratingText": "3.6 stars 349 Reviews",
+        "stars": 3.6,
+        "numberOfReviews": "349",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JU0LT6Un9DDkRwyP0LYELdZA",
+        "address": " 10, Regal Building, Sansad Marg, beside Barista, Hanuman Road Area, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": " 011 2334 0971",
+        "latitude": 28.6301162,
+        "longitude": 77.2174334,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/The+Shop/data=!4m7!3m6!1s0x390cfd49e9d34253:0x90750b812df423c3!8m2!3d28.6301162!4d77.2174334!16s%2Fg%2F12hkl6jmt!19sChIJU0LT6Un9DDkRwyP0LYELdZA?authuser=0&hl=en&rclk=1",
+        "outlet_name": "The Shop",
+        "ratingText": "4.6 stars 123 Reviews",
+        "stars": 4.6,
+        "numberOfReviews": "123",
+        "websites": [
+            "http://www.theshopindia.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JDdV2GTf9DDkRUCWl79BG3bg",
+        "address": " Shop E, 10, Rajiv Chowk, Block E, Connaught Place, New Delhi, Delhi 110001 Located in: Rajiv Chowk",
+        "sub_channel": "Clothing store",
+        "phone": " 011 4081 0501",
+        "latitude": 28.633792,
+        "longitude": 77.22097,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/W+for+Woman+CP+E+-+Block/data=!4m7!3m6!1s0x390cfd371976d50d:0xb8dd46d0efa52550!8m2!3d28.633792!4d77.22097!16s%2Fg%2F11c5rt_54l!19sChIJDdV2GTf9DDkRUCWl79BG3bg?authuser=0&hl=en&rclk=1",
+        "outlet_name": "W for Woman CP E - Block",
+        "ratingText": "4.0 stars 83 Reviews",
+        "stars": 4,
+        "numberOfReviews": "83",
+        "websites": [
+            "https://wforwoman.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JL3p9fjb9DDkR6nXlf7fa4Dg",
+        "address": " F-19, Connaught Cir, Block F, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": " 070115 30151",
+        "latitude": 28.6313115,
+        "longitude": 77.2200454,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Ivory+Palace+Store+In+Cp+%7C+Colorplus+%7C+U+S+POLO+ASSN+%7C+Madame+%7C+Park+Avenue/data=!4m7!3m6!1s0x390cfd367e7d7a2f:0x38e0dab77fe575ea!8m2!3d28.6313115!4d77.2200454!16s%2Fg%2F1wj_rndp!19sChIJL3p9fjb9DDkR6nXlf7fa4Dg?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Ivory Palace Store In Cp | Colorplus | U S POLO ASSN | Madame | Park Avenue",
+        "ratingText": "4.6 stars 142 Reviews",
+        "stars": 4.6,
+        "numberOfReviews": "142",
+        "websites": [
+            "http://ivorypalace.org/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jv8FvSDH9DDkRu6hi5JfBZdI",
+        "address": " B-45/47 , Radial Road Number 4, PVR Cinema Road, BLock B, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Western apparel store",
+        "phone": " 091360 16046",
+        "latitude": 28.6346732,
+        "longitude": 77.2195764,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/AND+Connaught+Place/data=!4m7!3m6!1s0x390cfd31486fc1bf:0xd265c197e462a8bb!8m2!3d28.6346732!4d77.2195764!16s%2Fg%2F11bttgs839!19sChIJv8FvSDH9DDkRu6hi5JfBZdI?authuser=0&hl=en&rclk=1",
+        "outlet_name": "AND Connaught Place",
+        "ratingText": "4.7 stars 93 Reviews",
+        "stars": 4.7,
+        "numberOfReviews": "93",
+        "websites": [
+            "https://www.andindia.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jx4nUQzL9DDkRSBy8VvVxC_8",
+        "address": " Marina Arcade, G-21, Connaught Cir, Block G, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Cell phone store",
+        "phone": " 098999 49990",
+        "latitude": 28.632925,
+        "longitude": 77.2167304,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Telepathy/data=!4m7!3m6!1s0x390cfd3243d489c7:0xff0b71f556bc1c48!8m2!3d28.632925!4d77.2167304!16s%2Fg%2F11xh3fnjt!19sChIJx4nUQzL9DDkRSBy8VvVxC_8?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Telepathy",
+        "ratingText": "4.9 stars 886 Reviews",
+        "stars": 4.9,
+        "numberOfReviews": "886",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jv3KLLUj9DDkRY-gol3vJ8jo",
+        "address": " G 52, Block G, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Sportswear store",
+        "phone": " 011 4358 2596",
+        "latitude": 28.6317445,
+        "longitude": 77.2169799,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Sports+Station/data=!4m7!3m6!1s0x390cfd482d8b72bf:0x3af2c97b9728e863!8m2!3d28.6317445!4d77.2169799!16s%2Fg%2F11byyqr4ld!19sChIJv3KLLUj9DDkRY-gol3vJ8jo?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Sports Station",
+        "ratingText": "4.2 stars 219 Reviews",
+        "stars": 4.2,
+        "numberOfReviews": "219",
+        "websites": [
+            "https://stores.sportsstation.in/website/ss-cp-outright"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JFbF6SO79DDkR4jbUvkKSfdI",
+        "address": " No A, 2, Rajiv Chowk, Block A, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Men's clothing store",
+        "phone": " 098196 35162",
+        "latitude": 28.6324635,
+        "longitude": 77.2180766,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Rare+Rabbit,+Connaught+Place/data=!4m7!3m6!1s0x390cfdee487ab115:0xd27d9242bed436e2!8m2!3d28.6324635!4d77.2180766!16s%2Fg%2F11sjjww5jx!19sChIJFbF6SO79DDkR4jbUvkKSfdI?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Rare Rabbit, Connaught Place",
+        "ratingText": "4.6 stars 232 Reviews",
+        "stars": 4.6,
+        "numberOfReviews": "232",
+        "websites": [
+            "https://thehouseofrare.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JU3pYji79DDkRen5o9jm2rjA",
+        "address": " Ground Floor, 25 f, Rajiv Chowk, Block F, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Sporting goods store",
+        "phone": " 098110 19357",
+        "latitude": 28.6313059,
+        "longitude": 77.2196378,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Gupta+Sports+House/data=!4m7!3m6!1s0x390cfd2e8e587a53:0x30aeb639f6687e7a!8m2!3d28.6313059!4d77.2196378!16s%2Fg%2F11rvdfg9cd!19sChIJU3pYji79DDkRen5o9jm2rjA?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Gupta Sports House",
+        "ratingText": "4.8 stars 310 Reviews",
+        "stars": 4.8,
+        "numberOfReviews": "310",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JMZ5S7Tf9DDkR3iLfjLFukAQ",
+        "address": " B-28, Rajiv Chowk, Block B, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": " 011 4151 3334",
+        "latitude": 28.634304,
+        "longitude": 77.219266,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Planet+Fashion/data=!4m7!3m6!1s0x390cfd37ed529e31:0x4906eb18cdf22de!8m2!3d28.634304!4d77.219266!16s%2Fg%2F12h_b87s8!19sChIJMZ5S7Tf9DDkR3iLfjLFukAQ?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Planet Fashion",
+        "ratingText": "4.1 stars 186 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "186",
+        "websites": [
+            "http://www.planetfashion.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jk_Wd-SL9DDkRnI8p2r0eGSQ",
+        "address": " N9, Connaught Cir, Block N, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Electronics store",
+        "phone": " 095992 33538",
+        "latitude": 28.630095,
+        "longitude": 77.219866,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Future+World+-+Apple+Premium+Reseller+Authorised+Service+Provider/data=!4m7!3m6!1s0x390cfd22f99df593:0x24191ebdda298f9c!8m2!3d28.630095!4d77.219866!16s%2Fg%2F11fmhnndx2!19sChIJk_Wd-SL9DDkRnI8p2r0eGSQ?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Future World - Apple Premium Reseller Authorised Service Provider",
+        "ratingText": "4.9 stars 5,158 Reviews",
+        "stars": 4.9,
+        "numberOfReviews": "5,158",
+        "websites": [
+            "https://stores.futureworldindia.in/future-world-apple-premium-reseller-authorised-service-provider-connaught-place-n9-electronics-retail-and-repair-shop-connaught-place-new-delhi-198542/Home?utm_source=locator&utm_medium=googleplaces"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jm-sg_jb9DDkR89sQWlZtk8w",
+        "address": " F-20, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Men's clothing store",
+        "phone": " 011 4152 3006",
+        "latitude": 28.6318403,
+        "longitude": 77.2190339,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/JACK%26JONES+STORE/data=!4m7!3m6!1s0x390cfd36fe20eb9b:0xcc936d565a10dbf3!8m2!3d28.6318403!4d77.2190339!16s%2Fg%2F11ck3b3g1_!19sChIJm-sg_jb9DDkR89sQWlZtk8w?authuser=0&hl=en&rclk=1",
+        "outlet_name": "JACK&JONES STORE",
+        "ratingText": "4.1 stars 482 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "482",
+        "websites": [
+            "http://www.jackjones.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JHUwcczf9DDkR7HNui-BSyvk",
+        "address": " D-8, D Block, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": " 011 4019 7634",
+        "latitude": 28.6339039,
+        "longitude": 77.2208676,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Snowhite+Square/data=!4m7!3m6!1s0x390cfd37731c4c1d:0xf9ca52e08b6e73ec!8m2!3d28.6339039!4d77.2208676!16s%2Fg%2F12hqnl44g!19sChIJHUwcczf9DDkR7HNui-BSyvk?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Snowhite Square",
+        "ratingText": "4.1 stars 1,190 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "1,190",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jj_lM4Tb9DDkRz0clvfsCtIw",
+        "address": " E-23, Block E, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Grocery store",
+        "phone": " 011 4151 7456",
+        "latitude": 28.6319856,
+        "longitude": 77.2215145,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/The+Oriental+Fruits+Mart/data=!4m7!3m6!1s0x390cfd36e14cf98f:0x8cb402fbbd2547cf!8m2!3d28.6319856!4d77.2215145!16s%2Fg%2F1tffs9gd!19sChIJj_lM4Tb9DDkRz0clvfsCtIw?authuser=0&hl=en&rclk=1",
+        "outlet_name": "The Oriental Fruits Mart",
+        "ratingText": "4.5 stars 96 Reviews",
+        "stars": 4.5,
+        "numberOfReviews": "96",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JXSkMp5T9DDkRBvORtLIt2vs",
+        "address": " F, 13, Rajiv Chowk, near Metro Gate No: 5, Block F, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": " 011 4578 5556",
+        "latitude": 28.6313629,
+        "longitude": 77.2205529,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Allen+Solly,+CP,+Family+Store/data=!4m7!3m6!1s0x390cfd94a70c295d:0xfbda2db2b491f306!8m2!3d28.6313629!4d77.2205529!16s%2Fg%2F1v2gc3px!19sChIJXSkMp5T9DDkRBvORtLIt2vs?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Allen Solly, CP, Family Store",
+        "ratingText": "4.2 stars 301 Reviews",
+        "stars": 4.2,
+        "numberOfReviews": "301",
+        "websites": [
+            "https://www.allensolly.com/?utm_source=google&utm_medium=gmb&utm_term=allen-solly-connaught-place-new-delhi&utm_content=website"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JtTyDEEj9DDkRiHuU5UhMszU",
+        "address": " No P6, 90, Connaught Cir, Block P, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Computer Hardware Company",
+        "phone": " 086575 68541",
+        "latitude": 28.6317949,
+        "longitude": 77.2162755,
+        "status": "Available",
+        "type": "\"Great service and good pricing!\"",
+        "googleUrl": "https://www.google.com/maps/place/HP+World+-+Connaught+Place/data=!4m7!3m6!1s0x390cfd4810833cb5:0x35b34c48e5947b88!8m2!3d28.6317949!4d77.2162755!16s%2Fg%2F12ll2gm99!19sChIJtTyDEEj9DDkRiHuU5UhMszU?authuser=0&hl=en&rclk=1",
+        "outlet_name": "HP World - Connaught Place",
+        "ratingText": "4.4 stars 512 Reviews",
+        "stars": 4.4,
+        "numberOfReviews": "512",
+        "websites": [
+            "https://www.hpworldstores.in/hp-world-asian-infotech-laptop-store-connaught-place-new-delhi-630/Home?utm_source=locator&utm_medium=googleplaces"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JJ03aITf9DDkRaxiwh0rTPPc",
+        "address": " Shop No E1, Gate No 4, Rajiv Chowk, opposite Metro Station, Block E, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Watch store",
+        "phone": " 089291 05293",
+        "latitude": 28.6333096,
+        "longitude": 77.2214161,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Titan+World/data=!4m7!3m6!1s0x390cfd3721da4d27:0xf73cd34a87b0186b!8m2!3d28.6333096!4d77.2214161!16s%2Fg%2F1tf6kl6n!19sChIJJ03aITf9DDkRaxiwh0rTPPc?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Titan World",
+        "ratingText": "4.8 stars 5,782 Reviews",
+        "stars": 4.8,
+        "numberOfReviews": "5,782",
+        "websites": [
+            "https://www.titan.co.in/shop/watches?lang=en_IN"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jw6YKOeH9DDkR3gerYHDsBRM",
+        "address": " No G, 54, Radial Rd Number 2, Block G, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Electronics store",
+        "phone": " 011 4951 6428",
+        "latitude": 28.6317391,
+        "longitude": 77.2169804,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Future+World+-+Apple+Authorised+Reseller+Authorised+Service+Provider/data=!4m7!3m6!1s0x390cfde1390aa6c3:0x1305ec7060ab07de!8m2!3d28.6317391!4d77.2169804!16s%2Fg%2F1hc1ylf74!19sChIJw6YKOeH9DDkR3gerYHDsBRM?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Future World - Apple Authorised Reseller Authorised Service Provider",
+        "ratingText": "4.4 stars 3,821 Reviews",
+        "stars": 4.4,
+        "numberOfReviews": "3,821",
+        "websites": [
+            "https://stores.futureworldindia.in/future-world-apple-authorised-reseller-authorised-service-provider-connaught-place-g54-electronics-retail-and-repair-shop-connaught-place-new-delhi-198541/Home?utm_source=locator&utm_medium=googleplaces"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J9WM9cDf9DDkRYvvU_INeXqg",
+        "address": " D-1, Odeon Building, Radial Rd 5, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Toy store",
+        "phone": " 011 2341 2065",
+        "latitude": 28.6343115,
+        "longitude": 77.2211807,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/Ram+Chander+%26+Sons+Toy+Store/data=!4m7!3m6!1s0x390cfd37703d63f5:0xa85e5e83fcd4fb62!8m2!3d28.6343115!4d77.2211807!16s%2Fg%2F1tf_r7q5!19sChIJ9WM9cDf9DDkRYvvU_INeXqg?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Ram Chander & Sons Toy Store",
+        "ratingText": "3.8 stars 484 Reviews",
+        "stars": 3.8,
+        "numberOfReviews": "484",
+        "websites": [
+            "http://toychamps.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JNXcKNEj9DDkRVKCdD1wKPSI",
+        "address": " N Block, N-22, Connaught Cir, Block N, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Cell phone store",
+        "phone": " 011 2332 1066",
+        "latitude": 28.6303688,
+        "longitude": 77.2209381,
+        "status": "Available",
+        "type": "No in-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Samsung+Experience+Store+-+Siyaram+Brothers+-+Connaught+Place/data=!4m7!3m6!1s0x390cfd48340a7735:0x223d0a5c0f9da054!8m2!3d28.6303688!4d77.2209381!16s%2Fg%2F1tds5293!19sChIJNXcKNEj9DDkRVKCdD1wKPSI?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Samsung Experience Store - Siyaram Brothers - Connaught Place",
+        "ratingText": "4.1 stars 257 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "257",
+        "websites": [
+            "https://www.samsungexclusivestores.in/samsung-experience-store-siyaram-brothers-connaught-place-mobile-phone-shop-connaught-place-new-delhi-78913/Home?utm_source=locator&utm_medium=googleplaces"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JBx2xxTf9DDkRd7UVF7kgCKo",
+        "address": " No. 12, C Block, Rajiv Chowk, Block C, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": " 080 4809 0950",
+        "latitude": 28.6343363,
+        "longitude": 77.2203912,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Park+Avenue/data=!4m7!3m6!1s0x390cfd37c5b11d07:0xaa0820b91715b577!8m2!3d28.6343363!4d77.2203912!16s%2Fg%2F1vjdnft4!19sChIJBx2xxTf9DDkRd7UVF7kgCKo?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Park Avenue",
+        "ratingText": "4.7 stars 424 Reviews",
+        "stars": 4.7,
+        "numberOfReviews": "424",
+        "websites": [
+            "https://connaughtplace.myraymond.com/park-avenue/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JvT0k3kn9DDkRC7QIAsjz9TI",
+        "address": " Regal Building, 16 A, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Leather goods store",
+        "phone": " 011 4150 1238",
+        "latitude": 28.6305407,
+        "longitude": 77.2173963,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Sreeleathers+Showroom/data=!4m7!3m6!1s0x390cfd49de243dbd:0x32f5f3c80208b40b!8m2!3d28.6305407!4d77.2173963!16s%2Fg%2F124yp00mr!19sChIJvT0k3kn9DDkRC7QIAsjz9TI?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Sreeleathers Showroom",
+        "ratingText": "4.2 stars 16,583 Reviews",
+        "stars": 4.2,
+        "numberOfReviews": "16,583",
+        "websites": [
+            "http://www.sreeleathers.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JY2xo9MriDDkREUnh7_iuhnQ",
+        "address": " Shop No N 1, Gate 6, near Palika Parking, Block N, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Home audio store",
+        "phone": " 080 3778 2694",
+        "latitude": 28.6302535,
+        "longitude": 77.2198838,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/The+Bose+Store/data=!4m7!3m6!1s0x390ce2caf4686c63:0x7486aef8efe14911!8m2!3d28.6302535!4d77.2198838!16s%2Fg%2F1hc223_h5!19sChIJY2xo9MriDDkREUnh7_iuhnQ?authuser=0&hl=en&rclk=1",
+        "outlet_name": "The Bose Store",
+        "ratingText": "4.8 stars 984 Reviews",
+        "stars": 4.8,
+        "numberOfReviews": "984",
+        "websites": [
+            "https://bosestores.soundscape.store/bose/stores-in-new-delhi/stores-in-connaught-place/the-bose-store-in-connaught-place-new-delhi--8583ad84-434e-4d98-8b8e-981b13a05e19/home"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J6aYR7Tf9DDkR-soEb8jmhWE",
+        "address": " 19, Block B, B, Near, Mc Donald, Inner Circle, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": " 011 4567 4047",
+        "latitude": 28.6340992,
+        "longitude": 77.2188951,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Levi%27s+Exclusive+Store/data=!4m7!3m6!1s0x390cfd37ed11a6e9:0x6185e6c86f04cafa!8m2!3d28.6340992!4d77.2188951!16s%2Fg%2F12hwh8dh0!19sChIJ6aYR7Tf9DDkR-soEb8jmhWE?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Levi's Exclusive Store",
+        "ratingText": "4.1 stars 408 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "408",
+        "websites": [
+            "https://stores.levi.in/levi-s-exclusive-store-clothing-shop-inner-circle-new-delhi-329414/Home?utm_source=locator&utm_medium=googleplaces"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JAzzMcjf9DDkRNSZLdMaMP4o",
+        "address": " D-9 Near Odeon Cinema, Rajiv Chowk, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Shoe store",
+        "phone": " 011 2341 7712",
+        "latitude": 28.6339077,
+        "longitude": 77.2210939,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/The+Heels/data=!4m7!3m6!1s0x390cfd3772cc3c03:0x8a3f8cc6744b2635!8m2!3d28.6339077!4d77.2210939!16s%2Fg%2F1tdw1vwz!19sChIJAzzMcjf9DDkRNSZLdMaMP4o?authuser=0&hl=en&rclk=1",
+        "outlet_name": "The Heels",
+        "ratingText": "4.1 stars 417 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "417",
+        "websites": [
+            "http://www.heelsindia.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JfQW2sDX9DDkRFqetHBQr36A",
+        "address": " Sony Center, F 30, Janpath Rd, Block F, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Electronics store",
+        "phone": " 011 4123 5777",
+        "latitude": 28.6307572,
+        "longitude": 77.2197979,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/SONY+CENTER+-+AVIT+DIGITAL/data=!4m7!3m6!1s0x390cfd35b0b6057d:0xa0df2b141cada716!8m2!3d28.6307572!4d77.2197979!16s%2Fg%2F1tctk4w9!19sChIJfQW2sDX9DDkRFqetHBQr36A?authuser=0&hl=en&rclk=1",
+        "outlet_name": "SONY CENTER - AVIT DIGITAL",
+        "ratingText": "4.7 stars 1,241 Reviews",
+        "stars": 4.7,
+        "numberOfReviews": "1,241",
+        "websites": [
+            "http://avitdigital.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JCZ2dujf9DDkRa7FxA-U6WsQ",
+        "address": " # F-6, Rajiv Chowk, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": " 011 2331 3758",
+        "latitude": 28.6317583,
+        "longitude": 77.220936,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Tommy+Hilfiger+Store/data=!4m7!3m6!1s0x390cfd37ba9d9d09:0xc45a3ae50371b16b!8m2!3d28.6317583!4d77.220936!16s%2Fg%2F12hv4w8vc!19sChIJCZ2dujf9DDkRa7FxA-U6WsQ?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Tommy Hilfiger Store",
+        "ratingText": "4.1 stars 239 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "239",
+        "websites": [
+            "http://global.tommy.com/int/en/stores/find-a-store/27?storecountry=india&storecity=bareily&product="
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JsSRokTb9DDkRun7xtB--CIs",
+        "address": " N-40,Outer Cirlce, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Camera store",
+        "phone": " 093112 28730",
+        "latitude": 28.6307479,
+        "longitude": 77.221515,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Canon+Flagship+Store/data=!4m7!3m6!1s0x390cfd36916824b1:0x8b08be1fb4f17eba!8m2!3d28.6307479!4d77.221515!16s%2Fg%2F1tftjljx!19sChIJsSRokTb9DDkRun7xtB--CIs?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Canon Flagship Store",
+        "ratingText": "4.6 stars 1,353 Reviews",
+        "stars": 4.6,
+        "numberOfReviews": "1,353",
+        "websites": [
+            "https://www.justcanon.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JyUcEVWL9DDkRNpuyRDwoWec",
+        "address": " Shop No- F6, Calvin Klein Store, Rajiv Chowk, Block F, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Youth clothing store",
+        "phone": "NA",
+        "latitude": 28.6317635,
+        "longitude": 77.2209274,
+        "status": "Available",
+        "type": "\"Decent multi brand outlet, not just CK.\"",
+        "googleUrl": "https://www.google.com/maps/place/Calvin+Klein+Store/data=!4m7!3m6!1s0x390cfd62550447c9:0xe759283c44b29b36!8m2!3d28.6317635!4d77.2209274!16s%2Fg%2F11lf1_w6wp!19sChIJyUcEVWL9DDkRNpuyRDwoWec?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Calvin Klein Store",
+        "ratingText": "4.8 stars 13 Reviews",
+        "stars": 4.8,
+        "numberOfReviews": "13",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JU_yJHSv9DDkRNkHGQYS7uo4",
+        "address": " Gate No. 8, Metro Station, Shop #A-14 A Block, Connaught Cir, New Delhi, Delhi 110001",
+        "sub_channel": "Men's clothing store",
+        "phone": " 011 4375 0018",
+        "latitude": 28.6331865,
+        "longitude": 77.2181373,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Louis+Philippe+-+CP+A+Block/data=!4m7!3m6!1s0x390cfd2b1d89fc53:0x8ebabb8441c64136!8m2!3d28.6331865!4d77.2181373!16s%2Fg%2F11b6j6kb79!19sChIJU_yJHSv9DDkRNkHGQYS7uo4?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Louis Philippe - CP A Block",
+        "ratingText": "4.4 stars 576 Reviews",
+        "stars": 4.4,
+        "numberOfReviews": "576",
+        "websites": [
+            "https://louisphilippe.abfrl.in/storelocator/details?id=13097&pin=110001"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JgQV9yjD9DDkR6wEJ1cl0k_o",
+        "address": " D Block, Shop-5 Inner Circle, STREET NO 5, near BATA SHOW, Connaught Place, New Delhi, Delhi 110001 Located in: Rajiv Chowk",
+        "sub_channel": "Clothing store",
+        "phone": " 099533 28078",
+        "latitude": 28.6339219,
+        "longitude": 77.220817,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/JOCKEY+STORE+%28STOCKIST%29/data=!4m7!3m6!1s0x390cfd30ca7d0581:0xfa9374c9d50901eb!8m2!3d28.6339219!4d77.220817!16s%2Fg%2F1pxq80r56!19sChIJgQV9yjD9DDkR6wEJ1cl0k_o?authuser=0&hl=en&rclk=1",
+        "outlet_name": "JOCKEY STORE (STOCKIST)",
+        "ratingText": "4.0 stars 309 Reviews",
+        "stars": 4,
+        "numberOfReviews": "309",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J4TE7HDf9DDkRW5InAHZRO6g",
+        "address": " no- 4, E-3,Ground, Mezzanine & E-30, First and second floor, Rajiv Chowk, near Metro gate, Block E, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Sportswear store",
+        "phone": " 092891 36471",
+        "latitude": 28.633101,
+        "longitude": 77.221446,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Adidas+Store/data=!4m7!3m6!1s0x390cfd371c3b31e1:0xa83b51760027925b!8m2!3d28.633101!4d77.221446!16s%2Fg%2F1262g9w3f!19sChIJ4TE7HDf9DDkRW5InAHZRO6g?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Adidas Store",
+        "ratingText": "4.1 stars 394 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "394",
+        "websites": [
+            "http://www.adidas.co.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JEelMwTf9DDkRWoExgq6CRkI",
+        "address": " 16 -B, Ground Floor, Inner Circle, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Shoe store",
+        "phone": " 011 4358 1891",
+        "latitude": 28.6342823,
+        "longitude": 77.2194729,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Woodland/data=!4m7!3m6!1s0x390cfd37c14ce911:0x424682ae8231815a!8m2!3d28.6342823!4d77.2194729!16s%2Fg%2F1tk6t8z9!19sChIJEelMwTf9DDkRWoExgq6CRkI?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Woodland",
+        "ratingText": "3.8 stars 389 Reviews",
+        "stars": 3.8,
+        "numberOfReviews": "389",
+        "websites": [
+            "https://www.woodlandworldwide.com/store"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J0S4b7Df9DDkRBXhY55uARYg",
+        "address": " No B16, B Block, Rajiv Chowk, opposite Metro Gate No 1, Block B, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Outdoor clothing and equipment shop",
+        "phone": " 011 4902 7802",
+        "latitude": 28.634142,
+        "longitude": 77.2190296,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Wildcraft/data=!4m7!3m6!1s0x390cfd37ec1b2ed1:0x8845809be7587805!8m2!3d28.634142!4d77.2190296!16s%2Fg%2F11c6c8668p!19sChIJ0S4b7Df9DDkRBXhY55uARYg?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Wildcraft",
+        "ratingText": "4.1 stars 372 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "372",
+        "websites": [
+            "https://stores.wildcraft.com/wildcraft-cp-outdoor-clothing-equipment-store-connaught-place-new-delhi-300109/Home?utm_source=locator&utm_medium=googleplaces"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JK4HFHTf9DDkRHTZhiaANK1w",
+        "address": " 11-E, Inner Circle, Block E, Connaught Place, Delhi, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": " 080 6986 7481",
+        "latitude": 28.6325588,
+        "longitude": 77.2214154,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/The+Raymond+shop/data=!4m7!3m6!1s0x390cfd371dc5812b:0x5c2b0da08961361d!8m2!3d28.6325588!4d77.2214154!16s%2Fg%2F12lkkrbpn!19sChIJK4HFHTf9DDkRHTZhiaANK1w?authuser=0&hl=en&rclk=1",
+        "outlet_name": "The Raymond shop",
+        "ratingText": "4.0 stars 302 Reviews",
+        "stars": 4,
+        "numberOfReviews": "302",
+        "websites": [
+            "https://connaught-place2.myraymond.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JHT-X7jf9DDkRz3oUIeeiIZE",
+        "address": " D-4, Radial Rd 5, D Block, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Shoe store",
+        "phone": " 092508 08868",
+        "latitude": 28.6340125,
+        "longitude": 77.2207747,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Bata+Shoe+Store/data=!4m7!3m6!1s0x390cfd37ee973f1d:0x9121a2e721147acf!8m2!3d28.6340125!4d77.2207747!16s%2Fg%2F1pw3yx5v7!19sChIJHT-X7jf9DDkRz3oUIeeiIZE?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Bata Shoe Store",
+        "ratingText": "4.1 stars 1,052 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "1,052",
+        "websites": [
+            "https://www.bata.com/in/?utm_source=gmb&utm_medium=organic&utm_campaign=sulekhapromanage-bata&utm_id=loyalty-gmb"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J8f6vcjf9DDkRJh8mOHtK88s",
+        "address": " B/20, Inner Circle Rajiv Chowk, Connaught place Metro Gate No 2, New Delhi, Delhi 110001",
+        "sub_channel": "Sportswear store",
+        "phone": "NA",
+        "latitude": 28.6340391,
+        "longitude": 77.218765,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/NIKE/data=!4m7!3m6!1s0x390cfd3772affef1:0xcbf34a7b38261f26!8m2!3d28.6340391!4d77.218765!16s%2Fg%2F1hg4tfwj6!19sChIJ8f6vcjf9DDkRJh8mOHtK88s?authuser=0&hl=en&rclk=1",
+        "outlet_name": "NIKE",
+        "ratingText": "3.9 stars 810 Reviews",
+        "stars": 3.9,
+        "numberOfReviews": "810",
+        "websites": [
+            "https://www.nike.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jm_PO2Ob9DDkRMnjp6xMVu3k",
+        "address": " No. C, C Block, 15, Rajiv Chowk, Block C, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": " 011 4351 5627",
+        "latitude": 28.6342019,
+        "longitude": 77.2204811,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Van+Heusen+Connaught+Place+-+C+Block/data=!4m7!3m6!1s0x390cfde6d8cef39b:0x79bb1513ebe97832!8m2!3d28.6342019!4d77.2204811!16s%2Fg%2F11sb7_9lnr!19sChIJm_PO2Ob9DDkRMnjp6xMVu3k?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Van Heusen Connaught Place - C Block",
+        "ratingText": "4.5 stars 49 Reviews",
+        "stars": 4.5,
+        "numberOfReviews": "49",
+        "websites": [
+            "http://vanheusenindia.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jh1555zf9DDkRYNaJIqb5Wao",
+        "address": " No A24, Block A, Connaught Place, Delhi, New Delhi, Delhi 110001 Floor 0 · Rajiv Chowk",
+        "sub_channel": "Cell phone store",
+        "phone": " 095600 99749",
+        "latitude": 28.633705,
+        "longitude": 77.2177549,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Hotspot+Mobile+Store/data=!4m7!3m6!1s0x390cfd37e7795e87:0xaa59f9a62289d660!8m2!3d28.633705!4d77.2177549!16s%2Fg%2F11bbt8h_x6!19sChIJh1555zf9DDkRYNaJIqb5Wao?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Hotspot Mobile Store",
+        "ratingText": "5.0 stars 1,285 Reviews",
+        "stars": 5,
+        "numberOfReviews": "1,285",
+        "websites": [
+            "https://www.hotspotstore.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JRfRBUpn8DDkR_MoVmcstNc4",
+        "address": " Mezzanine Floor, No:4, Block C-6, Ground, &, Radial Road, Delhi, 110001 Located in: Jain Book Depot",
+        "sub_channel": "Clothing store",
+        "phone": " 011 4579 4102",
+        "latitude": 28.6345831,
+        "longitude": 77.2200787,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Go+Colors+-+Connaught+Place+%7C+Women%27s+Leggings,+Jeans+%26+Pants/data=!4m7!3m6!1s0x390cfc995241f445:0xce352dcb9915cafc!8m2!3d28.6345831!4d77.2200787!16s%2Fg%2F11f4r114mk!19sChIJRfRBUpn8DDkR_MoVmcstNc4?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Go Colors - Connaught Place | Women's Leggings, Jeans & Pants",
+        "ratingText": "4.0 stars 59 Reviews",
+        "stars": 4,
+        "numberOfReviews": "59",
+        "websites": [
+            "https://gocolors.com/?utm_source=Google&utm_medium=GMB"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JT64yWHT9DDkRTd2xcYJ_mSo",
+        "address": " Auliya Masjid, shop no 33 NDMC Market, Outer Circle, Connaught Place Opposite Lazeez Affair Block K Connaught Place outer circle, Minto Rd, Before, New Delhi, Delhi 110001",
+        "sub_channel": "Cell phone store",
+        "phone": " 088609 58882",
+        "latitude": 28.6355414,
+        "longitude": 77.2208503,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/iGENIUS+%7C+Apple+Authorised+Store+%7C+Apple+Service+%7C/data=!4m7!3m6!1s0x390cfd745832ae4f:0x2a997f8271b1dd4d!8m2!3d28.6355414!4d77.2208503!16s%2Fg%2F11h578_0m5!19sChIJT64yWHT9DDkRTd2xcYJ_mSo?authuser=0&hl=en&rclk=1",
+        "outlet_name": "iGENIUS | Apple Authorised Store | Apple Service |",
+        "ratingText": "4.2 stars 1,048 Reviews",
+        "stars": 4.2,
+        "numberOfReviews": "1,048",
+        "websites": [
+            "http://igeniusstore.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JRbjCa8j9DDkRJQYJrjJMeqI",
+        "address": " Shop No B22 and B23, Ground Floor, Rajiv Chowk, Block B, Connaught Place, Central Delhi, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": " 092059 54098",
+        "latitude": 28.6342137,
+        "longitude": 77.2190474,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Jockey+Exclusive+Store/data=!4m7!3m6!1s0x390cfdc86bc2b845:0xa27a4c32ae090625!8m2!3d28.6342137!4d77.2190474!16s%2Fg%2F11s86vfhdb!19sChIJRbjCa8j9DDkRJQYJrjJMeqI?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Jockey Exclusive Store",
+        "ratingText": "4.7 stars 63 Reviews",
+        "stars": 4.7,
+        "numberOfReviews": "63",
+        "websites": [
+            "https://stores.jockey.in/jockey-exclusive-store-new-delhi-central-delhi-32085/home"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JPToc01LiDDkRhlijj6y14ZE",
+        "address": " C-7, Rajiv Chowk, Connaught Place, New Delhi, Delhi 110001 Floor 0 · Manyavar",
+        "sub_channel": "Shoe store",
+        "phone": " 095558 31494",
+        "latitude": 28.6340051,
+        "longitude": 77.2199106,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Hush+Puppies+Store/data=!4m7!3m6!1s0x390ce252d31c3a3d:0x91e1b5ac8fa35886!8m2!3d28.6340051!4d77.2199106!16s%2Fg%2F11b7m9kx26!19sChIJPToc01LiDDkRhlijj6y14ZE?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Hush Puppies Store",
+        "ratingText": "3.9 stars 187 Reviews",
+        "stars": 3.9,
+        "numberOfReviews": "187",
+        "websites": [
+            "https://www.bata.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Je3AA6zf9DDkRRN7pNxhgdCQ",
+        "address": " Rajiv Chowk Metro Station, RCK/K-30 Gate 1, 2, Unpaid Area, New Delhi, Delhi 110001 Located in: Rajiv Chowk",
+        "sub_channel": "Department store",
+        "phone": " 089293 59777",
+        "latitude": 28.6341454,
+        "longitude": 77.2188525,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/WHSmith+Store/data=!4m7!3m6!1s0x390cfd37eb00707b:0x2474601837e9de44!8m2!3d28.6341454!4d77.2188525!16s%2Fg%2F11bxc3q5tg!19sChIJe3AA6zf9DDkRRN7pNxhgdCQ?authuser=0&hl=en&rclk=1",
+        "outlet_name": "WHSmith Store",
+        "ratingText": "4.1 stars 34 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "34",
+        "websites": [
+            "http://www.whsmithindia.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JkbbRGyv9DDkRTISpwgGQTG4",
+        "address": " F, 11, Block F, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": " 092666 29312",
+        "latitude": 28.6315776,
+        "longitude": 77.2206429,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Cantabil/data=!4m7!3m6!1s0x390cfd2b1bd1b691:0x6e4c9001c2a9844c!8m2!3d28.6315776!4d77.2206429!16s%2Fg%2F1tdn719h!19sChIJkbbRGyv9DDkRTISpwgGQTG4?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Cantabil",
+        "ratingText": "4.4 stars 1,152 Reviews",
+        "stars": 4.4,
+        "numberOfReviews": "1,152",
+        "websites": [
+            "https://stores.cantabilinternational.com/cantabil-kailas-carpet-company-os-clothing-stores-connaught-place-new-delhi-34867/Home?utm_source=locator&utm_medium=googleplaces"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J-U6l6Tf9DDkRXwaaZOjS6wY",
+        "address": " C-9, Radial Road Number 4, Block C, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Book store",
+        "phone": "NA",
+        "latitude": 28.634273,
+        "longitude": 77.220009,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Jain+Book+Agency/data=!4m7!3m6!1s0x390cfd37e9a54ef9:0x6ebd2e8649a065f!8m2!3d28.634273!4d77.220009!16s%2Fg%2F1v6wmpw7!19sChIJ-U6l6Tf9DDkRXwaaZOjS6wY?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Jain Book Agency",
+        "ratingText": "3.9 stars 907 Reviews",
+        "stars": 3.9,
+        "numberOfReviews": "907",
+        "websites": [
+            "https://www.jainbookagency.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JL6z2Eun9DDkRxGcT_-GAEl8",
+        "address": " No. 3, Metro Station Gate, CONNAUGHT PLACE, Shop # E-17 E-Block, New Delhi, Delhi 110001",
+        "sub_channel": "Men's clothing store",
+        "phone": " 011 4100 2316",
+        "latitude": 28.6322394,
+        "longitude": 77.221248,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Louis+Philippe+CP-E+Block/data=!4m7!3m6!1s0x390cfde912f6ac2f:0x5f1280e1ff1367c4!8m2!3d28.6322394!4d77.221248!16s%2Fg%2F11r8mjwc1v!19sChIJL6z2Eun9DDkRxGcT_-GAEl8?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Louis Philippe CP-E Block",
+        "ratingText": "4.8 stars 194 Reviews",
+        "stars": 4.8,
+        "numberOfReviews": "194",
+        "websites": [
+            "https://www.louisphilippe.com/?utm_source=google&utm_medium=gmb&utm_campaign=louis-philippe-e-block-connaught-place-new-delhi&utm_content=website"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JydoTm-L9DDkRUV99MBrmz-c",
+        "address": " shop no 24, B 24 block, Connaught Ln, Hanuman Road Area, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Shoe store",
+        "phone": " 084486 65735",
+        "latitude": 28.6310484,
+        "longitude": 77.2166368,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Bata+Shoe+Store/data=!4m7!3m6!1s0x390cfde29b13dac9:0xe7cfe61a307d5f51!8m2!3d28.6310484!4d77.2166368!16s%2Fg%2F11tp49wgks!19sChIJydoTm-L9DDkRUV99MBrmz-c?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Bata Shoe Store",
+        "ratingText": "4.4 stars 66 Reviews",
+        "stars": 4.4,
+        "numberOfReviews": "66",
+        "websites": [
+            "https://www.bata.com/in/?utm_source=gmb&utm_medium=organic&utm_campaign=sulekhapromanage-bata&utm_id=loyalty-gmb"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J6Z7nhTf9DDkRsaUK-ed37mE",
+        "address": " K-28, opposite PVR Plaza, Block K, Connaught Place, Delhi, New Delhi, Delhi 110001",
+        "sub_channel": "Optician",
+        "phone": "NA",
+        "latitude": 28.6350274,
+        "longitude": 77.2201099,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Titan+Eye%2B+at+CP,+Delhi/data=!4m7!3m6!1s0x390cfd3785e79ee9:0x61ee77e7f90aa5b1!8m2!3d28.6350274!4d77.2201099!16s%2Fg%2F11bttfnpfj!19sChIJ6Z7nhTf9DDkRsaUK-ed37mE?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Titan Eye+ at CP, Delhi",
+        "ratingText": "4.9 stars 9,154 Reviews",
+        "stars": 4.9,
+        "numberOfReviews": "9,154",
+        "websites": [
+            "https://www.titaneyeplus.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jlxxg4Db9DDkRwvtD2UkXkQo",
+        "address": " E Block, 9, Middle Cir, Inner Circle, Block E, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Men's clothing store",
+        "phone": " 011 4323 4323",
+        "latitude": 28.632817,
+        "longitude": 77.221532,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Jainson/data=!4m7!3m6!1s0x390cfd36e0601c97:0xa911749d943fbc2!8m2!3d28.632817!4d77.221532!16s%2Fg%2F1tgxgfx3!19sChIJlxxg4Db9DDkRwvtD2UkXkQo?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Jainson",
+        "ratingText": "4.1 stars 70 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "70",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jr2bI5cniDDkRH0jux_xuCYA",
+        "address": " C-4 Oppsites Pvr Plaza, Connaught Place, New Delhi, Delhi 110001 Located in: Go Colors - Connaught Place | Women's Leggings, Jeans & Pants",
+        "sub_channel": "Law Book Store",
+        "phone": " 089291 07101",
+        "latitude": 28.6346329,
+        "longitude": 77.2200736,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Jain+Book+Depot/data=!4m7!3m6!1s0x390ce2c9e5c866af:0x80096efcc7ee481f!8m2!3d28.6346329!4d77.2200736!16s%2Fg%2F1tgwqn05!19sChIJr2bI5cniDDkRH0jux_xuCYA?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Jain Book Depot",
+        "ratingText": "4.1 stars 2,002 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "2,002",
+        "websites": [
+            "https://jainbookdepot.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JL3p9fjb9DDkRqMJyrSXnHHA",
+        "address": " B-21, Rajiv Chowk, Block B, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Men's clothing store",
+        "phone": " 011 4151 3894",
+        "latitude": 28.6343507,
+        "longitude": 77.2193593,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Mohanlal+Sons/data=!4m7!3m6!1s0x390cfd367e7d7a2f:0x701ce725ad72c2a8!8m2!3d28.6343507!4d77.2193593!16s%2Fg%2F1tfwhrqz!19sChIJL3p9fjb9DDkRqMJyrSXnHHA?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Mohanlal Sons",
+        "ratingText": "4.2 stars 610 Reviews",
+        "stars": 4.2,
+        "numberOfReviews": "610",
+        "websites": [
+            "http://www.mohanlalsons.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JszbP6Tb9DDkRWCc_ZYPbg_w",
+        "address": " E - 27, near HP Petrol Pump, Block E, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Linens store",
+        "phone": " 011 2341 8640",
+        "latitude": 28.6318965,
+        "longitude": 77.2216407,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Linen+Club/data=!4m7!3m6!1s0x390cfd36e9cf36b3:0xfc83db83653f2758!8m2!3d28.6318965!4d77.2216407!16s%2Fg%2F12llpn4cx!19sChIJszbP6Tb9DDkRWCc_ZYPbg_w?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Linen Club",
+        "ratingText": "4.3 stars 121 Reviews",
+        "stars": 4.3,
+        "numberOfReviews": "121",
+        "websites": [
+            "http://www.linenclub.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jayg6sjf9DDkR7zKiIkCfhWY",
+        "address": " E-18, Inner Circle, Cannaught Place,, New Delhi, Delhi 110001",
+        "sub_channel": "Women's clothing store",
+        "phone": " 011 4150 0960",
+        "latitude": 28.6321747,
+        "longitude": 77.2213024,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Ashok%27s/data=!4m7!3m6!1s0x390cfd37b23a286b:0x66859f4022a232ef!8m2!3d28.6321747!4d77.2213024!16s%2Fg%2F11g9q7j4_5!19sChIJayg6sjf9DDkR7zKiIkCfhWY?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Ashok's",
+        "ratingText": "4.5 stars 4 Reviews",
+        "stars": 4.5,
+        "numberOfReviews": "4",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J__9v5zX9DDkR9IcxFNoa85s",
+        "address": " Shop No 25, Janpath Bhawan,, Janpath Market, New Delhi, Delhi 110001",
+        "sub_channel": "Book store",
+        "phone": " 011 2332 8275",
+        "latitude": 28.62882,
+        "longitude": 77.218512,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Famous+Book+Store/data=!4m7!3m6!1s0x390cfd35e76fffff:0x9bf31ada143187f4!8m2!3d28.62882!4d77.218512!16s%2Fg%2F1tjx_wmc!19sChIJ__9v5zX9DDkR9IcxFNoa85s?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Famous Book Store",
+        "ratingText": "3.8 stars 92 Reviews",
+        "stars": 3.8,
+        "numberOfReviews": "92",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J3_XyNzL9DDkRI-2uqdecfLA",
+        "address": " E-12, Rajiv Chowk, Inner Circle, Block E, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Leather goods store",
+        "phone": " 011 4019 1840",
+        "latitude": 28.6325553,
+        "longitude": 77.2214952,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Da+Milano+Italia/data=!4m7!3m6!1s0x390cfd3237f2f5df:0xb07c9cd7a9aeed23!8m2!3d28.6325553!4d77.2214952!16s%2Fg%2F1tkmky7n!19sChIJ3_XyNzL9DDkRI-2uqdecfLA?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Da Milano Italia",
+        "ratingText": "4.1 stars 397 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "397",
+        "websites": [
+            "https://www.damilano.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JJRo_97H9DDkRadsACtJK4Zk",
+        "address": " shop no.34, N.D.M.C Market, opp. york hotel, Railway Colony, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Mobile phone repair shop",
+        "phone": " 099101 80194",
+        "latitude": 28.6355901,
+        "longitude": 77.2208984,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/I+way+support/data=!4m7!3m6!1s0x390cfdb1f73f1a25:0x99e14ad20a00db69!8m2!3d28.6355901!4d77.2208984!16s%2Fg%2F11j31d1cr4!19sChIJJRo_97H9DDkRadsACtJK4Zk?authuser=0&hl=en&rclk=1",
+        "outlet_name": "I way support",
+        "ratingText": "4.9 stars 1,470 Reviews",
+        "stars": 4.9,
+        "numberOfReviews": "1,470",
+        "websites": [
+            "https://iwaysupport.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J9UUc0Q39DDkRrm-ribd3KH4",
+        "address": " Block P, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Computer storeOpen ⋅ Closes 8:30 pm",
+        "phone": " 080 4800 9636",
+        "latitude": 28.6316468,
+        "longitude": 77.2164051,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Dell+Exclusive+Store+-+Connaught+Place/data=!4m7!3m6!1s0x390cfd0dd11c45f5:0x7e2877b789ab6fae!8m2!3d28.6316468!4d77.2164051!16s%2Fg%2F11pqpg5ctb!19sChIJ9UUc0Q39DDkRrm-ribd3KH4?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Dell Exclusive Store - Connaught Place",
+        "ratingText": "4.0 stars 81 Reviews",
+        "stars": 4,
+        "numberOfReviews": "81",
+        "websites": [
+            "https://www.dellretailstores.in/delhi-new-delhi-connaught-place-1585?utm_source=GMB_Lead&campaign=GMB&nav=contact"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JF9k6mTf9DDkRU7rmR_Y5QSU",
+        "address": " Shop No E, 14, Rajiv Chowk, Inner Circle, Block E, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": " 096190 11347",
+        "latitude": 28.6325099,
+        "longitude": 77.2214595,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Blackberrys/data=!4m7!3m6!1s0x390cfd37993ad917:0x254139f647e6ba53!8m2!3d28.6325099!4d77.2214595!16s%2Fg%2F1vrq80ch!19sChIJF9k6mTf9DDkRU7rmR_Y5QSU?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Blackberrys",
+        "ratingText": "4.8 stars 690 Reviews",
+        "stars": 4.8,
+        "numberOfReviews": "690",
+        "websites": [
+            "https://stores.blackberrys.com/blackberrys-connaught-place-new-delhi-6118707531218944/Home?utm_source=locator&utm_medium=googleplaces"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JcdtO7Tf9DDkRyTeYlzRF-w0",
+        "address": " Block B, Block-B Connaught Place, B-27, Inner Circle, Block B, Connaught Place, Block B, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Shoe store",
+        "phone": " 011 2332 1408",
+        "latitude": 28.6342523,
+        "longitude": 77.2194086,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Balujas/data=!4m7!3m6!1s0x390cfd37ed4edb71:0xdfb4534979837c9!8m2!3d28.6342523!4d77.2194086!16s%2Fg%2F12hkm43sl!19sChIJcdtO7Tf9DDkRyTeYlzRF-w0?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Balujas",
+        "ratingText": "3.4 stars 210 Reviews",
+        "stars": 3.4,
+        "numberOfReviews": "210",
+        "websites": [
+            "http://www.balujas.net/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jh4MOWTb9DDkRHfqLkm5rjV0",
+        "address": " F-41,Connaught Place, Rajiv Chowk, Block F, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Shoe store",
+        "phone": " 098684 43332",
+        "latitude": 28.6312622,
+        "longitude": 77.2201722,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Surya+Enterprises/data=!4m7!3m6!1s0x390cfd36590e8387:0x5d8d6b6e928bfa1d!8m2!3d28.6312622!4d77.2201722!16s%2Fg%2F1td1hcd1!19sChIJh4MOWTb9DDkRHfqLkm5rjV0?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Surya Enterprises",
+        "ratingText": "4.0 stars 2 Reviews",
+        "stars": 4,
+        "numberOfReviews": "2",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JMf7MGDP9DDkRloCzWuOEsKo",
+        "address": " 20-A, Block A, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Pharmacy",
+        "phone": "NA",
+        "latitude": 28.633515,
+        "longitude": 77.2180233,
+        "status": "Available",
+        "type": "NA",
+        "googleUrl": "https://www.google.com/maps/place/Novelties+Corner/data=!4m7!3m6!1s0x390cfd3318ccfe31:0xaab084e35ab38096!8m2!3d28.633515!4d77.2180233!16s%2Fg%2F11k6zdj_7t!19sChIJMf7MGDP9DDkRloCzWuOEsKo?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Novelties Corner",
+        "ratingText": "2.9 stars 9 Reviews",
+        "stars": 2.9,
+        "numberOfReviews": "9",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JD0pQ4jb9DDkR7aHc5SeAdO4",
+        "address": " E-20, Block E, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Women's clothing store",
+        "phone": " 011 2341 5750",
+        "latitude": 28.6320423,
+        "longitude": 77.2214116,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Greenways/data=!4m7!3m6!1s0x390cfd36e2504a0f:0xee748027e5dca1ed!8m2!3d28.6320423!4d77.2214116!16s%2Fg%2F11cm0x3l4m!19sChIJD0pQ4jb9DDkR7aHc5SeAdO4?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Greenways",
+        "ratingText": "4.1 stars 210 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "210",
+        "websites": [
+            "https://www.greenways.co/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jh9n1unT9DDkRYwfBFAxf60I",
+        "address": " 39, Block B, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": "NA",
+        "latitude": 28.6346687,
+        "longitude": 77.2188536,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/High+Street/data=!4m7!3m6!1s0x390cfd74baf5d987:0x42eb5f0c14c10763!8m2!3d28.6346687!4d77.2188536!16s%2Fg%2F11h9p6mnjf!19sChIJh9n1unT9DDkRYwfBFAxf60I?authuser=0&hl=en&rclk=1",
+        "outlet_name": "High Street",
+        "ratingText": "4.5 stars 41 Reviews",
+        "stars": 4.5,
+        "numberOfReviews": "41",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jy0lnATj9DDkRJADSuy9fRuc",
+        "address": " 49, Baba Kharak Singh Rd, Janpath, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": " 095996 66300",
+        "latitude": 28.6318773,
+        "longitude": 77.2168239,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Hidesign+Boutique/data=!4m7!3m6!1s0x390cfd38016749cb:0xe7465f2fbbd20024!8m2!3d28.6318773!4d77.2168239!16s%2Fg%2F1td_wzw9!19sChIJy0lnATj9DDkRJADSuy9fRuc?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Hidesign Boutique",
+        "ratingText": "4.5 stars 235 Reviews",
+        "stars": 4.5,
+        "numberOfReviews": "235",
+        "websites": [
+            "http://www.hidesign.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JkWqFTGn9DDkRK69QxRLxfGQ",
+        "address": " No F14/15, Ground Floor, below Chaayos, Inner Circle, Block F, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Women's clothing store",
+        "phone": " 011 4254 7121",
+        "latitude": 28.631385,
+        "longitude": 77.2205133,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/BIBA/data=!4m7!3m6!1s0x390cfd694c856a91:0x647cf112c550af2b!8m2!3d28.631385!4d77.2205133!16s%2Fg%2F11f7bzxl63!19sChIJkWqFTGn9DDkRK69QxRLxfGQ?authuser=0&hl=en&rclk=1",
+        "outlet_name": "BIBA",
+        "ratingText": "4.0 stars 77 Reviews",
+        "stars": 4,
+        "numberOfReviews": "77",
+        "websites": [
+            "https://www.biba.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jj_vKwzf9DDkRwq8HbKblKP0",
+        "address": " Block-B Connaught Place, Block B, Rajiv Chowk, Connaught Place, 17-b, Radial Road Number 3, Block B, Connaught Place, New Delhi, Delhi 110001 Located in: Kuthiala Building",
+        "sub_channel": "Clothing store",
+        "phone": " 011 4378 5544",
+        "latitude": 28.63382,
+        "longitude": 77.2184543,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/U.S.+Polo+ASSN./data=!4m7!3m6!1s0x390cfd37c3cafb8f:0xfd28e5a66c07afc2!8m2!3d28.63382!4d77.2184543!16s%2Fg%2F12hplq4q1!19sChIJj_vKwzf9DDkRwq8HbKblKP0?authuser=0&hl=en&rclk=1",
+        "outlet_name": "U.S. Polo ASSN.",
+        "ratingText": "3.9 stars 175 Reviews",
+        "stars": 3.9,
+        "numberOfReviews": "175",
+        "websites": [
+            "https://uspoloassn.nnnow.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jm7ntcfL9DDkRKydRh3tV_Zg",
+        "address": " No C/11, Ground Floor, near Cafe coffee Day, Connaught Place, New Delhi, Delhi 110001 Located in: Dr.Zombie",
+        "sub_channel": "Men's clothing store",
+        "phone": " 011 4763 1031",
+        "latitude": 28.6341145,
+        "longitude": 77.219913,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Manyavar/data=!4m7!3m6!1s0x390cfdf271edb99b:0x98fd557b8751272b!8m2!3d28.6341145!4d77.219913!16s%2Fg%2F11rgx1f8sk!19sChIJm7ntcfL9DDkRKydRh3tV_Zg?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Manyavar",
+        "ratingText": "4.8 stars 621 Reviews",
+        "stars": 4.8,
+        "numberOfReviews": "621",
+        "websites": [
+            "https://stores.manyavar.com/manyavar-mens-clothing-connaught-place-new-delhi-126754/Home?utm_source=locator&utm_medium=googleplaces"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jx5bXljf9DDkRsHoFNjwpHpE",
+        "address": " Number-7, Rajiv Chowk, Inner Circle, Block B, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": "NA",
+        "latitude": 28.6325572,
+        "longitude": 77.2214135,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/United+Color+Of+Benetton/data=!4m7!3m6!1s0x390cfd3796d796c7:0x911e293c36057ab0!8m2!3d28.6325572!4d77.2214135!16s%2Fg%2F11hd_gxh89!19sChIJx5bXljf9DDkRsHoFNjwpHpE?authuser=0&hl=en&rclk=1",
+        "outlet_name": "United Color Of Benetton",
+        "ratingText": "3.9 stars 37 Reviews",
+        "stars": 3.9,
+        "numberOfReviews": "37",
+        "websites": [
+            "https://in.benetton.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jp5JfZjb9DDkR5rtQ3QkbvCY",
+        "address": " N-2, Outer Circle, Janpath Rd, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": " 011 4152 5304",
+        "latitude": 28.6303842,
+        "longitude": 77.2198258,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Lacoste/data=!4m7!3m6!1s0x390cfd36665f92a7:0x26bc1b09dd50bbe6!8m2!3d28.6303842!4d77.2198258!16s%2Fg%2F1vd748tn!19sChIJp5JfZjb9DDkR5rtQ3QkbvCY?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Lacoste",
+        "ratingText": "4.1 stars 106 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "106",
+        "websites": [
+            "http://www.lacoste.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JcRt8HEj9DDkRokA0qtzw4Zs",
+        "address": " Marina Arcade, G-8A, New Delhi, Delhi 110001",
+        "sub_channel": "Musical instrument store",
+        "phone": " 011 2332 7685",
+        "latitude": 28.6337659,
+        "longitude": 77.2169274,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Rikhi+Ram+Musical+Instruments+Official+Store+-+since+1920/data=!4m7!3m6!1s0x390cfd481c7c1b71:0x9be1f0dcaa3440a2!8m2!3d28.6337659!4d77.2169274!16s%2Fg%2F1tt1fm02!19sChIJcRt8HEj9DDkRokA0qtzw4Zs?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Rikhi Ram Musical Instruments Official Store - since 1920",
+        "ratingText": "4.5 stars 324 Reviews",
+        "stars": 4.5,
+        "numberOfReviews": "324",
+        "websites": [
+            "https://www.rikhiram.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jc_8NeQ79DDkRBEDEZ9edWRo",
+        "address": " C-7, Ground Floor, Radial Road Number 4, Connaught Place, New Delhi, Delhi 110001 Located in: PVR Plaza-CP,Delhi",
+        "sub_channel": "Clothing store",
+        "phone": " 091369 02664",
+        "latitude": 28.6344615,
+        "longitude": 77.2199925,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Zodiac+Retail+Store/data=!4m7!3m6!1s0x390cfd0e790dff73:0x1a599dd767c44004!8m2!3d28.6344615!4d77.2199925!16s%2Fg%2F11h1l0slcr!19sChIJc_8NeQ79DDkRBEDEZ9edWRo?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Zodiac Retail Store",
+        "ratingText": "3.6 stars 19 Reviews",
+        "stars": 3.6,
+        "numberOfReviews": "19",
+        "websites": [
+            "https://www.zodiaconline.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J9Qw-05z9DDkR_I5S4Sxfpsg",
+        "address": " B-14, B block, Rajiv Chowk, Connaught Place, New Delhi, Delhi 110001 Located in: Rajiv Chowk",
+        "sub_channel": "Shoe store",
+        "phone": "NA",
+        "latitude": 28.6334569,
+        "longitude": 77.2186918,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Crocs+Connaught+place/data=!4m7!3m6!1s0x390cfd9cd33e0cf5:0xc8a65f2ce1528efc!8m2!3d28.6334569!4d77.2186918!16s%2Fg%2F11tt0yyxxz!19sChIJ9Qw-05z9DDkR_I5S4Sxfpsg?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Crocs Connaught place",
+        "ratingText": "3.9 stars 54 Reviews",
+        "stars": 3.9,
+        "numberOfReviews": "54",
+        "websites": [
+            "http://www.mohanplastics.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J41eKOIb9DDkRfhHXjSlftMs",
+        "address": " Shop No A10, Rajiv Chowk, Block A, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": " 082910 18431",
+        "latitude": 28.6329615,
+        "longitude": 77.2181108,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Blackberrys/data=!4m7!3m6!1s0x390cfd86388a57e3:0xcbb45f298dd7117e!8m2!3d28.6329615!4d77.2181108!16s%2Fg%2F11sgs71xc3!19sChIJ41eKOIb9DDkRfhHXjSlftMs?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Blackberrys",
+        "ratingText": "4.9 stars 656 Reviews",
+        "stars": 4.9,
+        "numberOfReviews": "656",
+        "websites": [
+            "https://stores.blackberrys.com/blackberrys-connaught-place-new-delhi-5109041116348416/Home?utm_source=locator&utm_medium=googleplaces"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jk7L44jf9DDkRM4TEOf1BWsw",
+        "address": " B-13, Middle Cir, Block B, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Clothing store",
+        "phone": " 011 2331 0979",
+        "latitude": 28.6340348,
+        "longitude": 77.2186473,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Blackberry+Retail+Brand+Store/data=!4m7!3m6!1s0x390cfd37e2f8b293:0xcc5a41fd39c48433!8m2!3d28.6340348!4d77.2186473!16s%2Fg%2F12hqv6hrq!19sChIJk7L44jf9DDkRM4TEOf1BWsw?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Blackberry Retail Brand Store",
+        "ratingText": "4.0 stars 417 Reviews",
+        "stars": 4,
+        "numberOfReviews": "417",
+        "websites": [
+            "http://www.blackberrys.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J3_XyNzL9DDkR0_2QTJ9aEfg",
+        "address": " B-29, Connaught Cir, Hanuman Road Area, Connaught Place, New Delhi, Delhi 110001 Located in: Rajiv Chowk",
+        "sub_channel": "Stationery store",
+        "phone": " 098737 48956",
+        "latitude": 28.6327862,
+        "longitude": 77.2197171,
+        "status": "Available",
+        "type": "NA",
+        "googleUrl": "https://www.google.com/maps/place/Nath+Stationers/data=!4m7!3m6!1s0x390cfd3237f2f5df:0xf8115a9f4c90fdd3!8m2!3d28.6327862!4d77.2197171!16s%2Fg%2F1tmptc91!19sChIJ3_XyNzL9DDkR0_2QTJ9aEfg?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Nath Stationers",
+        "ratingText": "4.3 stars 3 Reviews",
+        "stars": 4.3,
+        "numberOfReviews": "3",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jh_UvczX9DDkRz74wyQ-eSLM",
+        "address": " J6H9+JGJ, Janpath Rd, Janpath, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Market",
+        "phone": "NA",
+        "latitude": 28.6290786,
+        "longitude": 77.2187638,
+        "status": "Available",
+        "type": "On-site services",
+        "googleUrl": "https://www.google.com/maps/place/Janpath+Market/data=!4m7!3m6!1s0x390cfd35732ff587:0xb3489e0fc930becf!8m2!3d28.6290786!4d77.2187638!16s%2Fg%2F11b6gg9rcf!19sChIJh_UvczX9DDkRz74wyQ-eSLM?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Janpath Market",
+        "ratingText": "4.2 stars 67,202 Reviews",
+        "stars": 4.2,
+        "numberOfReviews": "67,202",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jcw1TQrP9DDkRORE6alJahRM",
+        "address": " Platform 3, METRO STATION GATE, D8/1, near RAJIV CHOWK, D Block, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Watch store",
+        "phone": " 098913 77000",
+        "latitude": 28.6337823,
+        "longitude": 77.2209715,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Watch+store+%7C+watch+Repair+%7C+Sikka+and+Sons+%7CTissot+%7CGc+%7CSeiko+%7CDW+%7CJust+Cavalli+%7CGuess+%7CFossil+%7C+Alba+%7CCasio+%7CTitan+%7CTimex%7C/data=!4m7!3m6!1s0x390cfdb342530d73:0x13855a526a3a1139!8m2!3d28.6337823!4d77.2209715!16s%2Fg%2F1tglxc33!19sChIJcw1TQrP9DDkRORE6alJahRM?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Watch store | watch Repair | Sikka and Sons |Tissot |Gc |Seiko |DW |Just Cavalli |Guess |Fossil | Alba |Casio |Titan |Timex|",
+        "ratingText": "3.9 stars 433 Reviews",
+        "stars": 3.9,
+        "numberOfReviews": "433",
+        "websites": [
+            "https://www.instagram.com/sikkaandsons?igsh=MTIyNzk5enJvdTB3MA=="
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JX8ehxTf9DDkRqn9PJTQfyGE",
+        "address": " Shop No: A, 16 Near Road, Rajiv Chowk, Block A, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Bakery and Cake Shop",
+        "phone": " 011 2332 4373",
+        "latitude": 28.6334122,
+        "longitude": 77.2181287,
+        "status": "Available",
+        "type": "Dine-in",
+        "googleUrl": "https://www.google.com/maps/place/Wenger%27s/data=!4m7!3m6!1s0x390cfd37c5a1c75f:0x61c81f34254f7faa!8m2!3d28.6334122!4d77.2181287!16s%2Fg%2F11f4td_v8p!19sChIJX8ehxTf9DDkRqn9PJTQfyGE?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Wenger's",
+        "ratingText": "4.4 stars 13,833 Reviews",
+        "stars": 4.4,
+        "numberOfReviews": "13,833",
+        "websites": [
+            "http://www.wengers.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J3wFt-jb9DDkRKcTSrYgXStU",
+        "address": " F-9/10, Rajiv Chowk, Block F, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Linens store",
+        "phone": " 011 2331 5716",
+        "latitude": 28.6316373,
+        "longitude": 77.2208342,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Pandit+Brothers/data=!4m7!3m6!1s0x390cfd36fa6d01df:0xd54a1788add2c429!8m2!3d28.6316373!4d77.2208342!16s%2Fg%2F12h_b87s7!19sChIJ3wFt-jb9DDkRKcTSrYgXStU?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Pandit Brothers",
+        "ratingText": "4.3 stars 3 Reviews",
+        "stars": 4.3,
+        "numberOfReviews": "3",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JtVWezPX9DDkRH_cvVRONysw",
+        "address": " The Colonnade, Plot No 5, Block B, Connaught Place, New Delhi, Delhi 110001 Located in: Rajiv Chowk",
+        "sub_channel": "Clothing store",
+        "phone": "NA",
+        "latitude": 28.6334695,
+        "longitude": 77.2189825,
+        "status": "Available",
+        "type": "\"She helped by offering insights on the products and helping find fits/sizes.\"",
+        "googleUrl": "https://www.google.com/maps/place/Levi%27s+Exclusive+Store/data=!4m7!3m6!1s0x390cfdf5cc9e55b5:0xccca8d13552ff71f!8m2!3d28.6334695!4d77.2189825!16s%2Fg%2F11wgrh718w!19sChIJtVWezPX9DDkRH_cvVRONysw?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Levi's Exclusive Store",
+        "ratingText": "4.5 stars 10 Reviews",
+        "stars": 4.5,
+        "numberOfReviews": "10",
+        "websites": [
+            "https://levi.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JXXDE3jb9DDkRCmEb2Tff2dE",
+        "address": " Block L, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Ice Cream",
+        "phone": " 077380 91984",
+        "latitude": 28.6344056,
+        "longitude": 77.2220968,
+        "status": "Available",
+        "type": "Dine-in",
+        "googleUrl": "https://www.google.com/maps/place/Naturals+Ice+Cream/data=!4m7!3m6!1s0x390cfd36dec4705d:0xd1d9df37d91b610a!8m2!3d28.6344056!4d77.2220968!16s%2Fg%2F11b6lk7klj!19sChIJXXDE3jb9DDkRCmEb2Tff2dE?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Naturals Ice Cream",
+        "ratingText": "4.6 stars 20,330 Reviews",
+        "stars": 4.6,
+        "numberOfReviews": "20,330",
+        "websites": [
+            "https://naturalicecreams.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JH4e3Mk_9DDkREWt-H4EopBw",
+        "address": " C Block, C42/2 1st Floor Dwarka Sadan, Middle Cir, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Drone shop",
+        "phone": " 095609 21619",
+        "latitude": 28.6347864,
+        "longitude": 77.2202582,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/NV+Drone+Store/data=!4m7!3m6!1s0x390cfd4f32b7871f:0x1ca428811f7e6b11!8m2!3d28.6347864!4d77.2202582!16s%2Fg%2F11gd6788cm!19sChIJH4e3Mk_9DDkREWt-H4EopBw?authuser=0&hl=en&rclk=1",
+        "outlet_name": "NV Drone Store",
+        "ratingText": "4.7 stars 570 Reviews",
+        "stars": 4.7,
+        "numberOfReviews": "570",
+        "websites": [
+            "https://nvdronestore.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jh091czf9DDkRuebu3nXWSyk",
+        "address": " A-5, 1st Floor, Inner Circle, Radial Road 5, New Delhi, Delhi 110001",
+        "sub_channel": "Shoe store",
+        "phone": " 011 4250 0164",
+        "latitude": 28.6342118,
+        "longitude": 77.2204632,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Vanson/data=!4m7!3m6!1s0x390cfd3773754f87:0x294bd675deeee6b9!8m2!3d28.6342118!4d77.2204632!16s%2Fg%2F12hr56p8j!19sChIJh091czf9DDkRuebu3nXWSyk?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Vanson",
+        "ratingText": "4.0 stars 9 Reviews",
+        "stars": 4,
+        "numberOfReviews": "9",
+        "websites": [
+            "https://www.vanson.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jq6q6Rjf9DDkR-1HTW2DiIuY",
+        "address": " No. 9/3, L Block, Mezzanine Floor, Connaught Cir, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Musical instrument store",
+        "phone": " 085276 75884",
+        "latitude": 28.6344854,
+        "longitude": 77.2220328,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Hare+Krishna+Musicals/data=!4m7!3m6!1s0x390cfd3746baaaab:0xe622e2605bd351fb!8m2!3d28.6344854!4d77.2220328!16s%2Fg%2F11pwvf3gd0!19sChIJq6q6Rjf9DDkR-1HTW2DiIuY?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Hare Krishna Musicals",
+        "ratingText": "4.6 stars 46 Reviews",
+        "stars": 4.6,
+        "numberOfReviews": "46",
+        "websites": [
+            "http://www.hkmstore.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JWYZYgjf9DDkRaxLkxal74_s",
+        "address": " C 14, First Floor, C Block, opp. Oden Cinema, Block C, Connaught Place, New Delhi, Delhi 110001",
+        "sub_channel": "Cafe",
+        "phone": " 1800 102 5093",
+        "latitude": 28.6341728,
+        "longitude": 77.2202765,
+        "status": "Available",
+        "type": "Dine-in",
+        "googleUrl": "https://www.google.com/maps/place/Cafe+Coffee+Day+-+The+Square/data=!4m7!3m6!1s0x390cfd3782588659:0xfbe37ba9c5e4126b!8m2!3d28.6341728!4d77.2202765!16s%2Fg%2F11dzstjs7_!19sChIJWYZYgjf9DDkRaxLkxal74_s?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Cafe Coffee Day - The Square",
+        "ratingText": "4.0 stars 1,716 Reviews",
+        "stars": 4,
+        "numberOfReviews": "1,716",
+        "websites": [
+            "https://radialrd5connaughtplace.cafecoffeeday.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JO1Zdzkn9DDkRl0P4AKhKb98",
+        "address": " CONNAUGHT PLACE, E-4, Rajiv Chowk, Block E, Connaught Place, Delhi, New Delhi, Delhi 110001",
+        "sub_channel": "Jewelry store",
+        "phone": " 011 4358 8368",
+        "latitude": 28.6332559,
+        "longitude": 77.22139,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Tanishq+Jewellery+-+Delhi+-+Connaught+Place/data=!4m7!3m6!1s0x390cfd49ce5d563b:0xdf6f4aa800f84397!8m2!3d28.6332559!4d77.22139!16s%2Fg%2F1tfz8kr2!19sChIJO1Zdzkn9DDkRl0P4AKhKb98?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Tanishq Jewellery - Delhi - Connaught Place",
+        "ratingText": "4.6 stars 3,299 Reviews",
+        "stars": 4.6,
+        "numberOfReviews": "3,299",
+        "websites": [
+            "https://stores.tanishq.co.in/store-locator/jewellery-stores/Delhi/Delhi/Connaught%20Place-CPD"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JWcIuy9j9DDkRqo7vIWiD2Sk",
+        "address": " Faiz Bazar, 3620/21, Netaji Subhash Marg, Kucha Alam, Estate, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Electronics store",
+        "phone": " 099588 11064",
+        "latitude": 28.6433779,
+        "longitude": 77.2403567,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/Croma+-+Daryaganj/data=!4m7!3m6!1s0x390cfdd8cb2ec259:0x29d9836821ef8eaa!8m2!3d28.6433779!4d77.2403567!16s%2Fg%2F11td205yxq!19sChIJWcIuy9j9DDkRqo7vIWiD2Sk?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Croma - Daryaganj",
+        "ratingText": "4.6 stars 343 Reviews",
+        "stars": 4.6,
+        "numberOfReviews": "343",
+        "websites": [
+            "https://store.croma.com/croma-daryaganj-electronics-retail-and-repair-shop-darya-ganj-estate-new-delhi-263648/Home?utm_source=locator&utm_medium=googleplaces"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JJ4IB0eL9DDkRyrif-PU-gB4",
+        "address": " 16B/4, Asaf Ali Rd, opposite LNJP Hospital, Chatta lal Miya, Chandni Mahal, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Electronics store",
+        "phone": " 011 4226 2288",
+        "latitude": 28.6410889,
+        "longitude": 77.2379692,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/VIJAY+SALES+-+DARYAGANJ/data=!4m7!3m6!1s0x390cfde2d1018227:0x1e803ef5f89fb8ca!8m2!3d28.6410889!4d77.2379692!16s%2Fg%2F11r97k9dbg!19sChIJJ4IB0eL9DDkRyrif-PU-gB4?authuser=0&hl=en&rclk=1",
+        "outlet_name": "VIJAY SALES - DARYAGANJ",
+        "ratingText": "4.6 stars 2,217 Reviews",
+        "stars": 4.6,
+        "numberOfReviews": "2,217",
+        "websites": [
+            "https://stores.vijaysales.com/vijay-sales-daryaganj-electronics-retail-and-repair-shop-dariyaganj-new-delhi-281038/Home?utm_source=locator&utm_medium=googleplaces"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JMUPZ-ir9DDkRTwl8BZEpzs0",
+        "address": " Shop No-3720, Faiz Bazar Netaji Subhash Marg, Central, Lal Qila, Daryaganj, Delhi, 110002",
+        "sub_channel": "Shoe store",
+        "phone": " 092891 48558",
+        "latitude": 28.6469261,
+        "longitude": 77.2401024,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Campus+Exclusive+Store/data=!4m7!3m6!1s0x390cfd2afad94331:0xcdce2991057c094f!8m2!3d28.6469261!4d77.2401024!16s%2Fg%2F11pz6xg8pb!19sChIJMUPZ-ir9DDkRTwl8BZEpzs0?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Campus Exclusive Store",
+        "ratingText": "4.7 stars 77 Reviews",
+        "stars": 4.7,
+        "numberOfReviews": "77",
+        "websites": [
+            "https://stores.campusshoes.com/delhi/central-delhi/campus-exclusive-store-old-delhi"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JM_0wZN_8DDkRr40nruKKhiY",
+        "address": " No 4935/3, Hotel Flora Building, Dayanand Rd, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Cell phone store",
+        "phone": " 098100 50365",
+        "latitude": 28.6448209,
+        "longitude": 77.2410326,
+        "status": "Available",
+        "type": "No in-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Samsung+Experience+Store+-+Phonestore+-+Darya+Ganj/data=!4m7!3m6!1s0x390cfcdf6430fd33:0x26868ae2ae278daf!8m2!3d28.6448209!4d77.2410326!16s%2Fg%2F1ptzj82yv!19sChIJM_0wZN_8DDkRr40nruKKhiY?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Samsung Experience Store - Phonestore - Darya Ganj",
+        "ratingText": "4.8 stars 792 Reviews",
+        "stars": 4.8,
+        "numberOfReviews": "792",
+        "websites": [
+            "https://www.samsungexclusivestores.in/samsung-experience-store-phonestore-darya-ganj-mobile-phone-shop-darya-ganj-new-delhi-78925/Home?utm_source=locator&utm_medium=googleplaces"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JtaRgaITjDDkRu2PPSlBxaGs",
+        "address": " Shop No, 19, Netaji Subhash Marg, near Kotak Bank, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Cell phone store",
+        "phone": " 097177 94269",
+        "latitude": 28.6442394,
+        "longitude": 77.2404784,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Hotspot+Mobile+Store/data=!4m7!3m6!1s0x390ce3846860a4b5:0x6b6871504acf63bb!8m2!3d28.6442394!4d77.2404784!16s%2Fg%2F11q1jfvrm2!19sChIJtaRgaITjDDkRu2PPSlBxaGs?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Hotspot Mobile Store",
+        "ratingText": "5.0 stars 1,083 Reviews",
+        "stars": 5,
+        "numberOfReviews": "1,083",
+        "websites": [
+            "https://www.hotspotstore.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JEbqonyD9DDkRVD7Qmd-ox94",
+        "address": " 3575/76, Netaji Subhash Marg, Kucha Alam, Khabas Pura, Daryaganj, Delhi, 110002",
+        "sub_channel": "Electronics store",
+        "phone": " 087005 89731",
+        "latitude": 28.6428381,
+        "longitude": 77.2403748,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/LG+Best+Shop+%28Shri+Shyamji+Enterprises%29/data=!4m7!3m6!1s0x390cfd209fa8ba11:0xdec7a8df99d03e54!8m2!3d28.6428381!4d77.2403748!16s%2Fg%2F1jkxybj_1!19sChIJEbqonyD9DDkRVD7Qmd-ox94?authuser=0&hl=en&rclk=1",
+        "outlet_name": "LG Best Shop (Shri Shyamji Enterprises)",
+        "ratingText": "4.3 stars 67 Reviews",
+        "stars": 4.3,
+        "numberOfReviews": "67",
+        "websites": [
+            "https://www.lg.com/in?utm_source=google&utm_medium=gmb"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JDyjod-D8DDkRCVD0Fqetqe0",
+        "address": " aggarwal store, opposite vardhman shiksha mandir, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Grocery store",
+        "phone": "NA",
+        "latitude": 28.6487622,
+        "longitude": 77.2426429,
+        "status": "Available",
+        "type": "NA",
+        "googleUrl": "https://www.google.com/maps/place/aggarwal+stores/data=!4m7!3m6!1s0x390cfce077e8280f:0xeda9ada716f45009!8m2!3d28.6487622!4d77.2426429!16s%2Fg%2F11g9qtm3x2!19sChIJDyjod-D8DDkRCVD0Fqetqe0?authuser=0&hl=en&rclk=1",
+        "outlet_name": "aggarwal stores",
+        "ratingText": "5.0 stars 1 Reviews",
+        "stars": 5,
+        "numberOfReviews": "1",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JGSj-4k_9DDkRyXy6sVpNL2s",
+        "address": " Shop No 60, Ground Floor, Dayanand Rd, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Clothing store",
+        "phone": " 011 4351 6971",
+        "latitude": 28.6448269,
+        "longitude": 77.2412763,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Cantabil/data=!4m7!3m6!1s0x390cfd4fe2fe2819:0x6b2f4d5ab1ba7cc9!8m2!3d28.6448269!4d77.2412763!16s%2Fg%2F11gnprlrg0!19sChIJGSj-4k_9DDkRyXy6sVpNL2s?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Cantabil",
+        "ratingText": "4.9 stars 966 Reviews",
+        "stars": 4.9,
+        "numberOfReviews": "966",
+        "websites": [
+            "https://stores.cantabilinternational.com/cantabil-cantabil-retail-india-limited-clothing-stores-darya-ganj-new-delhi-34532/Home?utm_source=locator&utm_medium=googleplaces"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JobAKq6z9DDkR2GT6mDGyxN4",
+        "address": " Shop no, 6, Kotla Marg, Rouse Avenue, Mata Sundari Railway Colony, Mandi House, New Delhi, Delhi, 110002",
+        "sub_channel": "General store",
+        "phone": " 085275 65710",
+        "latitude": 28.631821,
+        "longitude": 77.2369347,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Gupta+Store+Shop+No.6/data=!4m7!3m6!1s0x390cfdacab0ab0a1:0xdec4b23198fa64d8!8m2!3d28.631821!4d77.2369347!16s%2Fg%2F11g0kgr40l!19sChIJobAKq6z9DDkR2GT6mDGyxN4?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Gupta Store Shop No.6",
+        "ratingText": "4.5 stars 2 Reviews",
+        "stars": 4.5,
+        "numberOfReviews": "2",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JZSQk3Sb9DDkRUnlukSeOxiE",
+        "address": " Asaf Ali Rd, Turkman Gate, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Book store",
+        "phone": "NA",
+        "latitude": 28.6405098,
+        "longitude": 77.2370217,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Daryaganj+Sunday+Book+Market/data=!4m7!3m6!1s0x390cfd26dd242465:0x21c68e27916e7952!8m2!3d28.6405098!4d77.2370217!16s%2Fg%2F11c483774g!19sChIJZSQk3Sb9DDkRUnlukSeOxiE?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Daryaganj Sunday Book Market",
+        "ratingText": "4.3 stars 10,365 Reviews",
+        "stars": 4.3,
+        "numberOfReviews": "10,365",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JVeJzwn39DDkRWgvv60h2Qn4",
+        "address": " No. E, Ground, Floor, Shop, 24, Netaji Subhash Marg, Daryaganj, New Delhi, Delhi 110002",
+        "sub_channel": "Convenience store",
+        "phone": "NA",
+        "latitude": 28.6439412,
+        "longitude": 77.2406098,
+        "status": "Available",
+        "type": "NA",
+        "googleUrl": "https://www.google.com/maps/place/New+Shop/data=!4m7!3m6!1s0x390cfd7dc273e255:0x7e427648ebef0b5a!8m2!3d28.6439412!4d77.2406098!16s%2Fg%2F11wtx3qnsn!19sChIJVeJzwn39DDkRWgvv60h2Qn4?authuser=0&hl=en&rclk=1",
+        "outlet_name": "New Shop",
+        "ratingText": "NA",
+        "stars": null,
+        "numberOfReviews": "NA",
+        "websites": [
+            "https://thenewshop.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JTXlgEdn8DDkRzj0JYozW6ZI",
+        "address": " 4233 1, Ansari Rd, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Book store",
+        "phone": "NA",
+        "latitude": 28.6411157,
+        "longitude": 77.2450809,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/R.+D.+Chawla+%26+Sons/data=!4m7!3m6!1s0x390cfcd91160794d:0x92e9d68c62093dce!8m2!3d28.6411157!4d77.2450809!16s%2Fg%2F1v7tjrc7!19sChIJTXlgEdn8DDkRzj0JYozW6ZI?authuser=0&hl=en&rclk=1",
+        "outlet_name": "R. D. Chawla & Sons",
+        "ratingText": "4.0 stars 190 Reviews",
+        "stars": 4,
+        "numberOfReviews": "190",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JkZbQI9X8DDkRPYGU7mZlMlU",
+        "address": " Central Revenue Building, Indraprashta Marg, IP Estate, Delhi, 110002",
+        "sub_channel": "Grocery store",
+        "phone": " 011 2905 1908",
+        "latitude": 28.6270212,
+        "longitude": 77.2430009,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Kendriya+Bhandaar/data=!4m7!3m6!1s0x390cfcd523d09691:0x55326566ee94813d!8m2!3d28.6270212!4d77.2430009!16s%2Fg%2F1hhw2sw0r!19sChIJkZbQI9X8DDkRPYGU7mZlMlU?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Kendriya Bhandaar",
+        "ratingText": "4.1 stars 236 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "236",
+        "websites": [
+            "http://www.kendriyabhandar.org/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JbeOj5_r9DDkR4ILSpipXPn4",
+        "address": " 3531, Netaji Subhash Marg, Kucha Lal Man, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Book store",
+        "phone": " 098913 48049",
+        "latitude": 28.6421758,
+        "longitude": 77.2403808,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Book+Affair/data=!4m7!3m6!1s0x390cfdfae7a3e36d:0x7e3e572aa6d282e0!8m2!3d28.6421758!4d77.2403808!16s%2Fg%2F11f60fyxk4!19sChIJbeOj5_r9DDkR4ILSpipXPn4?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Book Affair",
+        "ratingText": "4.2 stars 191 Reviews",
+        "stars": 4.2,
+        "numberOfReviews": "191",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J022CNN_8DDkRnD-2ScQpMWs",
+        "address": " 91-B, Shyam Lal Rd, opposite Hindi Park, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Sporting goods store",
+        "phone": " 011 2324 1772",
+        "latitude": 28.6432818,
+        "longitude": 77.2424512,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Baba+Sports/data=!4m7!3m6!1s0x390cfcdf34826dd3:0x6b3129c449b63f9c!8m2!3d28.6432818!4d77.2424512!16s%2Fg%2F1tq6bwr0!19sChIJ022CNN_8DDkRnD-2ScQpMWs?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Baba Sports",
+        "ratingText": "4.1 stars 77 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "77",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JQx_1Pd_8DDkRikrjsIvYQ0I",
+        "address": " 78, Shyam Lal Rd, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Stationery store",
+        "phone": " 093130 64839",
+        "latitude": 28.6442892,
+        "longitude": 77.2422367,
+        "status": "Available",
+        "type": "NA",
+        "googleUrl": "https://www.google.com/maps/place/Ashirwad+Suppliers/data=!4m7!3m6!1s0x390cfcdf3df51f43:0x4243d88bb0e34a8a!8m2!3d28.6442892!4d77.2422367!16s%2Fg%2F11sqczmq5f!19sChIJQx_1Pd_8DDkRikrjsIvYQ0I?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Ashirwad Suppliers",
+        "ratingText": "5.0 stars 2 Reviews",
+        "stars": 5,
+        "numberOfReviews": "2",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JN2lUZyf9DDkReroLrSw-zP8",
+        "address": " Shop No. 3449, Delhi Chamber Building, Delhi Gate, Old Delhi, New Delhi, Delhi, 110002",
+        "sub_channel": "Medical supply store",
+        "phone": " 011 4352 6843",
+        "latitude": 28.6411903,
+        "longitude": 77.2405826,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Super+Medicare+%7C+Cpap,+Bipap,+Oxygen+Concentrator+and+Cylinder+for+Sale,+Rent+in+Delhi,+Noida,+Gurgaon,+Faridabad,+Ghaziabad/data=!4m7!3m6!1s0x390cfd2767546937:0xffcc3e2cad0bba7a!8m2!3d28.6411903!4d77.2405826!16s%2Fg%2F1tdxz8lh!19sChIJN2lUZyf9DDkReroLrSw-zP8?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Super Medicare | Cpap, Bipap, Oxygen Concentrator and Cylinder for Sale, Rent in Delhi, Noida, Gurgaon, Faridabad, Ghaziabad",
+        "ratingText": "4.5 stars 62 Reviews",
+        "stars": 4.5,
+        "numberOfReviews": "62",
+        "websites": [
+            "http://www.supermedicare.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jve1fPvn9DDkRfp9aGBx9Qqg",
+        "address": " Ground Floor, 4873/1B, 24, Ansari Road, 110002, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Wallpaper store",
+        "phone": " 096505 91234",
+        "latitude": 28.6411539,
+        "longitude": 77.2432721,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/DELHI+WALL+MALL/data=!4m7!3m6!1s0x390cfdf93e5fedbd:0xa8427d1c185a9f7e!8m2!3d28.6411539!4d77.2432721!16s%2Fg%2F11fmvbfg5l!19sChIJve1fPvn9DDkRfp9aGBx9Qqg?authuser=0&hl=en&rclk=1",
+        "outlet_name": "DELHI WALL MALL",
+        "ratingText": "4.5 stars 57 Reviews",
+        "stars": 4.5,
+        "numberOfReviews": "57",
+        "websites": [
+            "http://delhiwallmall.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JDxj4vh_9DDkRTTGa5ft0xIw",
+        "address": " 11-B, Netaji Subhash Marg, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Electronics store",
+        "phone": " 011 2327 2243",
+        "latitude": 28.6454115,
+        "longitude": 77.2405714,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Aggrellios+%26+Company/data=!4m7!3m6!1s0x390cfd1fbef8180f:0x8cc474fbe59a314d!8m2!3d28.6454115!4d77.2405714!16s%2Fg%2F1tfjjht2!19sChIJDxj4vh_9DDkRTTGa5ft0xIw?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Aggrellios & Company",
+        "ratingText": "4.3 stars 64 Reviews",
+        "stars": 4.3,
+        "numberOfReviews": "64",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JXbGeL38EDTkRmf9bQwr96BI",
+        "address": " Kamla Devi Bhawan, 5, Pandit Deendayal Upadhyay Marg, Turkman Gate, Chandni Chowk, New Delhi, Delhi, 110002",
+        "sub_channel": "Used book store",
+        "phone": "NA",
+        "latitude": 28.6407305,
+        "longitude": 77.237222,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Mahila+Haat/data=!4m7!3m6!1s0x390d047f2f9eb15d:0x12e8fd0a435bff99!8m2!3d28.6407305!4d77.237222!16s%2Fg%2F11c1tjd87z!19sChIJXbGeL38EDTkRmf9bQwr96BI?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Mahila Haat",
+        "ratingText": "4.4 stars 2,529 Reviews",
+        "stars": 4.4,
+        "numberOfReviews": "2,529",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J2cY_YSf9DDkRxu-y6Ov8Wy4",
+        "address": " 3466, Netaji Subhash Marg, Kucha Lal Man, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Dairy store",
+        "phone": " 1800 180 1018",
+        "latitude": 28.641432,
+        "longitude": 77.240291,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Mother+Dairy/data=!4m7!3m6!1s0x390cfd27613fc6d9:0x2e5bfcebe8b2efc6!8m2!3d28.641432!4d77.240291!16s%2Fg%2F11cn9ds6vs!19sChIJ2cY_YSf9DDkRxu-y6Ov8Wy4?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Mother Dairy",
+        "ratingText": "3.7 stars 11 Reviews",
+        "stars": 3.7,
+        "numberOfReviews": "11",
+        "websites": [
+            "https://www.motherdairy.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J-6B2OSj9DDkRSuShY_nmlOQ",
+        "address": " MAMC, Near Departmental canteen, Delhi 110002 Located in: Maulana Azad Medical College (MAMC)",
+        "sub_channel": "Medical Book Store",
+        "phone": " 098680 54058",
+        "latitude": 28.6350273,
+        "longitude": 77.2394833,
+        "status": "Available",
+        "type": "\"Very good book store in Maulana Azad Medical college\"",
+        "googleUrl": "https://www.google.com/maps/place/Avni+Book+Store/data=!4m7!3m6!1s0x390cfd283976a0fb:0xe494e6f963a1e44a!8m2!3d28.6350273!4d77.2394833!16s%2Fg%2F11f2wlm7p0!19sChIJ-6B2OSj9DDkRSuShY_nmlOQ?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Avni Book Store",
+        "ratingText": "4.2 stars 37 Reviews",
+        "stars": 4.2,
+        "numberOfReviews": "37",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JVx1FELT9DDkR1WXZsoofCWA",
+        "address": " Partap Gali, Kucha Alam, Khabas Pura, Old Delhi, New Delhi, Delhi, 110002",
+        "sub_channel": "Pet supply store",
+        "phone": " 093118 49027",
+        "latitude": 28.6436635,
+        "longitude": 77.2399596,
+        "status": "Available",
+        "type": "\"Good quality kitten grate service very good people\"",
+        "googleUrl": "https://www.google.com/maps/place/Persian+Cat+Gallery+Delhi+NCR+Kitten+House+Daryaganj+Pet+Shop+Jama+Masjid/data=!4m7!3m6!1s0x390cfdb410451d57:0x60091f8ab2d965d5!8m2!3d28.6436635!4d77.2399596!16s%2Fg%2F11w2b5vy40!19sChIJVx1FELT9DDkR1WXZsoofCWA?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Persian Cat Gallery Delhi NCR Kitten House Daryaganj Pet Shop Jama Masjid",
+        "ratingText": "4.5 stars 24 Reviews",
+        "stars": 4.5,
+        "numberOfReviews": "24",
+        "websites": [
+            "https://persiancatgallery.online/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JF3eO4Nj8DDkRSF-KKng0zkQ",
+        "address": "4855/24, 3rd floor",
+        "sub_channel": "Wallpaper store",
+        "phone": "NA",
+        "latitude": 28.6426079,
+        "longitude": 77.2446073,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Wall+decor/data=!4m7!3m6!1s0x390cfcd8e08e7717:0x44ce34782a8a5f48!8m2!3d28.6426079!4d77.2446073!16s%2Fg%2F1ptzx9vpc!19sChIJF3eO4Nj8DDkRSF-KKng0zkQ?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Wall decor",
+        "ratingText": "3.9 stars 26 Reviews",
+        "stars": 3.9,
+        "numberOfReviews": "26",
+        "websites": [
+            "NA"
+        ],
+        "emails": [
+            "NA"
+        ]
+    },
+    {
+        "placeId": "JobiH1O_9DDkRx3354tMZZ3U",
+        "address": " J6WR+M5F, Netaji Subhash Marg, Old Delhi, New Delhi, Delhi, 110002",
+        "sub_channel": "Pharmacy",
+        "phone": " 088023 01875",
+        "latitude": 28.6466938,
+        "longitude": 77.2404373,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/KESHAV+HOMEOPATHIC+STORE/data=!4m7!3m6!1s0x390cfdefd487b8a1:0x756719d3e2f97dc7!8m2!3d28.6466938!4d77.2404373!16s%2Fg%2F12ml2vp6k!19sChIJobiH1O_9DDkRx3354tMZZ3U?authuser=0&hl=en&rclk=1",
+        "outlet_name": "KESHAV HOMEOPATHIC STORE",
+        "ratingText": "4.0 stars 8 Reviews",
+        "stars": 4,
+        "numberOfReviews": "8",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JHTlB5JH9DDkRT9eY6Nwm3-c",
+        "address": " Kucha Alam, Khabas Pura, Daryaganj, Delhi, 110002",
+        "sub_channel": "Designer Clothing StoreOpen ⋅ Closes 9 pm",
+        "phone": "NA",
+        "latitude": 28.6432356,
+        "longitude": 77.2399786,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/Amayah+Pakistani+suits+Wholesaler+Delhi+India/data=!4m7!3m6!1s0x390cfd91e441391d:0xe7df26dce898d74f!8m2!3d28.6432356!4d77.2399786!16s%2Fg%2F11j0w40k37!19sChIJHTlB5JH9DDkRT9eY6Nwm3-c?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Amayah Pakistani suits Wholesaler Delhi India",
+        "ratingText": "4.4 stars 33 Reviews",
+        "stars": 4.4,
+        "numberOfReviews": "33",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JhekBZgD9DDkRixSDAD5F32A",
+        "address": " 3483, Netaji Subhash Marg, Kucha Lal Man, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Book store",
+        "phone": " 079821 85407",
+        "latitude": 28.642003,
+        "longitude": 77.240362,
+        "status": "Available",
+        "type": "\"For library books it's a haven\"",
+        "googleUrl": "https://www.google.com/maps/place/Mukta+Book+Agency/data=!4m7!3m6!1s0x390cfd006601e985:0x60df453e0083148b!8m2!3d28.642003!4d77.240362!16s%2Fg%2F11fj0hy7sf!19sChIJhekBZgD9DDkRixSDAD5F32A?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Mukta Book Agency",
+        "ratingText": "4.1 stars 24 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "24",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J1zChrsj9DDkRuZ7nwX8udd4",
+        "address": " 5051/5, Netaji Subhash Marg, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Dessert shop",
+        "phone": "NA",
+        "latitude": 28.6464726,
+        "longitude": 77.2404512,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Cool+Point+Shahi+Tukda/data=!4m7!3m6!1s0x390cfdc8aea130d7:0xde752e7fc1e79eb9!8m2!3d28.6464726!4d77.2404512!16s%2Fg%2F11pk_tlpkr!19sChIJ1zChrsj9DDkRuZ7nwX8udd4?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Cool Point Shahi Tukda",
+        "ratingText": "4.2 stars 99 Reviews",
+        "stars": 4.2,
+        "numberOfReviews": "99",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JuZqPfiD9DDkRGlWw-quLLsQ",
+        "address": " Number-3661, Netaji Subhash Marg, Kucha Chalan, Delhi Gate, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Musical instrument store",
+        "phone": "NA",
+        "latitude": 28.6458382,
+        "longitude": 77.2401827,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/Sunny+Musical+Emporium/data=!4m7!3m6!1s0x390cfd207e8f9ab9:0xc42e8babfab0551a!8m2!3d28.6458382!4d77.2401827!16s%2Fg%2F11hyn8kq_k!19sChIJuZqPfiD9DDkRGlWw-quLLsQ?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Sunny Musical Emporium",
+        "ratingText": "4.2 stars 112 Reviews",
+        "stars": 4.2,
+        "numberOfReviews": "112",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JJ0xmvSD9DDkRAdyro2MOLaM",
+        "address": " Gole Market, 3071/2 Gola Market, Behind Golcha cinema parking,New Delhi 110002Partap 110002, Pratap Gali, Delhi, 110031",
+        "sub_channel": "Uniform store",
+        "phone": "NA",
+        "latitude": 28.6441199,
+        "longitude": 77.2397782,
+        "status": "Available",
+        "type": "NA",
+        "googleUrl": "https://www.google.com/maps/place/Expert+Tailors/data=!4m7!3m6!1s0x390cfd20bd664c27:0xa32d0e63a3abdc01!8m2!3d28.6441199!4d77.2397782!16s%2Fg%2F11c6d9kyqm!19sChIJJ0xmvSD9DDkRAdyro2MOLaM?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Expert Tailors",
+        "ratingText": "4.0 stars 2 Reviews",
+        "stars": 4,
+        "numberOfReviews": "2",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jt53IMg79DDkR_UUyMYvxBEw",
+        "address": " J.L. Nehru Marg, New Delhi, Delhi 110002 Located in: Govind Ballabh Pant Hospital",
+        "sub_channel": "Health and beauty shop",
+        "phone": " 085953 80047",
+        "latitude": 28.6400305,
+        "longitude": 77.2337313,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Assure+Products+:+Offline%2FOnline+Shopping/data=!4m7!3m6!1s0x390cfd0e32c89db7:0x4c04f18b313245fd!8m2!3d28.6400305!4d77.2337313!16s%2Fg%2F11j4s40p9_!19sChIJt53IMg79DDkR_UUyMYvxBEw?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Assure Products : Offline/Online Shopping",
+        "ratingText": "5.0 stars 8 Reviews",
+        "stars": 5,
+        "numberOfReviews": "8",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JIThV7bz9DDkRmRjer6CtnBU",
+        "address": " 4223, Allahabad Bank, 1, Ansari Rd, beside Indian, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Book store",
+        "phone": " 070045 52134",
+        "latitude": 28.6411245,
+        "longitude": 77.2444994,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Bokaro+Students+Friend+Pvt.+Ltd.-+Daryaganj/data=!4m7!3m6!1s0x390cfdbced553821:0x159cada0afde1899!8m2!3d28.6411245!4d77.2444994!16s%2Fg%2F11gxmdnd8j!19sChIJIThV7bz9DDkRmRjer6CtnBU?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Bokaro Students Friend Pvt. Ltd.- Daryaganj",
+        "ratingText": "4.4 stars 189 Reviews",
+        "stars": 4.4,
+        "numberOfReviews": "189",
+        "websites": [
+            "https://booksbybsf.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JaU0qUSr9DDkR1NKcCyqg39k",
+        "address": " Gurudwara, Shop No. CN 342 Mata Sundari, Delhi Rd, New Delhi, Delhi 110002",
+        "sub_channel": "Furniture store",
+        "phone": "NA",
+        "latitude": 28.6358802,
+        "longitude": 77.2343147,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/MALIK+SCRAPER/data=!4m7!3m6!1s0x390cfd2a512a4d69:0xd9dfa02a0b9cd2d4!8m2!3d28.6358802!4d77.2343147!16s%2Fg%2F11pdtj30jv!19sChIJaU0qUSr9DDkR1NKcCyqg39k?authuser=0&hl=en&rclk=1",
+        "outlet_name": "MALIK SCRAPER",
+        "ratingText": "5.0 stars 2 Reviews",
+        "stars": 5,
+        "numberOfReviews": "2",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JD1wkeiD9DDkRAL2EDnUBXAU",
+        "address": " 3695, 1, Netaji Subhash Marg, Kucha Chalan, Khabas Pura, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Musical instrument store",
+        "phone": " 081787 44850",
+        "latitude": 28.6462311,
+        "longitude": 77.2404697,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Avtar+Musical/data=!4m7!3m6!1s0x390cfd207a245c0f:0x55c01750e84bd00!8m2!3d28.6462311!4d77.2404697!16s%2Fg%2F12ml2vpsf!19sChIJD1wkeiD9DDkRAL2EDnUBXAU?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Avtar Musical",
+        "ratingText": "4.7 stars 762 Reviews",
+        "stars": 4.7,
+        "numberOfReviews": "762",
+        "websites": [
+            "http://www.avtarmusicls.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JtYZcq5_9DDkRcCK0y_Rt8KI",
+        "address": " Delhi Gate, 3446, DELHI CHAMBER BUILDING, New Delhi, Delhi 110002",
+        "sub_channel": "Hospital equipment and supplies",
+        "phone": "NA",
+        "latitude": 28.6412328,
+        "longitude": 77.2400639,
+        "status": "Available",
+        "type": "NA",
+        "googleUrl": "https://www.google.com/maps/place/SUPER+MEDICOS/data=!4m7!3m6!1s0x390cfd9fab5c86b5:0xa2f06df4cbb42270!8m2!3d28.6412328!4d77.2400639!16s%2Fg%2F11n0k6st3f!19sChIJtYZcq5_9DDkRcCK0y_Rt8KI?authuser=0&hl=en&rclk=1",
+        "outlet_name": "SUPER MEDICOS",
+        "ratingText": "4.0 stars 2 Reviews",
+        "stars": 4,
+        "numberOfReviews": "2",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JOfKJZ-z9DDkR65v58ZdCu8s",
+        "address": " 3636, Netaji Subhash Marg, near Golcha Cinema, Kucha Chalan, Khabas Pura, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Clothing store",
+        "phone": " 098739 04905",
+        "latitude": 28.6452316,
+        "longitude": 77.2402143,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Paradise+Cotton+-+original+Pakistani+suits+wholesale/data=!4m7!3m6!1s0x390cfdec6789f239:0xcbbb4297f1f99beb!8m2!3d28.6452316!4d77.2402143!16s%2Fg%2F11t29fmjwf!19sChIJOfKJZ-z9DDkR65v58ZdCu8s?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Paradise Cotton - original Pakistani suits wholesale",
+        "ratingText": "4.7 stars 27 Reviews",
+        "stars": 4.7,
+        "numberOfReviews": "27",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JQ7MVBvpkz6kRigczS0qBPNU",
+        "address": " Varun House, 4819/24, Ansari Rd, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Book store",
+        "phone": " 089499 02594",
+        "latitude": 28.6426232,
+        "longitude": 77.244668,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/BookBuzzz+-+Online+Book+Store/data=!4m7!3m6!1s0xa9cf64fa0615b343:0xd53c814a4b33078a!8m2!3d28.6426232!4d77.244668!16s%2Fg%2F11w8qb_8t6!19sChIJQ7MVBvpkz6kRigczS0qBPNU?authuser=0&hl=en&rclk=1",
+        "outlet_name": "BookBuzzz - Online Book Store",
+        "ratingText": "5.0 stars 3 Reviews",
+        "stars": 5,
+        "numberOfReviews": "3",
+        "websites": [
+            "https://bookbuzzz.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JEdVekCD9DDkRE2RjGznMGck",
+        "address": " 3109, Sir Syed Ahmed Rd, Kucha Alam, Khabas Pura, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Bakery and Cake Shop",
+        "phone": " 098995 60012",
+        "latitude": 28.644155,
+        "longitude": 77.239105,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/Blue+Ribbon+Bakers+and+Confectioners/data=!4m7!3m6!1s0x390cfd20905ed511:0xc919cc391b636413!8m2!3d28.644155!4d77.239105!16s%2Fg%2F12m944jcr!19sChIJEdVekCD9DDkRE2RjGznMGck?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Blue Ribbon Bakers and Confectioners",
+        "ratingText": "4.4 stars 386 Reviews",
+        "stars": 4.4,
+        "numberOfReviews": "386",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JeQYvrqX9DDkRkEv5f-41hxE",
+        "address": "undefined",
+        "sub_channel": "Clothing store",
+        "phone": "NA",
+        "latitude": 28.650763,
+        "longitude": 77.236178,
+        "status": "Available",
+        "type": "NA",
+        "googleUrl": "https://www.google.com/maps/place/Clothing+Store+New+Delhi/data=!4m7!3m6!1s0x390cfda5ae2f0679:0x118735ee7ff94b90!8m2!3d28.650763!4d77.236178!16s%2Fg%2F11ftksrq9b!19sChIJeQYvrqX9DDkRkEv5f-41hxE?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Clothing Store New Delhi",
+        "ratingText": "3.0 stars 1 Reviews",
+        "stars": 3,
+        "numberOfReviews": "1",
+        "websites": [
+            "https://more.ueniweb.com/?utm_campaign=gmb"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JqRRxGsj9DDkR_9cmeTAwJXo",
+        "address": " 19, Ansari Rd, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Book store",
+        "phone": " 080 4604 8954",
+        "latitude": 28.6462449,
+        "longitude": 77.2433955,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/DELHI+BOOK+STORE/data=!4m7!3m6!1s0x390cfdc81a7114a9:0x7a2530307926d7ff!8m2!3d28.6462449!4d77.2433955!16s%2Fg%2F11jsj7slj2!19sChIJqRRxGsj9DDkR_9cmeTAwJXo?authuser=0&hl=en&rclk=1",
+        "outlet_name": "DELHI BOOK STORE",
+        "ratingText": "4.2 stars 48 Reviews",
+        "stars": 4.2,
+        "numberOfReviews": "48",
+        "websites": [
+            "http://www.delhibookstore.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JKb0HYsr9DDkRuNTFCeoiHQg",
+        "address": " Delhi Gate, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Auto parts storeCloses soon ⋅ 8 pm ⋅ Opens 8 am Sun",
+        "phone": "NA",
+        "latitude": 28.6368742,
+        "longitude": 77.2406789,
+        "status": "Available",
+        "type": "NA",
+        "googleUrl": "https://www.google.com/maps/place/The+Autoparts+Hub/data=!4m7!3m6!1s0x390cfdca6207bd29:0x81d22ea09c5d4b8!8m2!3d28.6368742!4d77.2406789!16s%2Fg%2F11q4347h58!19sChIJKb0HYsr9DDkRuNTFCeoiHQg?authuser=0&hl=en&rclk=1",
+        "outlet_name": "The Autoparts Hub",
+        "ratingText": "3.0 stars 1 Reviews",
+        "stars": 3,
+        "numberOfReviews": "1",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JPeuApJj9DDkRLHhe6GSgz7Q",
+        "address": " 3318 Lal Gali, Kucha Tara Chand, Daryaganj, New Delhi, Delhi 110002",
+        "sub_channel": "General store",
+        "phone": " 085956 02651",
+        "latitude": 28.6425751,
+        "longitude": 77.2392481,
+        "status": "Available",
+        "type": "NA",
+        "googleUrl": "https://www.google.com/maps/place/Sameer+General+Store/data=!4m7!3m6!1s0x390cfd98a480eb3d:0xb4cfa064e85e782c!8m2!3d28.6425751!4d77.2392481!16s%2Fg%2F11pv9dnr6z!19sChIJPeuApJj9DDkRLHhe6GSgz7Q?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Sameer General Store",
+        "ratingText": "NA",
+        "stars": null,
+        "numberOfReviews": "NA",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JwXlKI9X8DDkRj_Ey-_QarpA",
+        "address": " Shop No. LGF1, Hans Bhavan, Behind C A Institute, ITO, New Delhi, Delhi 110002",
+        "sub_channel": "Law Book Store",
+        "phone": " 093500 42870",
+        "latitude": 28.6270568,
+        "longitude": 77.2426777,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Pooja+Law+House/data=!4m7!3m6!1s0x390cfcd5234a79c1:0x90ae1af4fb32f18f!8m2!3d28.6270568!4d77.2426777!16s%2Fg%2F1wrtb78l!19sChIJwXlKI9X8DDkRj_Ey-_QarpA?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Pooja Law House",
+        "ratingText": "4.2 stars 524 Reviews",
+        "stars": 4.2,
+        "numberOfReviews": "524",
+        "websites": [
+            "http://www.poojalawhouse.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JVVWJbdn8DDkR_Fc9hIQrgjg",
+        "address": " Street No. 1, Ansari Rd, near MCD Dispensary, opposite Ambedkar Stadium, Delhi Gate, Old Delhi, New Delhi, Delhi, 110002",
+        "sub_channel": "Kitchen supply store",
+        "phone": " 093544 89199",
+        "latitude": 28.6409744,
+        "longitude": 77.2452707,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/Modern+Kitchen+Equipment/data=!4m7!3m6!1s0x390cfcd96d895555:0x38822b84843d57fc!8m2!3d28.6409744!4d77.2452707!16s%2Fg%2F11tjc4pkd5!19sChIJVVWJbdn8DDkR_Fc9hIQrgjg?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Modern Kitchen Equipment",
+        "ratingText": "4.8 stars 220 Reviews",
+        "stars": 4.8,
+        "numberOfReviews": "220",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jn4AeEwr9DDkRUUpiqDGeLkA",
+        "address": " Milk Shop 42401 Shop No 5 Vikram Nagar Kotla Firoz Shah, Delhi, 110002",
+        "sub_channel": "Dairy store",
+        "phone": " 099998 44557",
+        "latitude": 28.63455,
+        "longitude": 77.24285,
+        "status": "Available",
+        "type": "NA",
+        "googleUrl": "https://www.google.com/maps/place/Mother+Dairy+Milk+Shop+42401/data=!4m7!3m6!1s0x390cfd0a131e809f:0x402e9e31a8624a51!8m2!3d28.63455!4d77.24285!16s%2Fg%2F11s4rxz6zt!19sChIJn4AeEwr9DDkRUUpiqDGeLkA?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Mother Dairy Milk Shop 42401",
+        "ratingText": "5.0 stars 4 Reviews",
+        "stars": 5,
+        "numberOfReviews": "4",
+        "websites": [
+            "https://www.motherdairy.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J4Xi1bgP9DDkRDRYHEahArrM",
+        "address": " Shop No.15, 16, Netaji Subhash Marg, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Gents Tailor",
+        "phone": " 011 2326 8198",
+        "latitude": 28.644935,
+        "longitude": 77.2407209,
+        "status": "Available",
+        "type": "On-site services",
+        "googleUrl": "https://www.google.com/maps/place/M+Usman+Drapers+%26+Tailors/data=!4m7!3m6!1s0x390cfd036eb578e1:0xb3ae40a81107160d!8m2!3d28.644935!4d77.2407209!16s%2Fg%2F1td9z1jc!19sChIJ4Xi1bgP9DDkRDRYHEahArrM?authuser=0&hl=en&rclk=1",
+        "outlet_name": "M Usman Drapers & Tailors",
+        "ratingText": "4.3 stars 32 Reviews",
+        "stars": 4.3,
+        "numberOfReviews": "32",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JiU6YCSP9DDkREt8xzHyCTiM",
+        "address": " Mcd shopping complex, Jawaharlal Nehru Marg, Turkman Gate, Chandni Chowk, Delhi, 110002",
+        "sub_channel": "Pharmacy",
+        "phone": " 099100 03517",
+        "latitude": 28.6402547,
+        "longitude": 77.2355023,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Irwin+Medicos/data=!4m7!3m6!1s0x390cfd2309984e89:0x234e827ccc31df12!8m2!3d28.6402547!4d77.2355023!16s%2Fg%2F1tdvy8k9!19sChIJiU6YCSP9DDkREt8xzHyCTiM?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Irwin Medicos",
+        "ratingText": "3.1 stars 10 Reviews",
+        "stars": 3.1,
+        "numberOfReviews": "10",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JPRUrqpL9DDkRAlr1trZDSA0",
+        "address": " 1636, Delhi 110002",
+        "sub_channel": "Watch store",
+        "phone": " 098739 22732",
+        "latitude": 28.6352202,
+        "longitude": 77.2468858,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Vintage+Plus+Watches/data=!4m7!3m6!1s0x390cfd92aa2b153d:0xd4843b6b6f55a02!8m2!3d28.6352202!4d77.2468858!16s%2Fg%2F11fqcbgyfm!19sChIJPRUrqpL9DDkRAlr1trZDSA0?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Vintage Plus Watches",
+        "ratingText": "4.5 stars 75 Reviews",
+        "stars": 4.5,
+        "numberOfReviews": "75",
+        "websites": [
+            "https://d-vintagepluswatches.dotpe.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jn46Loij9DDkRvOF2sIs-YKs",
+        "address": " J6PP+CC9, Mirdard Marg, Maulana Azad Medical College Campus, Mandi House, New Delhi, Delhi, 110002 Located in: Maulana Azad Medical College (MAMC)",
+        "sub_channel": "Indian grocery store",
+        "phone": " 099680 59279",
+        "latitude": 28.636037,
+        "longitude": 77.2361109,
+        "status": "Available",
+        "type": "\"Good quality products always\"",
+        "googleUrl": "https://www.google.com/maps/place/Kendriya+Bhandar/data=!4m7!3m6!1s0x390cfd28a28b8e9f:0xab603e8bb076e1bc!8m2!3d28.636037!4d77.2361109!16s%2Fg%2F11cn2lz11c!19sChIJn46Loij9DDkRvOF2sIs-YKs?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Kendriya Bhandar",
+        "ratingText": "4.1 stars 224 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "224",
+        "websites": [
+            "https://kendriyabhandar.org/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JZ0b3EBf9DDkR2nj6qRWLT-8",
+        "address": " Arun Jaitley Stadium, Bahadur Shah Zafar Marg, Feroze Shah Kotla, Vikram Nagar, New Delhi, Delhi, 110002",
+        "sub_channel": "Cricket shop",
+        "phone": "NA",
+        "latitude": 28.637923,
+        "longitude": 77.2431735,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/S+G+Exclusive+Retail+Store%28+%28+Visit+to+SG+store+from+Gate+no+5%29%29/data=!4m7!3m6!1s0x390cfd1710f74667:0xef4f8b15a9fa78da!8m2!3d28.637923!4d77.2431735!16s%2Fg%2F11rzfqmnmv!19sChIJZ0b3EBf9DDkR2nj6qRWLT-8?authuser=0&hl=en&rclk=1",
+        "outlet_name": "S G Exclusive Retail Store( ( Visit to SG store from Gate no 5))",
+        "ratingText": "4.6 stars 25 Reviews",
+        "stars": 4.6,
+        "numberOfReviews": "25",
+        "websites": [
+            "https://shop.teamsg.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JyZzfYt_8DDkRJh4LDIVy1MU",
+        "address": " 15, Netaji Subhash Marg, opposite Golcha Cinema, Diagonally, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Tea store",
+        "phone": " 011 2326 0373",
+        "latitude": 28.644865,
+        "longitude": 77.240602,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/Aap+Ki+Pasand+Tea+Gallery+%28India%27s+Oldest+Gourmet+Tea+Store%29,+Sancha+Tea/data=!4m7!3m6!1s0x390cfcdf62df9cc9:0xc5d472850c0b1e26!8m2!3d28.644865!4d77.240602!16s%2Fg%2F1tdwngmt!19sChIJyZzfYt_8DDkRJh4LDIVy1MU?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Aap Ki Pasand Tea Gallery (India's Oldest Gourmet Tea Store), Sancha Tea",
+        "ratingText": "4.6 stars 207 Reviews",
+        "stars": 4.6,
+        "numberOfReviews": "207",
+        "websites": [
+            "http://www.sanchatea.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JmfUvZb_9DDkROXvjmMoT7Gs",
+        "address": " no 1, 4226/1, Gali, Ansari Rd, near Indian Bank, Daryaganj, Delhi, 110002",
+        "sub_channel": "Book store",
+        "phone": " 099683 33330",
+        "latitude": 28.6410804,
+        "longitude": 77.2450729,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Neelam+Book+Store/data=!4m7!3m6!1s0x390cfdbf652ff599:0x6bec13ca98e37b39!8m2!3d28.6410804!4d77.2450729!16s%2Fg%2F11q1wn6ztm!19sChIJmfUvZb_9DDkROXvjmMoT7Gs?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Neelam Book Store",
+        "ratingText": "4.7 stars 3 Reviews",
+        "stars": 4.7,
+        "numberOfReviews": "3",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JjZlp-DH9DDkRQpTFPgziLgA",
+        "address": " Shop number 13 Streat, 4855/24, Ansari Rd, Daryaganj, Delhi, 110002",
+        "sub_channel": "Wallpaper store",
+        "phone": " 085955 61386",
+        "latitude": 28.6415431,
+        "longitude": 77.243124,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/Brothers+Wall+Coverings/data=!4m7!3m6!1s0x390cfd31f869998d:0x2ee20c3ec59442!8m2!3d28.6415431!4d77.243124!16s%2Fg%2F11q4g7678w!19sChIJjZlp-DH9DDkRQpTFPgziLgA?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Brothers Wall Coverings",
+        "ratingText": "4.0 stars 4 Reviews",
+        "stars": 4,
+        "numberOfReviews": "4",
+        "websites": [
+            "http://www.jaitraderswallpaper.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jn8uKCCD9DDkRc9y-DcGQDtg",
+        "address": " 3638, 3640, Netaji Subhash Marg, Kucha Alam, Khabas Pura, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Music store",
+        "phone": " 099900 28080",
+        "latitude": 28.6452416,
+        "longitude": 77.240209,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/Goonj+Musical+Gallery/data=!4m7!3m6!1s0x390cfd20088acb9f:0xd80e90c10dbedc73!8m2!3d28.6452416!4d77.240209!16s%2Fg%2F11b86ddxry!19sChIJn8uKCCD9DDkRc9y-DcGQDtg?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Goonj Musical Gallery",
+        "ratingText": "4.1 stars 334 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "334",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J9xnGkZT9DDkRZmF3yyDfeDs",
+        "address": " 1st Floor, Gali Jagat Cinema, 3910, New Delhi, Delhi 110002",
+        "sub_channel": "Tea store",
+        "phone": "NA",
+        "latitude": 28.6352202,
+        "longitude": 77.2468858,
+        "status": "Available",
+        "type": "NA",
+        "googleUrl": "https://www.google.com/maps/place/Junaid+and+associates/data=!4m7!3m6!1s0x390cfd9491c619f7:0x3b78df20cb776166!8m2!3d28.6352202!4d77.2468858!16s%2Fg%2F11x1_9bcng!19sChIJ9xnGkZT9DDkRZmF3yyDfeDs?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Junaid and associates",
+        "ratingText": "NA",
+        "stars": null,
+        "numberOfReviews": "NA",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Ji8r_hlP9DDkR0Qf2Gibs2vg",
+        "address": " 4853-54, 24, Ansari Rd, Daryaganj, New Delhi, Delhi 110002",
+        "sub_channel": "Wallpaper store",
+        "phone": " 098101 16544",
+        "latitude": 28.6414328,
+        "longitude": 77.2432043,
+        "status": "Available",
+        "type": "\"The selection is diverse, with unique patterns that really elevate my space.\"",
+        "googleUrl": "https://www.google.com/maps/place/Home+Fashion/data=!4m7!3m6!1s0x390cfd5386ffca8b:0xf8daec261af607d1!8m2!3d28.6414328!4d77.2432043!16s%2Fg%2F11wbj4hhf3!19sChIJi8r_hlP9DDkR0Qf2Gibs2vg?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Home Fashion",
+        "ratingText": "5.0 stars 25 Reviews",
+        "stars": 5,
+        "numberOfReviews": "25",
+        "websites": [
+            "https://home-fashion.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JW6YoQCj9DDkR9XxvO-OP-Z4",
+        "address": " J6PQ+7PW, Maulana Azad Medical College Campus, Balmiki Basti, New Delhi, Delhi, 110002 Located in: Maulana Azad Medical College (MAMC)",
+        "sub_channel": "Food store",
+        "phone": "NA",
+        "latitude": 28.6357463,
+        "longitude": 77.2393289,
+        "status": "Available",
+        "type": "\"Located inside the MAMC campus.\"",
+        "googleUrl": "https://www.google.com/maps/place/Amul+Parlour/data=!4m7!3m6!1s0x390cfd284028a65b:0x9ef98fe33b6f7cf5!8m2!3d28.6357463!4d77.2393289!16s%2Fg%2F1263z71lz!19sChIJW6YoQCj9DDkR9XxvO-OP-Z4?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Amul Parlour",
+        "ratingText": "4.2 stars 19 Reviews",
+        "stars": 4.2,
+        "numberOfReviews": "19",
+        "websites": [
+            "http://amul.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JPZFv8KT9DDkROuigYVRjclU",
+        "address": " PARK, 3632/2, Netaji Subhash Marg, near GOLCHA CINEMA DELHI MANSION, New Friends Colony, Kucha Alam, Khabas Pura, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Motorcycle shop",
+        "phone": " 099993 88189",
+        "latitude": 28.6447116,
+        "longitude": 77.2401324,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/TVS+-+YM+TVS+%28TVS+SHOWROOM+DELHI%29/data=!4m7!3m6!1s0x390cfda4f06f913d:0x5572635461a0e83a!8m2!3d28.6447116!4d77.2401324!16s%2Fg%2F11m_j3wk43!19sChIJPZFv8KT9DDkROuigYVRjclU?authuser=0&hl=en&rclk=1",
+        "outlet_name": "TVS - YM TVS (TVS SHOWROOM DELHI)",
+        "ratingText": "4.5 stars 242 Reviews",
+        "stars": 4.5,
+        "numberOfReviews": "242",
+        "websites": [
+            "https://ymtvs.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JFRGszXb9DDkR4Wx3NK9I5DA",
+        "address": " 4762, 23, Ansari Rd, Daryaganj, Delhi, 110002",
+        "sub_channel": "Book store",
+        "phone": "NA",
+        "latitude": 28.6431084,
+        "longitude": 77.2442423,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/UDH+Publishers+and+Distributors+Pvt+Ltd/data=!4m7!3m6!1s0x390cfd76cdac1115:0x30e448af34776ce1!8m2!3d28.6431084!4d77.2442423!16s%2Fg%2F11slrhpc0r!19sChIJFRGszXb9DDkR4Wx3NK9I5DA?authuser=0&hl=en&rclk=1",
+        "outlet_name": "UDH Publishers and Distributors Pvt Ltd",
+        "ratingText": "4.6 stars 10 Reviews",
+        "stars": 4.6,
+        "numberOfReviews": "10",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JR4z1W9H9DDkRKepOmHEfn8E",
+        "address": " No 3632/11, In, Park Mansion, Netaji Subhash Marg, near Golcha Cinema, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Two Wheeler Dealer",
+        "phone": " 063664 48948",
+        "latitude": 28.6465517,
+        "longitude": 77.2405674,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/TVS+-+My+Enterprises/data=!4m7!3m6!1s0x390cfdd15bf58c47:0xc19f1f71984eea29!8m2!3d28.6465517!4d77.2405674!16s%2Fg%2F11hzh5lxxh!19sChIJR4z1W9H9DDkRKepOmHEfn8E?authuser=0&hl=en&rclk=1",
+        "outlet_name": "TVS - My Enterprises",
+        "ratingText": "4.3 stars 271 Reviews",
+        "stars": 4.3,
+        "numberOfReviews": "271",
+        "websites": [
+            "https://dealers.tvsmotor.com/tvs-motors/tvs-my-enterprises-two-wheeler-dealer-darya-ganj-new-delhi-134250/Home?utm_source=locator&utm_medium=googleplaces"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JxeOFkDj9DDkRefIZ-R20mC8",
+        "address": " Shop No-5, Mirdard Marg, Maulana Azad Medical College Campus, LNJP Colony, New Delhi, Delhi, 110002",
+        "sub_channel": "Bakery and Cake Shop",
+        "phone": " 097163 14934",
+        "latitude": 28.6362303,
+        "longitude": 77.2364131,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/A+Cake+%27O%27+Clock/data=!4m7!3m6!1s0x390cfd389085e3c5:0x2f98b41df919f279!8m2!3d28.6362303!4d77.2364131!16s%2Fg%2F11fmc9cp82!19sChIJxeOFkDj9DDkRefIZ-R20mC8?authuser=0&hl=en&rclk=1",
+        "outlet_name": "A Cake 'O' Clock",
+        "ratingText": "3.7 stars 19 Reviews",
+        "stars": 3.7,
+        "numberOfReviews": "19",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jv60cj-D8DDkRGYQR6C3gofY",
+        "address": " Viraj Tower, 2 4259/3, Ansari Rd, Daryaganj, New Delhi, Delhi 110002",
+        "sub_channel": "Book store",
+        "phone": " 011 4535 5555",
+        "latitude": 28.6428869,
+        "longitude": 77.2446238,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Buy+Books+India/data=!4m7!3m6!1s0x390cfce08f1cadbf:0xf6a1e02de8118419!8m2!3d28.6428869!4d77.2446238!16s%2Fg%2F11b6lm4nq7!19sChIJv60cj-D8DDkRGYQR6C3gofY?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Buy Books India",
+        "ratingText": "4.7 stars 33 Reviews",
+        "stars": 4.7,
+        "numberOfReviews": "33",
+        "websites": [
+            "https://www.buybooksindia.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JoYxYVCf9DDkRbJmIgtxFvUw",
+        "address": " 3536, Jatwara, Daryaganj, New Delhi, Delhi 110002",
+        "sub_channel": "Book store",
+        "phone": "NA",
+        "latitude": 28.6425288,
+        "longitude": 77.2399434,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Dhruv+Book+Centre/data=!4m7!3m6!1s0x390cfd2754588ca1:0x4cbd45dc8288996c!8m2!3d28.6425288!4d77.2399434!16s%2Fg%2F11f4qb80fs!19sChIJoYxYVCf9DDkRbJmIgtxFvUw?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Dhruv Book Centre",
+        "ratingText": "4.5 stars 30 Reviews",
+        "stars": 4.5,
+        "numberOfReviews": "30",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J30G5zt78DDkRHMOguidfSqE",
+        "address": " 4306, 3, Ansari Rd, near Bank of India, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Dairy Products Supplier",
+        "phone": " 093112 28221",
+        "latitude": 28.6437114,
+        "longitude": 77.2443894,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Juneja+Dairy/data=!4m7!3m6!1s0x390cfcdeceb941df:0xa14a5f27baa0c31c!8m2!3d28.6437114!4d77.2443894!16s%2Fg%2F1ptxf0y31!19sChIJ30G5zt78DDkRHMOguidfSqE?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Juneja Dairy",
+        "ratingText": "3.6 stars 11 Reviews",
+        "stars": 3.6,
+        "numberOfReviews": "11",
+        "websites": [
+            "http://junejadairy.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J0WwVeiD9DDkR7Ym9fOwqfjQ",
+        "address": " 2-B, Netaji Subhash Marg, Main, Road, opposite subzi mandi, Daryaganj, New Delhi, Delhi 110002",
+        "sub_channel": "Musical instrument store",
+        "phone": " 011 4351 3848",
+        "latitude": 28.646163,
+        "longitude": 77.2404628,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/R+N+Bhargava+and+Company/data=!4m7!3m6!1s0x390cfd207a156cd1:0x347e2aec7cbd89ed!8m2!3d28.646163!4d77.2404628!16s%2Fg%2F1tflktnr!19sChIJ0WwVeiD9DDkR7Ym9fOwqfjQ?authuser=0&hl=en&rclk=1",
+        "outlet_name": "R N Bhargava and Company",
+        "ratingText": "4.2 stars 1,366 Reviews",
+        "stars": 4.2,
+        "numberOfReviews": "1,366",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J15aTx978DDkR2O8zGpsnNN8",
+        "address": " Harbans Singh Street, 4858A, 24, Ansari Rd, near Sanjeevan Hospital, Daryaganj, Delhi, 110002",
+        "sub_channel": "Wallpaper store",
+        "phone": " 099115 69804",
+        "latitude": 28.6412267,
+        "longitude": 77.2433853,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Wall+Fashion/data=!4m7!3m6!1s0x390cfcdec79396d7:0xdf34279b1a33efd8!8m2!3d28.6412267!4d77.2433853!16s%2Fg%2F11b7k3fzgq!19sChIJ15aTx978DDkR2O8zGpsnNN8?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Wall Fashion",
+        "ratingText": "4.7 stars 205 Reviews",
+        "stars": 4.7,
+        "numberOfReviews": "205",
+        "websites": [
+            "http://www.wallfashion.co.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jx1EkY6T9DDkRuBIf4_kT8XQ",
+        "address": " Shop No 890, Tiraha Behram Khan, Chandni Mahal, Chandni Chowk, New Delhi, Delhi, 110002",
+        "sub_channel": "Women's clothing store",
+        "phone": " 092117 20723",
+        "latitude": 28.6420143,
+        "longitude": 77.2381803,
+        "status": "Available",
+        "type": "NA",
+        "googleUrl": "https://www.google.com/maps/place/Samad+Khan%27s+Collection/data=!4m7!3m6!1s0x390cfda4632451c7:0x74f113f9e31f12b8!8m2!3d28.6420143!4d77.2381803!16s%2Fg%2F11x25gf9zc!19sChIJx1EkY6T9DDkRuBIf4_kT8XQ?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Samad Khan's Collection",
+        "ratingText": "NA",
+        "stars": null,
+        "numberOfReviews": "NA",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JGYvutRb9DDkRnUonwJu4NrM",
+        "address": " Shop No 10, Delhi Gate, Ambedkar Football Stadium, Feroze Shah Kotla, Vikram Nagar, Delhi, 110002",
+        "sub_channel": "Carpet wholesaler",
+        "phone": " 098109 66392",
+        "latitude": 28.6395917,
+        "longitude": 77.2423263,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Rajmahal+Carpets/data=!4m7!3m6!1s0x390cfd16b5ee8b19:0xb336b89bc0274a9d!8m2!3d28.6395917!4d77.2423263!16s%2Fg%2F11fmd8yv11!19sChIJGYvutRb9DDkRnUonwJu4NrM?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Rajmahal Carpets",
+        "ratingText": "4.7 stars 51 Reviews",
+        "stars": 4.7,
+        "numberOfReviews": "51",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J7-9NItn8DDkR33F7U0tr1Pw",
+        "address": " 4819/24, Ansari Rd, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Wallpaper store",
+        "phone": " 098997 49731",
+        "latitude": 28.6417943,
+        "longitude": 77.2439841,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Vrinda+Wallpaper+Store/data=!4m7!3m6!1s0x390cfcd9224defef:0xfcd46b4b537b71df!8m2!3d28.6417943!4d77.2439841!16s%2Fg%2F11hczk2y2p!19sChIJ7-9NItn8DDkR33F7U0tr1Pw?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Vrinda Wallpaper Store",
+        "ratingText": "4.8 stars 202 Reviews",
+        "stars": 4.8,
+        "numberOfReviews": "202",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JLfiYDCT9DDkRwQxbpLXG1-0",
+        "address": " 4/5B, Asaf Ali Rd, near Delite Cinema, next to Kotak Mahindra ATM, Chatta lal Miya, Chandni Mahal, Chandni Chowk, New Delhi, Delhi, 110002",
+        "sub_channel": "Book store",
+        "phone": " 011 2327 3335",
+        "latitude": 28.641074,
+        "longitude": 77.237079,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Hindi+Book+Centre/data=!4m7!3m6!1s0x390cfd240c98f82d:0xedd7c6b5a45b0cc1!8m2!3d28.641074!4d77.237079!16s%2Fg%2F1tf6vr5h!19sChIJLfiYDCT9DDkRwQxbpLXG1-0?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Hindi Book Centre",
+        "ratingText": "4.2 stars 115 Reviews",
+        "stars": 4.2,
+        "numberOfReviews": "115",
+        "websites": [
+            "http://www.hindibook.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JHb2TbpD9DDkR281GeCylry4",
+        "address": " 4360/4, Ansari Rd, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Book store",
+        "phone": " 011 4153 0902",
+        "latitude": 28.6438748,
+        "longitude": 77.2444032,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Chaukhamba+Sanskrit+Pratishthan/data=!4m7!3m6!1s0x390cfd906e93bd1d:0x2eafa52c7846cddb!8m2!3d28.6438748!4d77.2444032!16s%2Fg%2F1tgqgt9p!19sChIJHb2TbpD9DDkR281GeCylry4?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Chaukhamba Sanskrit Pratishthan",
+        "ratingText": "4.6 stars 321 Reviews",
+        "stars": 4.6,
+        "numberOfReviews": "321",
+        "websites": [
+            "https://www.chaukhambasanskritpratishthan.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JBeh9Q9_8DDkRhSazKz6FHFM",
+        "address": " 13, Ansari Market, Kedarnath Ln, Daryaganj, New Delhi, Delhi 110002",
+        "sub_channel": "Copy shop",
+        "phone": " 011 2326 7032",
+        "latitude": 28.6441491,
+        "longitude": 77.2414408,
+        "status": "Available",
+        "type": "\"the staf is very nice 👍\"",
+        "googleUrl": "https://www.google.com/maps/place/Delhi+Copier/data=!4m7!3m6!1s0x390cfcdf437de805:0x531c853e2bb32685!8m2!3d28.6441491!4d77.2414408!16s%2Fg%2F1pp2tksd6!19sChIJBeh9Q9_8DDkRhSazKz6FHFM?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Delhi Copier",
+        "ratingText": "4.1 stars 14 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "14",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JBTUOYN_8DDkROX0OOV1sZ5k",
+        "address": " No-26, Netaji Subhash Marg, Delhi Gate, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Pharmacy",
+        "phone": "NA",
+        "latitude": 28.64361,
+        "longitude": 77.240784,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/United+Pharma+Enterprises/data=!4m7!3m6!1s0x390cfcdf600e3505:0x99676c5d390e7d39!8m2!3d28.64361!4d77.240784!16s%2Fg%2F11hyn8p3ct!19sChIJBTUOYN_8DDkROX0OOV1sZ5k?authuser=0&hl=en&rclk=1",
+        "outlet_name": "United Pharma Enterprises",
+        "ratingText": "2.7 stars 3 Reviews",
+        "stars": 2.7,
+        "numberOfReviews": "3",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JmXU70tD8DDkR8BQvWu5phhE",
+        "address": " C 59/49, Mata Sundri Road, Near By ITO, New Delhi, Delhi 110002",
+        "sub_channel": "Office furniture store",
+        "phone": " 099589 44209",
+        "latitude": 28.635349,
+        "longitude": 77.246566,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/Irshad+Wooden+Scrap/data=!4m7!3m6!1s0x390cfcd0d23b7599:0x118669ee5a2f14f0!8m2!3d28.635349!4d77.246566!16s%2Fg%2F11g6rx85_t!19sChIJmXU70tD8DDkR8BQvWu5phhE?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Irshad Wooden Scrap",
+        "ratingText": "5.0 stars 118 Reviews",
+        "stars": 5,
+        "numberOfReviews": "118",
+        "websites": [
+            "http://irshadwoodenscrap.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JAQAAQN_8DDkRoXov7n0JdwA",
+        "address": " 24, 4800, Bharat Ram Rd, near Choudhury Eye Center, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Office equipment supplier",
+        "phone": " 080 4604 0056",
+        "latitude": 28.642111,
+        "longitude": 77.243599,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/G.+B.+Tech%28India%29/data=!4m7!3m6!1s0x390cfcdf40000001:0x77097dee2f7aa1!8m2!3d28.642111!4d77.243599!16s%2Fg%2F1tf2_s9c!19sChIJAQAAQN_8DDkRoXov7n0JdwA?authuser=0&hl=en&rclk=1",
+        "outlet_name": "G. B. Tech(India)",
+        "ratingText": "3.2 stars 60 Reviews",
+        "stars": 3.2,
+        "numberOfReviews": "60",
+        "websites": [
+            "https://www.gbtechindia.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JcQftO9n8DDkR5NRJOO0FPRU",
+        "address": " LG-2, Ansari Rd, Daryaganj, New Delhi, Delhi 110002",
+        "sub_channel": "Law Book Store",
+        "phone": " 098996 33000",
+        "latitude": 28.642122,
+        "longitude": 77.244388,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/Commercial+House/data=!4m7!3m6!1s0x390cfcd93bed0771:0x153d05ed3849d4e4!8m2!3d28.642122!4d77.244388!16s%2Fg%2F1jkyxhwrs!19sChIJcQftO9n8DDkR5NRJOO0FPRU?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Commercial House",
+        "ratingText": "3.9 stars 34 Reviews",
+        "stars": 3.9,
+        "numberOfReviews": "34",
+        "websites": [
+            "http://commerciallawpublishers.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JAQAAQN_8DDkRCwEIpUjIymU",
+        "address": " 5051/16, Netaji Subash Marg Opp. Moti Mahal Restaurant, Daryaganj, New Delhi, Delhi 110002",
+        "sub_channel": "Aquarium shop",
+        "phone": " 081307 33630",
+        "latitude": 28.6448307,
+        "longitude": 77.2402265,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Sea+Fish+Aquarium/data=!4m7!3m6!1s0x390cfcdf40000001:0x65cac848a508010b!8m2!3d28.6448307!4d77.2402265!16s%2Fg%2F1tjyr_9c!19sChIJAQAAQN_8DDkRCwEIpUjIymU?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Sea Fish Aquarium",
+        "ratingText": "3.4 stars 65 Reviews",
+        "stars": 3.4,
+        "numberOfReviews": "65",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J06IhGif9DDkRFp5Cev2Os90",
+        "address": " Service Lane, 166,Ground Floor, Chatta Lal Mian, Asaf Ali Rd, New Delhi, Delhi 110002",
+        "sub_channel": "Clothing store",
+        "phone": " 098113 79205",
+        "latitude": 28.6413876,
+        "longitude": 77.2371716,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Saeed+Collections+-+Designer+Suits+Wholesalers+in+Delhi+India/data=!4m7!3m6!1s0x390cfd271a21a2d3:0xddb38efd7a429e16!8m2!3d28.6413876!4d77.2371716!16s%2Fg%2F11fxymx_81!19sChIJ06IhGif9DDkRFp5Cev2Os90?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Saeed Collections - Designer Suits Wholesalers in Delhi India",
+        "ratingText": "4.8 stars 35 Reviews",
+        "stars": 4.8,
+        "numberOfReviews": "35",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jb3y2qGv9DDkR2HMvsa4iwCk",
+        "address": " 2nd Floor, 4794/23, Bharat Ram Rd, opposite Choudhary Eye 7 Hospital, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Book store",
+        "phone": "NA",
+        "latitude": 28.6422964,
+        "longitude": 77.2435131,
+        "status": "Available",
+        "type": "\"The quality of booksetting, sales, service and everything is excellent.\"",
+        "googleUrl": "https://www.google.com/maps/place/NIRVANA+BOOKS/data=!4m7!3m6!1s0x390cfd6ba8b67c6f:0x29c022aeb12f73d8!8m2!3d28.6422964!4d77.2435131!16s%2Fg%2F11wbyj8911!19sChIJb3y2qGv9DDkR2HMvsa4iwCk?authuser=0&hl=en&rclk=1",
+        "outlet_name": "NIRVANA BOOKS",
+        "ratingText": "4.9 stars 17 Reviews",
+        "stars": 4.9,
+        "numberOfReviews": "17",
+        "websites": [
+            "http://www.nirvanabooks.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J93iftz79DDkR6GkaZxiH-PM",
+        "address": " Shop No 1, Kotla Marg, Feroze Shah Kotla, Vikram Nagar, New Delhi, Delhi, 110002",
+        "sub_channel": "Stationery store",
+        "phone": "NA",
+        "latitude": 28.6338818,
+        "longitude": 77.2436114,
+        "status": "Available",
+        "type": "NA",
+        "googleUrl": "https://www.google.com/maps/place/Raj+Rani+Enterprises/data=!4m7!3m6!1s0x390cfd3eb79f78f7:0xf3f88718671a69e8!8m2!3d28.6338818!4d77.2436114!16s%2Fg%2F11wx7_wrh9!19sChIJ93iftz79DDkR6GkaZxiH-PM?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Raj Rani Enterprises",
+        "ratingText": "NA",
+        "stars": null,
+        "numberOfReviews": "NA",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JE4bqO9n8DDkRQTOKTUGoSEE",
+        "address": " Akarshan Bhawan, 23, Ansari Rd, Daryaganj, Delhi, 110002",
+        "sub_channel": "Book store",
+        "phone": " 011 4007 2100",
+        "latitude": 28.642155,
+        "longitude": 77.244387,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Sangam+Book+Depot/data=!4m7!3m6!1s0x390cfcd93bea8613:0x4148a8414d8a3341!8m2!3d28.642155!4d77.244387!16s%2Fg%2F1tdmyx43!19sChIJE4bqO9n8DDkRQTOKTUGoSEE?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Sangam Book Depot",
+        "ratingText": "3.3 stars 6 Reviews",
+        "stars": 3.3,
+        "numberOfReviews": "6",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JQ3ODsUn9DDkRM_AlVnfgM9c",
+        "address": " A-3/4, State Emporia Building, Baba Kharak Singh Rd, New Delhi, Delhi 110001",
+        "sub_channel": "Craft store",
+        "phone": " 011 2334 0343",
+        "latitude": 28.631332,
+        "longitude": 77.215414,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Delhi+Emporium/data=!4m7!3m6!1s0x390cfd49b1837343:0xd733e0775625f033!8m2!3d28.631332!4d77.215414!16s%2Fg%2F11cmmkl2h2!19sChIJQ3ODsUn9DDkRM_AlVnfgM9c?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Delhi Emporium",
+        "ratingText": "4.2 stars 326 Reviews",
+        "stars": 4.2,
+        "numberOfReviews": "326",
+        "websites": [
+            "http://www.dsiidc.org/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JAQAAQN_8DDkRhCyr-YOwjhU",
+        "address": " 4771, Bharat Ram Rd, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Health food store",
+        "phone": "NA",
+        "latitude": 28.6424751,
+        "longitude": 77.2427917,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Hempushpa/data=!4m7!3m6!1s0x390cfcdf40000001:0x158eb083f9ab2c84!8m2!3d28.6424751!4d77.2427917!16s%2Fg%2F1tctq12d!19sChIJAQAAQN_8DDkRhCyr-YOwjhU?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Hempushpa",
+        "ratingText": "4.4 stars 43 Reviews",
+        "stars": 4.4,
+        "numberOfReviews": "43",
+        "websites": [
+            "http://abc.xyz/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JQxrmkbXkDDkRKX2kqJle1FM",
+        "address": " G-1, Atlantic plaza, I P Extension Delhi, opposite Ajanta Apartments, New Delhi, Delhi 110092",
+        "sub_channel": "General store",
+        "phone": " 088008 16131",
+        "latitude": 28.6282995,
+        "longitude": 77.3078674,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Healthways+Departmental+Store/data=!4m7!3m6!1s0x390ce4b591e61a43:0x53d45e99a8a47d29!8m2!3d28.6282995!4d77.3078674!16s%2Fg%2F124t2cm64!19sChIJQxrmkbXkDDkRKX2kqJle1FM?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Healthways Departmental Store",
+        "ratingText": "4.7 stars 22 Reviews",
+        "stars": 4.7,
+        "numberOfReviews": "22",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JF3eO4Nj8DDkRcfs7WQhSvdU",
+        "address": " The WallKing, 109, Ansari Rd, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Wallpaper store",
+        "phone": " 098870 51527",
+        "latitude": 28.6413554,
+        "longitude": 77.2432959,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/Customize+Wallpaper/data=!4m7!3m6!1s0x390cfcd8e08e7717:0xd5bd5208593bfb71!8m2!3d28.6413554!4d77.2432959!16s%2Fg%2F11fzf3tb0h!19sChIJF3eO4Nj8DDkRcfs7WQhSvdU?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Customize Wallpaper",
+        "ratingText": "4.5 stars 12 Reviews",
+        "stars": 4.5,
+        "numberOfReviews": "12",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JHSAxl978DDkRbXQtCDlg7UM",
+        "address": " 2/25, 1st Floor, arun house, Ansari Rd, Daryaganj, New Delhi, Delhi 110002",
+        "sub_channel": "Medical Book Store",
+        "phone": " 078359 70970",
+        "latitude": 28.6427738,
+        "longitude": 77.2452039,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/Atithi+Medical+Books+Pvt+Ltd/data=!4m7!3m6!1s0x390cfcde9731201d:0x43ed6039082d746d!8m2!3d28.6427738!4d77.2452039!16s%2Fg%2F11c1nwtl3l!19sChIJHSAxl978DDkRbXQtCDlg7UM?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Atithi Medical Books Pvt Ltd",
+        "ratingText": "3.5 stars 61 Reviews",
+        "stars": 3.5,
+        "numberOfReviews": "61",
+        "websites": [
+            "https://www.atithibooks.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jv6g8w978DDkROmxkGe0rQMo",
+        "address": " 2/14, Ground Floor, Gali No. 2, Ansari Road, Daryaganj, Delhi, 110002",
+        "sub_channel": "Book store",
+        "phone": " 011 4152 1153",
+        "latitude": 28.6424791,
+        "longitude": 77.244873,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/BooksWagon+:+India%27s+Largest+Online+Bookstore/data=!4m7!3m6!1s0x390cfcdec33ca8bf:0xca402bed19646c3a!8m2!3d28.6424791!4d77.244873!16s%2Fg%2F1q69wzrxv!19sChIJv6g8w978DDkROmxkGe0rQMo?authuser=0&hl=en&rclk=1",
+        "outlet_name": "BooksWagon : India's Largest Online Bookstore",
+        "ratingText": "4.0 stars 335 Reviews",
+        "stars": 4,
+        "numberOfReviews": "335",
+        "websites": [
+            "https://www.bookswagon.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JAVY9Vif9DDkRx0fFmhCxXSo",
+        "address": " No 3535, Netaji Subhash Marg, Kalan Mahal, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Car dealer",
+        "phone": " 070451 34955",
+        "latitude": 28.6425839,
+        "longitude": 77.2402133,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Tata+Motors+Cars+Showroom+-+Arya+Motors,+Dariya+Ganj/data=!4m7!3m6!1s0x390cfd27563d5601:0x2a5db1109ac547c7!8m2!3d28.6425839!4d77.2402133!16s%2Fg%2F11hyn8fytd!19sChIJAVY9Vif9DDkRx0fFmhCxXSo?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Tata Motors Cars Showroom - Arya Motors, Dariya Ganj",
+        "ratingText": "4.5 stars 571 Reviews",
+        "stars": 4.5,
+        "numberOfReviews": "571",
+        "websites": [
+            "https://dealer-locator.cars.tatamotors.com/tata-motors-cars-showroom-arya-motors-dariya-ganj-car-dealer-dariya-ganj-new-delhi-77219/Home?utm_source=locator&utm_medium=googleplaces"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J-emOIDv9DDkRIDOeqigFTxY",
+        "address": " Shop No 3, Maulana Azad Dental College Campus, near Makki Masjid, Maulana Azad Medical College Campus, Balmiki Basti, New Delhi, Delhi, 110002",
+        "sub_channel": "Dental supply store",
+        "phone": "NA",
+        "latitude": 28.6362406,
+        "longitude": 77.2373544,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/chaman+dental+supplier/data=!4m7!3m6!1s0x390cfd3b208ee9f9:0x164f0528aa9e3320!8m2!3d28.6362406!4d77.2373544!16s%2Fg%2F11b7q652hy!19sChIJ-emOIDv9DDkRIDOeqigFTxY?authuser=0&hl=en&rclk=1",
+        "outlet_name": "chaman dental supplier",
+        "ratingText": "3.0 stars 22 Reviews",
+        "stars": 3,
+        "numberOfReviews": "22",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JEZFXGNn8DDkRjIg-XcPZKOw",
+        "address": " 4800, Street, No.24, Ansari Rd, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Home goods store",
+        "phone": "NA",
+        "latitude": 28.641547,
+        "longitude": 77.2442583,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Wallart/data=!4m7!3m6!1s0x390cfcd918579111:0xec28d9c35d3e888c!8m2!3d28.641547!4d77.2442583!16s%2Fg%2F11b6_qth1_!19sChIJEZFXGNn8DDkRjIg-XcPZKOw?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Wallart",
+        "ratingText": "4.3 stars 45 Reviews",
+        "stars": 4.3,
+        "numberOfReviews": "45",
+        "websites": [
+            "http://www.wallartindia.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J9_u55yv9DDkRxTYhGliReBk",
+        "address": " FF, Delhi Chamber Building, 108-108A, Delhi Gate, New Delhi, Delhi, 110002",
+        "sub_channel": "Medical equipment supplier",
+        "phone": " 098100 61827",
+        "latitude": 28.6397177,
+        "longitude": 77.240055,
+        "status": "Available",
+        "type": "On-site services",
+        "googleUrl": "https://www.google.com/maps/place/Oxygen+Concentrator+on+rent/data=!4m7!3m6!1s0x390cfd2be7b9fbf7:0x197891581a2136c5!8m2!3d28.6397177!4d77.240055!16s%2Fg%2F11rc48y1kg!19sChIJ9_u55yv9DDkRxTYhGliReBk?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Oxygen Concentrator on rent",
+        "ratingText": "4.9 stars 17 Reviews",
+        "stars": 4.9,
+        "numberOfReviews": "17",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JZ1XlPdn8DDkRKpDvt6H9JeY",
+        "address": " 23, Ansari Rd, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Book store",
+        "phone": " 011 2327 3756",
+        "latitude": 28.6422541,
+        "longitude": 77.2444051,
+        "status": "Available",
+        "type": "\"It’s my shop only .\"",
+        "googleUrl": "https://www.google.com/maps/place/Uppal+Book+Store/data=!4m7!3m6!1s0x390cfcd93de55567:0xe625fda1b7ef902a!8m2!3d28.6422541!4d77.2444051!16s%2Fg%2F1tdp7_rt!19sChIJZ1XlPdn8DDkRKpDvt6H9JeY?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Uppal Book Store",
+        "ratingText": "3.6 stars 7 Reviews",
+        "stars": 3.6,
+        "numberOfReviews": "7",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jpc8pWCf9DDkRQoASP_ZJE7Y",
+        "address": " shop no 3487, Darya Ganj Ln, Kucha Lal Man, Old Delhi, New Delhi, Delhi, 110002",
+        "sub_channel": "Watch store",
+        "phone": " 098116 86844",
+        "latitude": 28.6421017,
+        "longitude": 77.2404053,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/relex+watch+company/data=!4m7!3m6!1s0x390cfd275829cfa5:0xb61349f63f128042!8m2!3d28.6421017!4d77.2404053!16s%2Fg%2F1thxtlmv!19sChIJpc8pWCf9DDkRQoASP_ZJE7Y?authuser=0&hl=en&rclk=1",
+        "outlet_name": "relex watch company",
+        "ratingText": "3.8 stars 54 Reviews",
+        "stars": 3.8,
+        "numberOfReviews": "54",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jy6K4E9_8DDkRREW6mLfaRSY",
+        "address": " 1732/21, Dayanand Rd, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Cell phone store",
+        "phone": "NA",
+        "latitude": 28.6449421,
+        "longitude": 77.2424741,
+        "status": "Temporarily closed",
+        "type": "\"Knowledgeable staff and great deals thanks   wasim for helping us\"",
+        "googleUrl": "https://www.google.com/maps/place/Phone+Store/data=!4m7!3m6!1s0x390cfcdf13b8a2cb:0x2645dab798ba4544!8m2!3d28.6449421!4d77.2424741!16s%2Fg%2F1t_kdxcz!19sChIJy6K4E9_8DDkRREW6mLfaRSY?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Phone Store",
+        "ratingText": "4.1 stars 16 Reviews",
+        "stars": 4.1,
+        "numberOfReviews": "16",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jxw27ELr9DDkRpqbXN1d8fFo",
+        "address": " Express Building, C51/403 Ferozshah, Kotla Marg, behind Indian, Balmiki Basti, Vikram Nagar, New Delhi, Delhi, 110002",
+        "sub_channel": "Sweet shop",
+        "phone": "NA",
+        "latitude": 28.6349159,
+        "longitude": 77.2433053,
+        "status": "Available",
+        "type": "NA",
+        "googleUrl": "https://www.google.com/maps/place/Jai+Masih+Stall/data=!4m7!3m6!1s0x390cfdba10bb0dc7:0x5a7c7c5737d7a6a6!8m2!3d28.6349159!4d77.2433053!16s%2Fg%2F11wy1bn73p!19sChIJxw27ELr9DDkRpqbXN1d8fFo?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Jai Masih Stall",
+        "ratingText": "NA",
+        "stars": null,
+        "numberOfReviews": "NA",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JxRLPQAD9DDkRoDD4AXATx4w",
+        "address": " 24/4800, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Woodworking supply store",
+        "phone": "NA",
+        "latitude": 28.6423661,
+        "longitude": 77.243274,
+        "status": "Available",
+        "type": "NA",
+        "googleUrl": "https://www.google.com/maps/place/Orient+Links+Private+Limited/data=!4m7!3m6!1s0x390cfd0040cf12c5:0x8cc7137001f830a0!8m2!3d28.6423661!4d77.243274!16s%2Fg%2F11l_51klv0!19sChIJxRLPQAD9DDkRoDD4AXATx4w?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Orient Links Private Limited",
+        "ratingText": "NA",
+        "stars": null,
+        "numberOfReviews": "NA",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JixzqCSf-DDkRG9fpJNGkQvU",
+        "address": " Shop No 4864, Gali No 24 Jain Bhavan, near Sanjeevan Hospital, Daryaganj, New Delhi, Delhi 110002",
+        "sub_channel": "Wallpaper store",
+        "phone": " 093503 82030",
+        "latitude": 28.64164,
+        "longitude": 77.2432156,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Sonu+Art+And+Ultra+Walls/data=!4m7!3m6!1s0x390cfe2709ea1c8b:0xf542a4d124e9d71b!8m2!3d28.64164!4d77.2432156!16s%2Fg%2F1thxtlq4!19sChIJixzqCSf-DDkRG9fpJNGkQvU?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Sonu Art And Ultra Walls",
+        "ratingText": "4.6 stars 609 Reviews",
+        "stars": 4.6,
+        "numberOfReviews": "609",
+        "websites": [
+            "http://www.ultrawalls.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JoQVmAnH2ZxQR-GvRIH_w9c0",
+        "address": " Bharat Scouts Building, 113A, Ansari Rd, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Book store",
+        "phone": " 011 2324 3051",
+        "latitude": 28.6434234,
+        "longitude": 77.2431578,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Prakash+Books+India+Private+Limited/data=!4m7!3m6!1s0x1467f671026605a1:0xcdf5f07f20d16bf8!8m2!3d28.6434234!4d77.2431578!16s%2Fg%2F1tgcwfny!19sChIJoQVmAnH2ZxQR-GvRIH_w9c0?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Prakash Books India Private Limited",
+        "ratingText": "4.0 stars 182 Reviews",
+        "stars": 4,
+        "numberOfReviews": "182",
+        "websites": [
+            "http://www.wonderhousebooks.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JOZYk2SD9DDkRuq42YR4YdlQ",
+        "address": " Gate No. 3, Metro Station, 1057, Tiraha Behram Khan Rd, near Delhi Gate, Bazar Chitli Qabar, Rakab Ganj, Chandni Mahal, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Calligraphy lesson",
+        "phone": " 099100 20093",
+        "latitude": 28.6436562,
+        "longitude": 77.2377166,
+        "status": "Available",
+        "type": "\"The peerless tattoo maker and creative calligrapher of walled city\"",
+        "googleUrl": "https://www.google.com/maps/place/Tattoo+Guru+Javed+Ali/data=!4m7!3m6!1s0x390cfd20d9249639:0x5476181e6136aeba!8m2!3d28.6436562!4d77.2377166!16s%2Fg%2F11g8x0_vtb!19sChIJOZYk2SD9DDkRuq42YR4YdlQ?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Tattoo Guru Javed Ali",
+        "ratingText": "4.9 stars 873 Reviews",
+        "stars": 4.9,
+        "numberOfReviews": "873",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "J_S0EVBf9DDkRzHvEs-_7oZw",
+        "address": " S13, Sir Syed Ahmed Khan Rd, behind delite cinema, Bazar Chitli Qabar, Rakab Ganj, Sheesh Mahal, Ganjmeer, Delhi, 110002",
+        "sub_channel": "Sign shop",
+        "phone": " 082876 08127",
+        "latitude": 28.6430314,
+        "longitude": 77.2362103,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/S.+S.+Sign+Board/data=!4m7!3m6!1s0x390cfd1754042dfd:0x9ca1fbefb3c47bcc!8m2!3d28.6430314!4d77.2362103!16s%2Fg%2F11p04vtz_d!19sChIJ_S0EVBf9DDkRzHvEs-_7oZw?authuser=0&hl=en&rclk=1",
+        "outlet_name": "S. S. Sign Board",
+        "ratingText": "4.9 stars 13 Reviews",
+        "stars": 4.9,
+        "numberOfReviews": "13",
+        "websites": [
+            "https://s-s-sign-board-manufacturer.business.site/?utm_source=gmb&utm_medium=referral"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JW__fqCD9DDkR3xoP2m80MJI",
+        "address": " No. 2- B, Netaji Subhash Marg, Kucha Alam, Old, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Musical instrument store",
+        "phone": "NA",
+        "latitude": 28.6432871,
+        "longitude": 77.2402623,
+        "status": "Available",
+        "type": "\"Best Experience Ever very supportive and knowledgeable staff specially sonu\"",
+        "googleUrl": "https://www.google.com/maps/place/Rnb+Music+Private+Limited/data=!4m7!3m6!1s0x390cfd20a8dfff5b:0x9230346fda0f1adf!8m2!3d28.6432871!4d77.2402623!16s%2Fg%2F11fsls07w1!19sChIJW__fqCD9DDkR3xoP2m80MJI?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Rnb Music Private Limited",
+        "ratingText": "2.3 stars 3 Reviews",
+        "stars": 2.3,
+        "numberOfReviews": "3",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JkRwRXNj8DDkRvs2KSHkWGIg",
+        "address": " 15, Dr. Ambedkar Stadium, Jawaharlal Nehru Marg, Delhi Gate, Vikram Nagar, Delhi, 110002",
+        "sub_channel": "Carpet store",
+        "phone": " 098688 64333",
+        "latitude": 28.639657,
+        "longitude": 77.242252,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/Raja+Carpets/data=!4m7!3m6!1s0x390cfcd85c111c91:0x88181679488acdbe!8m2!3d28.639657!4d77.242252!16s%2Fg%2F1wl4n_31!19sChIJkRwRXNj8DDkRvs2KSHkWGIg?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Raja Carpets",
+        "ratingText": "5.0 stars 9 Reviews",
+        "stars": 5,
+        "numberOfReviews": "9",
+        "websites": [
+            "http://www.indiamart.com/raja-carpets/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JwSQ_hNj8DDkRJL7UR5ntY1k",
+        "address": " 8 & 3580, Netaji Subhash Marg, opp. YES BANK, Daryaganj, New Delhi, Delhi 110002",
+        "sub_channel": "Establishment",
+        "phone": "NA",
+        "latitude": 28.643348,
+        "longitude": 77.240306,
+        "status": "Available",
+        "type": "\"They will guide you what product suits you best and at a competitive price.\"",
+        "googleUrl": "https://www.google.com/maps/place/UNITED+AGENCIES/data=!4m7!3m6!1s0x390cfcd8843f24c1:0x5963ed9947d4be24!8m2!3d28.643348!4d77.240306!16s%2Fg%2F1tffs9fl!19sChIJwSQ_hNj8DDkRJL7UR5ntY1k?authuser=0&hl=en&rclk=1",
+        "outlet_name": "UNITED AGENCIES",
+        "ratingText": "3.3 stars 10 Reviews",
+        "stars": 3.3,
+        "numberOfReviews": "10",
+        "websites": [
+            "http://www.unitedagenciesindia.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JkWsA1i_9DDkRPutJt9ziAF4",
+        "address": " 4846, 49/24, Ansari Rd, near Sanjeevan Hospital, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Medical Book Store",
+        "phone": " 082870 98822",
+        "latitude": 28.6411974,
+        "longitude": 77.24358,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/All+India+Book+House-+AIBH/data=!4m7!3m6!1s0x390cfd2fd6006b91:0x5e00e2dcb749eb3e!8m2!3d28.6411974!4d77.24358!16s%2Fg%2F11fmxtqgl5!19sChIJkWsA1i_9DDkRPutJt9ziAF4?authuser=0&hl=en&rclk=1",
+        "outlet_name": "All India Book House- AIBH",
+        "ratingText": "4.8 stars 5 Reviews",
+        "stars": 4.8,
+        "numberOfReviews": "5",
+        "websites": [
+            "https://www.aibh.in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JHa7Mad_8DDkRzThINJhuliw",
+        "address": " 68, Dr Subhash Bhargava Marg, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Book store",
+        "phone": " 011 4007 1318",
+        "latitude": 28.6437892,
+        "longitude": 77.2417188,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/BookVistas.com/data=!4m7!3m6!1s0x390cfcdf69ccae1d:0x2c966e98344838cd!8m2!3d28.6437892!4d77.2417188!16s%2Fg%2F1ptwflrt5!19sChIJHa7Mad_8DDkRzThINJhuliw?authuser=0&hl=en&rclk=1",
+        "outlet_name": "BookVistas.com",
+        "ratingText": "3.5 stars 37 Reviews",
+        "stars": 3.5,
+        "numberOfReviews": "37",
+        "websites": [
+            "http://www.bookvistas.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JubfqvdD9DDkRhm9aJ212cGM",
+        "address": " 77, Kedarnath Ln, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Printing equipment and supplies",
+        "phone": " 088791 54036",
+        "latitude": 28.644393,
+        "longitude": 77.2414278,
+        "status": "Available",
+        "type": "NA",
+        "googleUrl": "https://www.google.com/maps/place/Canon+PIXMA+Zone/data=!4m7!3m6!1s0x390cfdd0bdeab7b9:0x6370766d275a6f86!8m2!3d28.644393!4d77.2414278!16s%2Fg%2F11lmc4ssh1!19sChIJubfqvdD9DDkRhm9aJ212cGM?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Canon PIXMA Zone",
+        "ratingText": "NA",
+        "stars": null,
+        "numberOfReviews": "NA",
+        "websites": [
+            "https://pixmazone.in.canon/canon-pixma-zone-amazing-systech-pvt-ltd-printing-equipment-and-supplies-daryaganj-new-delhi-337569/Home?utm_source=locator&utm_medium=googleplaces"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JaTXVh2v9DDkRPK-18YFEOIw",
+        "address": " Allahbad Bank Wali Gali, 4226-1 Gali, 1, Ansari Rd, Delhi, 110002",
+        "sub_channel": "Book store",
+        "phone": " 011 2325 4226",
+        "latitude": 28.6410804,
+        "longitude": 77.2450729,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Sasti+Hatti+Book+Shop/data=!4m7!3m6!1s0x390cfd6b87d53569:0x8c384481f1b5af3c!8m2!3d28.6410804!4d77.2450729!16s%2Fg%2F11p_8n3c39!19sChIJaTXVh2v9DDkRPK-18YFEOIw?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Sasti Hatti Book Shop",
+        "ratingText": "NA",
+        "stars": null,
+        "numberOfReviews": "NA",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JCULA0ND8DDkRWidufUnYHK0",
+        "address": " 12-H, New Daryaganj Road, opp. Officers' Mess, New Delhi, Delhi 110002",
+        "sub_channel": "Children's Book Store",
+        "phone": " 011 2326 1567",
+        "latitude": 28.6352202,
+        "longitude": 77.2468858,
+        "status": "Available",
+        "type": "NA",
+        "googleUrl": "https://www.google.com/maps/place/Little+Scholarz+Pvt.+Ltd/data=!4m7!3m6!1s0x390cfcd0d0c04209:0xad1cd8497d6e275a!8m2!3d28.6352202!4d77.2468858!16s%2Fg%2F11g020nx96!19sChIJCULA0ND8DDkRWidufUnYHK0?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Little Scholarz Pvt. Ltd",
+        "ratingText": "3.7 stars 6 Reviews",
+        "stars": 3.7,
+        "numberOfReviews": "6",
+        "websites": [
+            "http://littlescholarz.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JBRU-HNn8DDkR6ZUS54jl56o",
+        "address": " 4859, 24, Ansari Rd, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Book publisher",
+        "phone": " 011 4354 6000",
+        "latitude": 28.6416739,
+        "longitude": 77.2432523,
+        "status": "Available",
+        "type": "On-site services",
+        "googleUrl": "https://www.google.com/maps/place/Sultan+Chand+%26+Sons+Pvt.+Ltd./data=!4m7!3m6!1s0x390cfcd91c3e1505:0xaae7e588e71295e9!8m2!3d28.6416739!4d77.2432523!16s%2Fg%2F1tf7_zsn!19sChIJBRU-HNn8DDkR6ZUS54jl56o?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Sultan Chand & Sons Pvt. Ltd.",
+        "ratingText": "4.4 stars 100 Reviews",
+        "stars": 4.4,
+        "numberOfReviews": "100",
+        "websites": [
+            "https://sultan-chand.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JPTD_4CD9DDkR3OIS99M5fN8",
+        "address": " G-7, Vardhman City 2 Plaza, Asaf Ali Rd, Kalyanpura, Chandni Chowk, New Delhi, Delhi, 110002",
+        "sub_channel": "Indian",
+        "phone": " 088105 77074",
+        "latitude": 28.6424975,
+        "longitude": 77.2318719,
+        "status": "Available",
+        "type": "Dine-in",
+        "googleUrl": "https://www.google.com/maps/place/Smile+Darbar+A+Family+Restaurant/data=!4m7!3m6!1s0x390cfd20e0ff303d:0xdf7c39d3f712e2dc!8m2!3d28.6424975!4d77.2318719!16s%2Fg%2F11fphhdgp8!19sChIJPTD_4CD9DDkR3OIS99M5fN8?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Smile Darbar A Family Restaurant",
+        "ratingText": "3.9 stars 312 Reviews",
+        "stars": 3.9,
+        "numberOfReviews": "312",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JUWpnlgn9DDkRSN2J7PYxqVQ",
+        "address": " 732140, Minto Rd, Mandi House, New Delhi, Delhi, 110002",
+        "sub_channel": "Furniture store",
+        "phone": " 088823 82688",
+        "latitude": 28.636043,
+        "longitude": 77.2347312,
+        "status": "Available",
+        "type": "NA",
+        "googleUrl": "https://www.google.com/maps/place/Sana+Begum+Furniture/data=!4m7!3m6!1s0x390cfd0996676a51:0x54a931f6ec89dd48!8m2!3d28.636043!4d77.2347312!16s%2Fg%2F11l_0dqn4y!19sChIJUWpnlgn9DDkRSN2J7PYxqVQ?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Sana Begum Furniture",
+        "ratingText": "NA",
+        "stars": null,
+        "numberOfReviews": "NA",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JFzkmDJ4CDTkRSsgpEawWkFo",
+        "address": " Municipal Market, 131, Karol Bagh, New Delhi, Delhi 110005 Located in: Sai care salutions",
+        "sub_channel": "Cell phone store",
+        "phone": " 098109 56020",
+        "latitude": 28.6501151,
+        "longitude": 77.1908037,
+        "status": "Available",
+        "type": "In-store shopping",
+        "googleUrl": "https://www.google.com/maps/place/Vaishno+Electronics+Private+Limited/data=!4m7!3m6!1s0x390d029e0c263917:0x5a9016ac1129c84a!8m2!3d28.6501151!4d77.1908037!16s%2Fg%2F1tr9ltpl!19sChIJFzkmDJ4CDTkRSsgpEawWkFo?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Vaishno Electronics Private Limited",
+        "ratingText": "3.6 stars 344 Reviews",
+        "stars": 3.6,
+        "numberOfReviews": "344",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JdwcUYt_8DDkRfeThU1-rS6E",
+        "address": " shop \"-18, 19, Netaji Subhash Marg, Daryaganj, New Delhi, Delhi, 110002",
+        "sub_channel": "Refrigerator store",
+        "phone": "NA",
+        "latitude": 28.6442065,
+        "longitude": 77.2406014,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/Carrier+Airconditioning+and+Refrigeration/data=!4m7!3m6!1s0x390cfcdf62140777:0xa14bab5f53e1e47d!8m2!3d28.6442065!4d77.2406014!16s%2Fg%2F11bzrfxpm5!19sChIJdwcUYt_8DDkRfeThU1-rS6E?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Carrier Airconditioning and Refrigeration",
+        "ratingText": "2.3 stars 19 Reviews",
+        "stars": 2.3,
+        "numberOfReviews": "19",
+        "websites": [
+            "https://www.carrier.com/commercial/en/in/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "Jw0HPwdj8DDkRkiFxd4CQciQ",
+        "address": " 74, Daryaganj, Delhi, 110002",
+        "sub_channel": "Electronics store",
+        "phone": " 080 3376 7468",
+        "latitude": 28.6417592,
+        "longitude": 77.2422415,
+        "status": "Available",
+        "type": "In-store pick-up",
+        "googleUrl": "https://www.google.com/maps/place/Elgin+Electronics+Private+Limited+%7C+Authorised+Distributor+of+Pioneer+TOA+,+QSC+JBL+in+Delhi/data=!4m7!3m6!1s0x390cfcd8c1cf41c3:0x2472908077712192!8m2!3d28.6417592!4d77.2422415!16s%2Fg%2F11cmzdv74l!19sChIJw0HPwdj8DDkRkiFxd4CQciQ?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Elgin Electronics Private Limited | Authorised Distributor of Pioneer TOA , QSC JBL in Delhi",
+        "ratingText": "4.3 stars 37 Reviews",
+        "stars": 4.3,
+        "numberOfReviews": "37",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JgYZvL2XlDDkRdwq7d5rQQXw",
+        "address": " 4808/24, Bharat Ram Rd, Daryaganj, Delhi, 110002",
+        "sub_channel": "Law Book Store",
+        "phone": "NA",
+        "latitude": 28.6423748,
+        "longitude": 77.2424771,
+        "status": "Available",
+        "type": "Delivery",
+        "googleUrl": "https://www.google.com/maps/place/TOPPERMART/data=!4m7!3m6!1s0x390ce5652f6f8681:0x7c41d09a77bb0a77!8m2!3d28.6423748!4d77.2424771!16s%2Fg%2F11rfb4qw09!19sChIJgYZvL2XlDDkRdwq7d5rQQXw?authuser=0&hl=en&rclk=1",
+        "outlet_name": "TOPPERMART",
+        "ratingText": "NA",
+        "stars": null,
+        "numberOfReviews": "NA",
+        "websites": [
+            "https://www.toppermart.com/"
+        ],
+        "emails": "",
+        "customerReviews": []
+    },
+    {
+        "placeId": "JIV1O9qr9DDkRUveEX5cGxtA",
+        "address": " J6PM+R3J 5 Masjid, Mirdard Marg, 64 Khamba, New Delhi, Delhi, 110002",
+        "sub_channel": "General store",
+        "phone": " 095992 50369",
+        "latitude": 28.6370778,
+        "longitude": 77.2326345,
+        "status": "Available",
+        "type": "NA",
+        "googleUrl": "https://www.google.com/maps/place/Ikram+General+Store/data=!4m7!3m6!1s0x390cfdaaf64e5d21:0xd0c606975f84f752!8m2!3d28.6370778!4d77.2326345!16s%2Fg%2F11tk8pq56t!19sChIJIV1O9qr9DDkRUveEX5cGxtA?authuser=0&hl=en&rclk=1",
+        "outlet_name": "Ikram General Store",
+        "ratingText": "NA",
+        "stars": null,
+        "numberOfReviews": "NA",
+        "websites": [
+            "NA"
+        ],
+        "emails": "",
+        "customerReviews": []
+    }
+]

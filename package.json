@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js hello"
   },
   "author": "prince-raj",
   "license": "ISC",
@@ -14,6 +14,7 @@
     "axios": "^1.7.9",
     "cheerio": "^1.0.0",
     "csv-stringify": "^6.5.2",
+    "csv-writer": "^1.6.0",
     "fs": "^0.0.1-security",
     "mysql2": "^3.12.0",
     "puppeteer": "^24.0.0",

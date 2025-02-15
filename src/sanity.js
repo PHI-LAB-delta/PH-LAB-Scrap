@@ -19,9 +19,9 @@ function calculateWeight(stars, numberOfReviews, websites) {
     return (weight * 100).toFixed(2) + "%";
 }
 
-function removeAttributes(fileName, pathName, attributeToConsider) {
+function removeAttributes(fileNameTosave, fileName, pathName, attributeToConsider) {
     const inputFilePath = path.join(pathName, fileName);
-    const outputFilePath = path.join(pathName, `${fileName.replace('.json', '.csv')}`);
+    const outputFilePath = path.join(pathName, `${fileNameTosave.replace('.json', '.csv')}`);
 
     const readStream = fs.createReadStream(inputFilePath, { encoding: 'utf8' });
     const writeStream = fs.createWriteStream(outputFilePath, { encoding: 'utf8' });

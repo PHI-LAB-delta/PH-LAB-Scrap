@@ -1,4 +1,5 @@
 const fs = require('fs');
+const { createObjectCsvWriter } = require('csv-writer');
 const readline = require('readline');
 
 const extractTileId = (googleMapsUrl) => {
@@ -157,4 +158,28 @@ function isValidCoordinate(lat, lon) {
 }
 
 
-module.exports = { isValidCoordinate, isAlphabetic, extractTileId, extractJsonData, appendinArrayOfObject, isContactNumber, getDataCordinate, getZoomLevelFromUrl, ensureFileExists, cleanText }
+const saveToCSV = async (pathName, fileName, data) => {
+    try {
+        if (!data || data.length === 0) {
+            console.log("No data to save.");
+            return;
+        }
+
+        const filePath = `${pathName}/${fileName}`;
+
+        await fs.mkdir(pathName, { recursive: true });
+
+        const csvWriter = createObjectCsvWriter({
+            path: filePath,
+            header: Object.keys(data[0]).map(key => ({ id: key, title: key }))
+        });
+        await csvWriter.writeRecords(data);
+
+        // console.log(`Data saved successfully in ${filePath}`);
+    } catch (error) {
+        console.error("Error saving CSV file:", error);
+    }
+};
+
+
+module.exports = { saveToCSV, isValidCoordinate, isAlphabetic, extractTileId, extractJsonData, appendinArrayOfObject, isContactNumber, getDataCordinate, getZoomLevelFromUrl, ensureFileExists, cleanText }

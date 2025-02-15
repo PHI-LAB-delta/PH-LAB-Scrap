@@ -16,8 +16,6 @@ async function extractPJPForADay(apiHost, apiToken, lobName) {
 
         let apiUrl = `${apiHost}/v1/deliveryPJP/${formattedDate}?access_token=${apiToken}&size=20000&page=0&activeStatus=true&lob=${lobName}`;
 
-        console.log(apiUrl);
-
         const response = await axios.get(apiUrl);
         const data = response.data;
 
