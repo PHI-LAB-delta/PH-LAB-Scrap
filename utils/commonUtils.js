@@ -139,4 +139,22 @@ const getZoomLevelFromUrl = (url) => {
     }
 }
 
-module.exports = { extractTileId, extractJsonData, appendinArrayOfObject, isContactNumber, getDataCordinate, getZoomLevelFromUrl, ensureFileExists, cleanText }
+function isAlphabetic(str) {
+    // Regular expression to match alphabetic characters only (both uppercase and lowercase)
+    const regex = /^[A-Za-z]+$/;
+    return regex.test(str);
+}
+
+function isValidCoordinate(lat, lon) {
+    return (
+        typeof lat === "number" &&
+        typeof lon === "number" &&
+        !isNaN(lat) &&
+        !isNaN(lon) &&
+        lat >= -90 && lat <= 90 &&
+        lon >= -180 && lon <= 180
+    );
+}
+
+
+module.exports = { isValidCoordinate, isAlphabetic, extractTileId, extractJsonData, appendinArrayOfObject, isContactNumber, getDataCordinate, getZoomLevelFromUrl, ensureFileExists, cleanText }

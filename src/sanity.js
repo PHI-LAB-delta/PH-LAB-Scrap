@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const { attributeToConsider } = require('../config/sanity');
 const { parser } = require('stream-json');
 const { streamArray } = require('stream-json/streamers/StreamArray');
 const { stringify } = require('csv-stringify');
@@ -20,9 +19,9 @@ function calculateWeight(stars, numberOfReviews, websites) {
     return (weight * 100).toFixed(2) + "%";
 }
 
-function removeAttributes(fileName, pathName) {
+function removeAttributes(fileName, pathName, attributeToConsider) {
     const inputFilePath = path.join(pathName, fileName);
-    const outputFilePath = path.join(pathName, `filtered_${fileName.replace('.json', '.csv')}`);
+    const outputFilePath = path.join(pathName, `${fileName.replace('.json', '.csv')}`);
 
     const readStream = fs.createReadStream(inputFilePath, { encoding: 'utf8' });
     const writeStream = fs.createWriteStream(outputFilePath, { encoding: 'utf8' });

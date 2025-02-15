@@ -18,7 +18,7 @@ async function searchGoogleMaps(localArea, localAreaList, type) {
         puppeteer.use(stealthPlugin());
 
         browser = await puppeteer.launch({
-            headless: true,
+            headless: false,
         });
 
         const page = await browser.newPage();
@@ -39,7 +39,7 @@ async function searchGoogleMaps(localArea, localAreaList, type) {
             const url = $(el).attr("href");
             const parent = $(el).parent();
             const WrapperMain = parent.find("div.fontBodyMedium > div").eq(3);
-            const storeName = parent.find("div.fontHeadlineSmall").text();
+            const outlet_name = parent.find("div.fontHeadlineSmall").text();
             const ratingText = parent.find("span.fontBodyMedium > span").attr("aria-label");
             const address = `${WrapperMain.children('div').eq(0).text().split("·")[1]?.trim()}`;
             const { latitude, longitude } = extractLatLongFromUrl(url);
@@ -64,14 +64,14 @@ async function searchGoogleMaps(localArea, localAreaList, type) {
                 businessData.push({
                     placeId: placeId ? placeId : "NA",
                     address: address ? address : "NA",
-                    category: getCategory(WrapperMain) ? getCategory(WrapperMain) : "NA",
+                    sub_channel: getCategory(WrapperMain) ? getCategory(WrapperMain) : "NA",
                     phone: phone ? phone : "NA",
                     latitude: latitude ? latitude : "NA",
                     longitude: longitude ? longitude : "NA",
                     status: status ? status : "NA",
                     type: getstoreType(parent) ? getstoreType(parent) : "NA",
                     googleUrl: url ? url : "NA",
-                    storeName: storeName ? storeName : "NA",
+                    outlet_name: outlet_name ? outlet_name : "NA",
                     ratingText: ratingText ? ratingText : "NA",
                     stars: ratingText?.split("stars")[0]?.trim() ? Number(ratingText.split("stars")[0].trim()) : null,
                     numberOfReviews: (() => {
@@ -284,7 +284,6 @@ const run = async (locationAreaList, businessDataJsonPath, businessFileName, typ
     localContext = lc;
     const filePath = path.join(businessDataJsonPath, businessFileName);
     ensureFileExists(filePath);
-    console.log("starting scrapping.... ");
 
     for (const locationArea of locationAreaList) {
         console.log("Scrapping for : ", locationArea);

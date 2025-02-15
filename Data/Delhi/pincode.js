@@ -1,93 +1,88 @@
 const pincodeList = [
     {
-        "Area Name": "New Delhi G.P.O.",
-        "pincode": "110001",
-        "Post Office Name": "New Delhi Head Office"
+        "Area Name": "Connaught Place",
+        "Pincode": "110001",
+        "Post Office Name": "New Delhi G.P.O."
     },
     {
-        "Area Name": "Indraprastha",
-        "pincode": "110002",
-        "Post Office Name": "Indraprastha Head Office"
+        "Area Name": "Darya Ganj",
+        "Pincode": "110002",
+        "Post Office Name": "Indraprastha H.O."
     },
     {
-        "Area Name": "Lodi Road",
-        "pincode": "110003",
-        "Post Office Name": "Lodi Road Head Office"
+        "Area Name": "Lodhi Road",
+        "Pincode": "110003",
+        "Post Office Name": "Lodhi Road H.O."
     },
     {
         "Area Name": "Karol Bagh",
-        "pincode": "110005",
-        "Post Office Name": "Karol Bagh"
+        "Pincode": "110005",
+        "Post Office Name": "Karol Bagh S.O."
+    },
+    {
+        "Area Name": "Chandni Chowk",
+        "Pincode": "110006",
+        "Post Office Name": "Delhi G.P.O."
     },
     {
         "Area Name": "Delhi University",
-        "pincode": "110007",
-        "Post Office Name": "Delhi University"
+        "Pincode": "110007",
+        "Post Office Name": "Delhi University S.O."
     },
     {
         "Area Name": "Patel Nagar",
-        "pincode": "110008",
-        "Post Office Name": "Patel Nagar"
-    },
-    {
-        "Area Name": "Chanakyapuri",
-        "pincode": "110021",
-        "Post Office Name": "Chanakyapuri"
+        "Pincode": "110008",
+        "Post Office Name": "Patel Nagar S.O."
     },
     {
         "Area Name": "Green Park",
-        "pincode": "110016",
-        "Post Office Name": "Green Park"
+        "Pincode": "110016",
+        "Post Office Name": "Green Park S.O."
     },
     {
         "Area Name": "Malviya Nagar",
-        "pincode": "110017",
-        "Post Office Name": "Malviya Nagar"
+        "Pincode": "110017",
+        "Post Office Name": "Malviya Nagar S.O."
     },
     {
         "Area Name": "Kalkaji",
-        "pincode": "110019",
-        "Post Office Name": "Kalkaji"
-    },
-    {
-        "Area Name": "Nehru Place",
-        "pincode": "110019",
-        "Post Office Name": "Nehru Place"
+        "Pincode": "110019",
+        "Post Office Name": "Kalkaji S.O."
     },
     {
         "Area Name": "Okhla Industrial Area",
-        "pincode": "110020",
-        "Post Office Name": "Okhla Industrial Area"
+        "Pincode": "110020",
+        "Post Office Name": "Okhla Industrial Estate S.O."
     },
     {
         "Area Name": "Vasant Vihar",
-        "pincode": "110057",
-        "Post Office Name": "Vasant Vihar"
+        "Pincode": "110057",
+        "Post Office Name": "Vasant Vihar S.O."
     },
     {
         "Area Name": "Janakpuri",
-        "pincode": "110058",
-        "Post Office Name": "Janakpuri"
+        "Pincode": "110058",
+        "Post Office Name": "Janakpuri S.O."
     },
     {
         "Area Name": "Dwarka",
-        "pincode": "110075",
-        "Post Office Name": "Dwarka"
+        "Pincode": "110075",
+        "Post Office Name": "Dwarka S.O."
     },
     {
         "Area Name": "Rohini",
-        "pincode": "110085",
-        "Post Office Name": "Rohini"
+        "Pincode": "110085",
+        "Post Office Name": "Rohini S.O."
     },
     {
         "Area Name": "Pitampura",
-        "pincode": "110034",
-        "Post Office Name": "Pitampura"
+        "Pincode": "110034",
+        "Post Office Name": "Pitampura S.O."
     },
     {
         "Area Name": "Lajpat Nagar",
-        "pincode": "110024",
-        "Post Office Name": "Lajpat Nagar"
+        "Pincode": "110024",
+        "Post Office Name": "Lajpat Nagar S.O."
     }
 ]
 
