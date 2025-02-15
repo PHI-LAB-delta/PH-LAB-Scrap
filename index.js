@@ -9,27 +9,29 @@ const { getPJPForDay } = require('./utils/PJPUtils');
 const { getConst } = require("./utils/consts");
 const { checkCoordinates } = require("./src/boundaryCheck");
 const { saveToCSV } = require('./utils/commonUtils');
-const fs = require('fs').promises;
 let area = 'delhi';
 let fileName = `${area}OutletData.json`;
 let pathName = "Data/delhi";
 let pathNameCompany = `${pathName}/companyData`;
 
 let lob = "";
+let env = "";
 async function main() {
 
     const args = process.argv;
+    console.log(args[2]);
+
     lob = args[2]
+    env = args[3]
     const handleExecution = {
-        toScrapData: args[3],
-        toDoSanityForLLMSimilarity: args[4],
-        toGetPJPData: args[5],
+        toScrapData: args[4] === "true" ? true : false,
+        toDoSanityForLLMSimilarity: args[5] === "true" ? true : false,
+        toGetPJPData: args[6] === "true" ? true : false,
     }
-    if (lob || lob.length) {
+    if (!lob || !lob.length || !env || !env.length) {
         console.log("Please enter the lob to proceed");
         return;
     }
-
 
     // scrapping
     if (handleExecution.toScrapData) {
@@ -49,7 +51,7 @@ async function main() {
     // PJP - company data
 
     if (handleExecution.toGetPJPData) {
-        const companyPJPDetails = await getPJPForDay();
+        const companyPJPDetails = await getPJPForDay(lob, env);
         await getOutletDataAndStoreinCSV(companyPJPDetails, lob);
     }
     // simar code -
@@ -86,10 +88,10 @@ const getOutletDataAndStoreinCSV = async (companyPJPDetails, lob) => {
         pjpOutletDetails
     );
 
+    const fileNameTosave = fileName.replace('.json', '.csv');
+    await saveToCSV(pathNameCompany, fileNameTosave, withinBoundaryData)
 
-    saveToCSV(pathNameCompany, fileName, withinBoundaryData)
-
-    console.log(`LOB Data saved successfully in ${pathName}/${fileName}`);
+    console.log(`LOB Data saved successfully in ${pathNameCompany}/${fileNameTosave}`);
 };
 
 const sanity = (sanityFor) => {

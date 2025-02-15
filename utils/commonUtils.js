@@ -167,15 +167,20 @@ const saveToCSV = async (pathName, fileName, data) => {
 
         const filePath = `${pathName}/${fileName}`;
 
-        await fs.mkdir(pathName, { recursive: true });
+        await new Promise((resolve, reject) => {
+            fs.mkdir(pathName, { recursive: true }, (err) => {
+                if (err) reject(err);
+                else resolve();
+            });
+        });
 
         const csvWriter = createObjectCsvWriter({
             path: filePath,
             header: Object.keys(data[0]).map(key => ({ id: key, title: key }))
         });
-        await csvWriter.writeRecords(data);
 
-        // console.log(`Data saved successfully in ${filePath}`);
+        await csvWriter.writeRecords(data);
+        console.log(`Data saved successfully in ${filePath}`);
     } catch (error) {
         console.error("Error saving CSV file:", error);
     }
