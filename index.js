@@ -25,7 +25,7 @@ async function main() {
     env = args[3]
     const handleExecution = {
         toScrapData: args[4] === "true" ? true : false,
-        toDoSanityForLLMSimilarity: args[5] === "true" ? true : false,
+        toFindOppournityOutlets: args[5] === "true" ? true : false,
         toGetPJPData: args[6] === "true" ? true : false,
     }
     if (!lob || !lob.length || !env || !env.length) {
@@ -40,21 +40,24 @@ async function main() {
         console.log("✅ Web scraping completed.");
     }
 
-    // Code sanity check
-    if (handleExecution.toDoSanityForLLMSimilarity) {
+    // finding opportunity outlets:
+
+    if (handleExecution.toFindOppournityOutlets) {
+        // Code sanity check
         console.log("🔍 Running code sanity check...");
         const sanityFor = "llmSimalarity";
-        sanity(sanityFor);
+        const filterDarkOutlet = await sanity(sanityFor);
         console.log("✅ Code sanity check passed.");
+        // extracting all company outlets from DB
+        const brightOutlets = await getOutletData(lob);
+        // simarlirity LLM code -
     }
 
     // PJP - company data
-
     if (handleExecution.toGetPJPData) {
         const companyPJPDetails = await getPJPForDay(lob, env);
         await getOutletDataAndStoreinCSV(companyPJPDetails, lob);
     }
-    // simar code -
 
 
 
@@ -94,10 +97,10 @@ const getOutletDataAndStoreinCSV = async (companyPJPDetails, lob) => {
     console.log(`LOB Data saved successfully in ${pathNameCompany}/${fileNameTosave}`);
 };
 
-const sanity = (sanityFor) => {
+const sanity = async (sanityFor, toSaveInCSV = true) => {
     const attributeToConsider = getAttributeToConsider(sanityFor);
-    removeAttributes(`${sanityFor}_${fileName}`, fileName, pathName, attributeToConsider);
-}
+    return await removeAttributes(`${sanityFor}_${fileName}`, fileName, pathName, attributeToConsider, toSaveInCSV);
+};
 
 async function scrapping() {
     const localContext = { ...config.areaFor, ...config.scrapping };

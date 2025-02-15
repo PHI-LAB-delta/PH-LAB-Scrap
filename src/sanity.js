@@ -19,15 +19,19 @@ function calculateWeight(stars, numberOfReviews, websites) {
     return (weight * 100).toFixed(2) + "%";
 }
 
-function removeAttributes(fileNameTosave, fileName, pathName, attributeToConsider) {
+function removeAttributes(fileNameTosave, fileName, pathName, attributeToConsider, toSaveInCSV = true) {
     const inputFilePath = path.join(pathName, fileName);
     const outputFilePath = path.join(pathName, `${fileNameTosave.replace('.json', '.csv')}`);
 
     const readStream = fs.createReadStream(inputFilePath, { encoding: 'utf8' });
-    const writeStream = fs.createWriteStream(outputFilePath, { encoding: 'utf8' });
-
-    let headersWritten = false;
+    let writeStream;
     let csvStringifier;
+    let headersWritten = false;
+    const filteredResults = []; // Collect filtered data
+
+    if (toSaveInCSV) {
+        writeStream = fs.createWriteStream(outputFilePath, { encoding: 'utf8' });
+    }
 
     const pipeline = readStream.pipe(parser()).pipe(streamArray());
 
@@ -51,36 +55,43 @@ function removeAttributes(fileNameTosave, fileName, pathName, attributeToConside
                 return acc;
             }, {});
 
-        // filteredItem["coldCallProbabilityWeight"] = calculateWeight(
-        //     filteredItem["stars"],
-        //     filteredItem["numberOfReviews"],
-        //     filteredItem["websites"]
-        // );
+        filteredResults.push(filteredItem); // Store filtered item
 
-        if (!headersWritten) {
-            const columns = Object.keys(filteredItem);
-            csvStringifier = stringify({ header: true, columns });
+        if (toSaveInCSV) {
+            if (!headersWritten) {
+                const columns = Object.keys(filteredItem);
+                csvStringifier = stringify({ header: true, columns });
 
-            csvStringifier.pipe(writeStream);
-            csvStringifier.write(filteredItem);
+                csvStringifier.pipe(writeStream);
+                csvStringifier.write(filteredItem);
 
-            headersWritten = true;
-        } else {
-            csvStringifier.write(filteredItem);
+                headersWritten = true;
+            } else {
+                csvStringifier.write(filteredItem);
+            }
         }
     });
 
-    pipeline.on('end', () => {
-        csvStringifier.end();
-        console.log('Filtered data written successfully to:', outputFilePath);
-    });
+    return new Promise((resolve, reject) => {
+        pipeline.on('end', () => {
+            if (toSaveInCSV) {
+                csvStringifier.end();
+                console.log('Filtered data written successfully to:', outputFilePath);
+            }
+            resolve(filteredResults); // Return collected results
+        });
 
-    pipeline.on('error', (error) => {
-        console.error('Error processing JSON:', error.message);
-    });
+        pipeline.on('error', (error) => {
+            console.error('Error processing JSON:', error.message);
+            reject(error);
+        });
 
-    writeStream.on('error', (error) => {
-        console.error('Error writing file:', error.message);
+        if (toSaveInCSV) {
+            writeStream.on('error', (error) => {
+                console.error('Error writing file:', error.message);
+                reject(error);
+            });
+        }
     });
 }
 

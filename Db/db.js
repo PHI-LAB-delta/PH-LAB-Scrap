@@ -16,8 +16,7 @@ const getBoundaryData = async (cordinates) => {
     }
 };
 
-
-const getOutletData = async (lob, companyPJPOutletDetails) => {
+const getOutletData = async (lob, companyPJPOutletDetails = null) => {
     dbCreds.database = `db_${lob}`;
     const tableName = "ck_outlet_details";
     console.log("creating db connection ... ");
@@ -26,12 +25,12 @@ const getOutletData = async (lob, companyPJPOutletDetails) => {
     try {
 
         const mQuery = `
-        SELECT outletcode,outlet_name,location_hierarchy,sub_channel,coordinate, latitude, longitude, address
+        SELECT outletcode, outlet_name, location_hierarchy, sub_channel, coordinate, latitude, longitude, address
         FROM ${tableName} 
-        WHERE outletcode IN (${companyPJPOutletDetails.map(code => `'${code}'`).join(", ")})
-    `;
+        ${companyPJPOutletDetails ? `WHERE outletcode IN (${companyPJPOutletDetails.map(code => `'${code}'`).join(", ")})` : ""}
+        `;
 
-        console.log("Query for Today PJP : ", mQuery);
+        console.log("Query for Outlets : ", mQuery);
 
         const [rows] = await myPool.query(mQuery);
 
@@ -46,6 +45,7 @@ const getOutletData = async (lob, companyPJPOutletDetails) => {
                 longitude: null,
                 address: oldOutlet.address || null,
             };
+
             if (!oldOutlet.latitude || !oldOutlet.longitude || oldOutlet.latitude === "0.00000000" || oldOutlet.longitude === "0.00000000") {
                 if (!oldOutlet.outlet_name || !oldOutlet.address || !isAlphabetic(oldOutlet.outlet_name) || !isAlphabetic(oldOutlet.address)) {
                     continue;
@@ -78,5 +78,6 @@ const getOutletData = async (lob, companyPJPOutletDetails) => {
         console.log("Database pool closed");
     }
 };
+
 
 module.exports = { getBoundaryData, getOutletData };
