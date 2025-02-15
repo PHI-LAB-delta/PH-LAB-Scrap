@@ -38,13 +38,13 @@ const defaultAttributeToConsider = {
 
 const attributeToConsiderForLLMSimlarity = {
     "placeId": true,
-    "address": false,
+    "address": true,
     "sub_channel": true,
     "phone": false,
     "latitude": true,
     "longitude": true,
     "status": false,
-    "type": true,
+    "type": false,
     "googleUrl": false,
     "outlet_name": true,
     "ratingText": false,
