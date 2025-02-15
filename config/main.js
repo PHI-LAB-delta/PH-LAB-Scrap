@@ -1,9 +1,11 @@
 const config = {
-    scrapping: {
-        extractFrom3rdWeb: false,
+    areaFor: {
         area: "delhi",
         targetOsmId: "1942586",
         targetOsmType: "R",
+    },
+    scrapping: {
+        extractFrom3rdWeb: false,
         extractReviews: false,
     },
     companyData: {

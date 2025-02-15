@@ -19,13 +19,14 @@ const promptList = [
     // "Warehouse stores",
     // "Wholesale candy suppliers",
     // "Where to buy bulk chocolates"
-    "Resturants",
+    // "Resturants",
     "Shops",
-    "gym",
-    "PG",
-    "Hotels",
-    "school",
-    "instuite",
+    "store"
+    // "gym",
+    // "PG",
+    // "Hotels",
+    // "school",
+    // "instuite",
 ];
 
 module.exports = { promptList };

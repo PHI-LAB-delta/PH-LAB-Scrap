@@ -17,7 +17,7 @@ const getBoundaryData = async (cordinates) => {
 };
 
 
-const getOutletData = async (lob, pathName, fileName, companyPJPOutletDetails) => {
+const getOutletData = async (lob, companyPJPOutletDetails) => {
     dbCreds.database = `db_${lob}`;
     const tableName = "ck_outlet_details";
     console.log("creating db connection ... ");
@@ -69,12 +69,8 @@ const getOutletData = async (lob, pathName, fileName, companyPJPOutletDetails) =
 
             companyOutletDetails.push(newOutlet);
         }
-        console.log(companyOutletDetails);
 
-        const outputFilePath = path.join(pathName, `${fileName.replace('.json', '.csv')} `)
-        const jsonData = JSON.stringify(companyOutletDetails, null, 2);
-        fs.writeFileSync(outputFilePath, jsonData);
-        console.log("File written successfully");
+        return companyOutletDetails;
     } catch (error) {
         console.error("Error fetching outlet data:", error);
     } finally {
