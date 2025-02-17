@@ -34,6 +34,7 @@ const getOutletData = async (lob, companyPJPOutletDetails = null) => {
 
         const [rows] = await myPool.query(mQuery);
 
+
         for (const oldOutlet of rows) {
             let newOutlet = {
                 outlet_name: oldOutlet.outlet_name || null,
