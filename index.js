@@ -48,12 +48,12 @@ async function main() {
 
     if (handleExecution.toFindOppournityOutlets) {
         // Code sanity check
-        // console.log("🔍 Running code sanity check...");
+        console.log("🔍 Running code sanity check...");
         const sanityFor = "llmSimalarity";
         const fileNameToSaveCompanyData = `${sanityFor}_${fileName}`;
         const filterDarkOutlet = await sanity(sanityFor, fileNameToSaveCompanyData);
         console.log("✅ Code sanity check passed.");
-        // extracting all company outlets from DB
+        // // extracting all company outlets from DB
         const brightOutlets = await getOutletData(lob);
         await saveToCSV(pathNameCompany, fileName.replace('.json', '.csv'), brightOutlets);
         // simarlirity LLM code -
@@ -63,7 +63,8 @@ async function main() {
         try {
             const execPromise = util.promisify(exec);
             const darkOutlets = await runPythonScript(opportunitiesFile, companyOutletFile, execPromise);
-            console.log("✅ Dark Outlets Found:", darkOutlets);
+            await saveToCSV(`${pathName}/DarkOutlet`, fileName.replace('.json', '.csv'), darkOutlets);
+            console.log("✅ Dark Outlets Save in CSV :", `${pathName}/DarkOutlet`);
         } catch (error) {
             console.error("❌ Error in running Python script:", error);
         }
