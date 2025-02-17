@@ -55,7 +55,7 @@ function removeAttributes(fileNameTosave, fileName, pathName, attributeToConside
                 return acc;
             }, {});
 
-        filteredResults.push(filteredItem); // Store filtered item
+        filteredResults.push(filteredItem);
 
         if (toSaveInCSV) {
             if (!headersWritten) {
@@ -78,7 +78,7 @@ function removeAttributes(fileNameTosave, fileName, pathName, attributeToConside
                 csvStringifier.end();
                 console.log('Filtered data written successfully to:', outputFilePath);
             }
-            resolve(filteredResults); // Return collected results
+            resolve(filteredResults);
         });
 
         pipeline.on('error', (error) => {
