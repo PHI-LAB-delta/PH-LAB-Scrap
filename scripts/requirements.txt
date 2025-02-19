@@ -1,0 +1,6 @@
+pandas
+numpy
+google-generativeai
+geopy
+fuzzywuzzy
+python-Levenshtein

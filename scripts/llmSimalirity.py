@@ -40,7 +40,7 @@ def get_match_score(row):
         return 0
 
 # Function to find dark outlets
-def find_dark_outlets(df_opportunitie, df_companyOutlet, threshold=100, match_threshold=90):
+def find_dark_outlets(df_opportunitie, df_companyOutlet, threshold=20, match_threshold=90):
     matched_opportunities = set()
     matched_data = []
 

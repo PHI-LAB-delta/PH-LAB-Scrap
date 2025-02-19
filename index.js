@@ -62,9 +62,9 @@ async function main() {
 
         try {
             const execPromise = util.promisify(exec);
-            const darkOutlets = await runPythonScript(opportunitiesFile, companyOutletFile, execPromise);
+            const darkOutlets = await runPythonScript(opportunitiesFile, companyOutletFile, execPromise, "llmSimalirity.py");
             await saveToCSV(`${pathName}/DarkOutlet`, fileName.replace('.json', '.csv'), darkOutlets);
-            console.log("✅ Dark Outlets Save in CSV :", `${pathName}/DarkOutlet`);
+            console.log("✅ Dark Outlets Save in CSV :", `${pathName}/DarkOutlet/${fileName.replace('.json', '.csv')}`);
         } catch (error) {
             console.error("❌ Error in running Python script:", error);
         }
@@ -74,26 +74,43 @@ async function main() {
     if (handleExecution.toGetPJPData) {
         const companyPJPDetails = await getPJPForDay(lob, env);
         await getOutletDataAndStoreinCSV(companyPJPDetails, lob);
-        // get all the near by opportunity outlets based on PJP
-        // create recommendation based on trending product/ regular product.
+        try {
+            const pjpOutletData = path.join(__dirname, `${pathNameCompany}/pjp_${fileName.replace('.json', '.csv')}`);
+            const darkOutletData = path.join(__dirname, `${pathName}/DarkOutlet/${fileName.replace('.json', '.csv')}`);
+            const execPromise = util.promisify(exec);
+            const darkOutlets = await runPythonScript(pjpOutletData, darkOutletData, execPromise, "process_outlets.py");
+            await saveToCSV(`${pathName}/DarkOutlet`, `pjp_${fileName.replace('.json', '.csv')}`, darkOutlets);
+            console.log("✅ Dark Outlets Save in CSV :", darkOutlets.length);
+        } catch (error) {
+            console.error("❌ Error in running Python script:", error);
+        }
     }
+
+
 
     // DB/S3 store ->
 
 }
 
-async function runPythonScript(file1, file2, execPromise) {
+async function runPythonScript(file1, file2, execPromise, scriptFileName) {
     return new Promise(async (resolve, reject) => {
-        const scriptPath = path.join(__dirname, "scripts", "llmSimalirity.py");
+        const scriptPath = path.join(__dirname, "scripts", scriptFileName);
         const venvPath = path.join(__dirname, "scripts", "venv");
         const pythonExec = path.join(venvPath, "bin", "python3"); // Ensure correct Python environment
+        const packageDependency = path.join(__dirname, "scripts", "requirements.txt");
+
+        console.log(file1);
+        console.log(file2);
+
+
         try {
             console.log("🚀 Setting up virtual environment...");
             await execPromise(`python3 -m venv ${venvPath}`);
 
             console.log("📦 Installing dependencies...");
+            // Install dependencies from the requirements.txt file
             await execPromise(`${pythonExec} -m pip install --upgrade pip`);
-            await execPromise(`${pythonExec} -m pip install pandas numpy google-generativeai`);
+            await execPromise(`${pythonExec} -m pip install -r ${packageDependency}`);
 
             console.log("🚀 Running Python script...");
             const { stdout, stderr } = await execPromise(`${pythonExec} ${scriptPath} ${file1} ${file2}`);
@@ -109,29 +126,39 @@ async function runPythonScript(file1, file2, execPromise) {
         }
     });
 }
-
 const getOutletDataAndStoreinCSV = async (companyPJPDetails, lob) => {
-    let lc = config.areaFor;
+    try {
+        const { area, targetOsmType, targetOsmId } = config.areaFor;
 
-    const companyOutletPJPList = [...new Set(
-        companyPJPDetails.map(val => val.split(getConst.groupBy.joiner)[1])
-    )];
+        const companyOutletPJPList = Array.from(
+            new Set(companyPJPDetails.map(val => val.split(getConst.groupBy.joiner)[1]))
+        );
 
-    const pjpOutletDetails = await getOutletData(lob, companyOutletPJPList);
+        const loginOutletListMapping = companyPJPDetails.reduce((acc, entry) => {
+            const [loginId, outletCode] = entry.split(getConst.groupBy.joiner);
+            acc[outletCode] = acc[outletCode] || [];
+            acc[outletCode].push(loginId);
+            return acc;
+        }, {});
 
-    console.log(`Total number of outlet today in PJP with correct data and in ${lc.area}: `, pjpOutletDetails.length);
+        const pjpOutletDetails = await getOutletData(lob, companyOutletPJPList);
+        console.log(`Total number of outlets today in PJP with correct data and in ${area}: ${pjpOutletDetails.length}`);
 
-    const withinBoundaryData = await checkCoordinates(
-        lc.targetOsmType,
-        lc.targetOsmId,
-        pjpOutletDetails
-    );
+        const withinBoundaryData = await checkCoordinates(targetOsmType, targetOsmId, pjpOutletDetails);
 
-    const fileNameTosave = fileName.replace('.json', '.csv');
-    await saveToCSV(pathNameCompany, `pjp_${fileNameTosave}`, withinBoundaryData)
+        withinBoundaryData.forEach(outlet => {
+            outlet["loginId"] = loginOutletListMapping[outlet["outletcode"]] || [];
+        });
 
-    console.log(`LOB Data saved successfully in ${pathNameCompany}/${fileNameTosave}`);
+        const fileNameToSave = fileName.replace('.json', '.csv');
+        await saveToCSV(pathNameCompany, `pjp_${fileNameToSave}`, withinBoundaryData);
+
+        console.log(`LOB Data saved successfully in ${pathNameCompany}/pjp_${fileNameToSave}`);
+    } catch (error) {
+        console.error("Error processing outlet data:", error);
+    }
 };
+
 
 const sanity = async (sanityFor, fileNameTosave, toSaveInCSV = true) => {
     const attributeToConsider = getAttributeToConsider(sanityFor);
