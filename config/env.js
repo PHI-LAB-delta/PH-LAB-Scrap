@@ -7,6 +7,13 @@ const dbCreds = {
     password: process.env.DB_PASSWORD,
     database: process.env.DB_DATABASE
 };
+const MLDBCreds = {
+    host: process.env.ML_DB_HOST,
+    port: process.env.ML_DB_PORT,
+    user: process.env.ML_DB_USER,
+    password: process.env.ML_DB_PASSWORD,
+    database: process.env.ML_DB_DATABASE
+};
 function getServerURL(env) {
     switch (env) {
         case "dev":
@@ -26,4 +33,4 @@ function getServerURL(env) {
     }
 }
 
-module.exports = { dbCreds, getServerURL };
+module.exports = { dbCreds, getServerURL, MLDBCreds };

@@ -13,6 +13,7 @@ const util = require("util");
 const { exec } = require("child_process");
 const path = require("path");
 const { getCSVFromS3 } = require("./src/s3");
+const { getDataFromResponseG } = require("./Db/mlDb");
 
 let area = 'delhi';
 let fileName = `${area}OutletData.json`;
@@ -74,9 +75,11 @@ async function main() {
 
     // PJP - company data
     let similarity_cache = [];
+    let PJPloginOutletListMapping = {};
+
     if (handleExecution.toGetPJPData) {
-        // const companyPJPDetails = await getPJPForDay(lob, env);
-        // await getOutletDataAndStoreinCSV(companyPJPDetails, lob);
+        const companyPJPDetails = await getPJPForDay(lob, env);
+        await getOutletDataAndStoreinCSV(companyPJPDetails, lob, PJPloginOutletListMapping);
         try {
             const pjpOutletData = path.join(__dirname, `${pathNameCompany}/pjp_${fileName.replace('.json', '.csv')}`);
             const darkOutletData = path.join(__dirname, `${pathName}/DarkOutlet/${fileName.replace('.json', '.csv')}`);
@@ -92,18 +95,54 @@ async function main() {
 
     // Add Recc for opportunity outlets
     if (handleExecution.toProvideRecomm) {
-        try {
-            const csvData = await getCSVFromS3('your-file.csv');
-
-            console.log('CSV Data:', csvData);
-        } catch (error) {
-            console.error('Error:', error);
+        if (similarity_cache.length === 0 || Object.keys(PJPloginOutletListMapping).length === 0) {
+            console.log("PJP data is missing or has not been extracted for the day. Please extract the PJP before proceeding.");
         }
+        let listOfOutletCode = [];
+        for (const [loginId, outlets] of Object.entries(PJPloginOutletListMapping)) {
+            for (const outlet of outlets) {
+                listOfOutletCode.push(outlet.outletcode);
+            }
+        }
+
+        const dataResponseG = await getDataFromResponseG(lob, listOfOutletCode);
+
+        for (const data of dataResponseG) {
+            const loginId = data.loginId;
+            const outletCode = data.outletCode;
+            const payload = JSON.parse(data.payload);
+
+            if (PJPloginOutletListMapping[loginId]) {
+                for (skuOuletcodeSubChannel of PJPloginOutletListMapping[loginId]) {
+                    if (skuOuletcodeSubChannel.outletcode == outletCode) {
+                        console.log(skuOuletcodeSubChannel);
+                        const skuList = getSKUList(payload);
+                        console.log(skuList);
+
+                        skuOuletcodeSubChannel["skuList"] = skuList;
+                    }
+                }
+            }
+        }
+
+        console.log("PJPloginOutletListMapping : ", PJPloginOutletListMapping);
     }
 
     // DB/S3 store ->
 
 }
+const getSKUList = (payload) => {
+    if (!payload?.pbs || !Array.isArray(payload.pbs)) {
+        return [];
+    }
+    return payload.pbs
+        .filter(value => value.spr === 0)
+        .map(value => ({
+            skuCode: value.sku,
+            qty: value.qty
+        }));
+};
+
 
 async function runPythonScript(file1, file2, execPromise, scriptFileName) {
     return new Promise(async (resolve, reject) => {
@@ -139,7 +178,7 @@ async function runPythonScript(file1, file2, execPromise, scriptFileName) {
         }
     });
 }
-const getOutletDataAndStoreinCSV = async (companyPJPDetails, lob) => {
+const getOutletDataAndStoreinCSV = async (companyPJPDetails, lob, PJPloginOutletListMapping) => {
     try {
         const { area, targetOsmType, targetOsmId } = config.areaFor;
 
@@ -161,8 +200,18 @@ const getOutletDataAndStoreinCSV = async (companyPJPDetails, lob) => {
 
         withinBoundaryData.forEach(outlet => {
             outlet["loginId"] = loginOutletListMapping[outlet["outletcode"]] || [];
-        });
+            let loginIdList = outlet["loginId"];
 
+            loginIdList.forEach(loginId => {
+                if (!PJPloginOutletListMapping[loginId]) {
+                    PJPloginOutletListMapping[loginId] = [];
+                }
+                PJPloginOutletListMapping[loginId].push({
+                    "sub_channel": outlet["sub_channel"],
+                    "outletcode": outlet["outletcode"]
+                });
+            });
+        });
         const fileNameToSave = fileName.replace('.json', '.csv');
         await saveToCSV(pathNameCompany, `pjp_${fileNameToSave}`, withinBoundaryData);
 
