@@ -5,7 +5,7 @@ import sys
 import json
 
 # Configure Google Gemini API (Make sure to replace with a valid API key)
-genai.configure(api_key="AIzaSyBjTxnUxrUUfq2yVTkyLt9Q9QPswGaJpvQ")
+# genai.configure(api_key="")
 
 # Haversine Distance Function
 def haversine_distance(lat1, lon1, lat2, lon2):

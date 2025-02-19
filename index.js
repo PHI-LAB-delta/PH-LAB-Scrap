@@ -31,6 +31,7 @@ async function main() {
         toScrapData: args[4] === "true" ? true : false,
         toFindOppournityOutlets: args[5] === "true" ? true : false,
         toGetPJPData: args[6] === "true" ? true : false,
+        toProvideRecomm: args[7] === "true" ? true : false
     }
     if (!lob || !lob.length || !env || !env.length) {
         console.log("Please enter the lob to proceed");
@@ -86,7 +87,10 @@ async function main() {
         }
     }
 
+    // Add Recc for opportunity outlets
+    if (handleExecution.toProvideRecomm) {
 
+    }
 
     // DB/S3 store ->
 
