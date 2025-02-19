@@ -20,6 +20,8 @@ const getOutletData = async (lob, companyPJPOutletDetails = null) => {
     dbCreds.database = `db_${lob}`;
     const tableName = "ck_outlet_details";
     console.log("creating db connection ... ");
+    console.log(dbCreds);
+
     let myPool = mysql.createPool(dbCreds).promise();
     let companyOutletDetails = [];
     try {

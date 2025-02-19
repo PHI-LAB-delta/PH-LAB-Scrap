@@ -12,6 +12,7 @@ const { saveToCSV } = require('./utils/commonUtils');
 const util = require("util");
 const { exec } = require("child_process");
 const path = require("path");
+const { getCSVFromS3 } = require("./src/s3");
 
 let area = 'delhi';
 let fileName = `${area}OutletData.json`;
@@ -89,7 +90,12 @@ async function main() {
 
     // Add Recc for opportunity outlets
     if (handleExecution.toProvideRecomm) {
-
+        try {
+            const csvData = await getCSVFromS3('your-file.csv');
+            console.log('CSV Data:', csvData);
+        } catch (error) {
+            console.error('Error:', error);
+        }
     }
 
     // DB/S3 store ->

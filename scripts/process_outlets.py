@@ -10,7 +10,7 @@ from fuzzywuzzy import fuzz
 import time
 
 # Configure Gemini API
-# genai.configure(api_key="") 
+genai.configure(api_key="") 
 model = genai.GenerativeModel("gemini-pro")
 
 def haversine_distance(lat1, lon1, lat2, lon2):
