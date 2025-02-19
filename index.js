@@ -73,16 +73,18 @@ async function main() {
     }
 
     // PJP - company data
+    let similarity_cache = [];
     if (handleExecution.toGetPJPData) {
-        const companyPJPDetails = await getPJPForDay(lob, env);
-        await getOutletDataAndStoreinCSV(companyPJPDetails, lob);
+        // const companyPJPDetails = await getPJPForDay(lob, env);
+        // await getOutletDataAndStoreinCSV(companyPJPDetails, lob);
         try {
             const pjpOutletData = path.join(__dirname, `${pathNameCompany}/pjp_${fileName.replace('.json', '.csv')}`);
             const darkOutletData = path.join(__dirname, `${pathName}/DarkOutlet/${fileName.replace('.json', '.csv')}`);
             const execPromise = util.promisify(exec);
             const darkOutlets = await runPythonScript(pjpOutletData, darkOutletData, execPromise, "process_outlets.py");
-            await saveToCSV(`${pathName}/DarkOutlet`, `pjp_${fileName.replace('.json', '.csv')}`, darkOutlets);
-            console.log("✅ Dark Outlets Save in CSV :", darkOutlets.length);
+            await saveToCSV(`${pathName}/DarkOutlet`, `pjp_${fileName.replace('.json', '.csv')}`, darkOutlets.filtered_dark_outlets);
+            similarity_cache = darkOutlets.similarity_cache;
+            console.log("✅ Dark Outlets Save in CSV :", `${pathName}/DarkOutlet/pjp_${fileName.replace('.json', '.csv')}`);
         } catch (error) {
             console.error("❌ Error in running Python script:", error);
         }
@@ -92,6 +94,7 @@ async function main() {
     if (handleExecution.toProvideRecomm) {
         try {
             const csvData = await getCSVFromS3('your-file.csv');
+
             console.log('CSV Data:', csvData);
         } catch (error) {
             console.error('Error:', error);

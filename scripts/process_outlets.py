@@ -142,13 +142,23 @@ def main(file1, file2):
 
         LoginSubChannelMapping = df_PJP.groupby('loginId')['sub_channel'].unique().reset_index()
 
-        filtered_df = map_login_subchannel(LoginSubChannelMapping,df_filtered_dark_outlets)
+        filtered_df = map_login_subchannel(LoginSubChannelMapping, df_filtered_dark_outlets)
+
+        similarity_cache_serializable = {
+            f"{k[0]}|{k[1]}": v for k, v in similarity_cache.items()
+        }
+
+        output = {
+            "filtered_dark_outlets": filtered_df.to_dict(orient="records"),
+            "similarity_cache": similarity_cache_serializable
+        }
         
-        # Print result as JSON for Node.js to parse
-        print(json.dumps(filtered_df.to_dict(orient="records")))
+        print(json.dumps(output))
 
     except Exception as e:
         print(json.dumps({"error": str(e)}), file=sys.stderr)
+
+
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
