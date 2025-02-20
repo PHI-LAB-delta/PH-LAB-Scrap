@@ -118,7 +118,7 @@ async function main() {
                 for (skuOuletcodeSubChannel of PJPloginOutletListMapping[loginId]) {
                     if (skuOuletcodeSubChannel.outletcode == outletCode) {
                         const skuList = getSKUList(payload);
-                        skuOuletcodeSubChannel["skuList"] = JSON.stringify(skuList);
+                        skuOuletcodeSubChannel["skuList"] = skuList;
                     }
                 }
             }

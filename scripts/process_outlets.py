@@ -119,7 +119,7 @@ def map_login_subchannel(login_subchannel_mapping, df_filtered_dark_outlets):
                     similarity_score = use_llm_for_comparison(sub_channel_bright, sub_channel_dark)
                     similarity_cache[(sub_channel_bright, sub_channel_dark)] = similarity_score 
 
-                if similarity_score > 0.2:
+                if similarity_score >= 0.5:
 
                     dark_outlet_copy = dark_outlet.copy()  
                     dark_outlet_copy['similarity_score'] = similarity_score

@@ -10,13 +10,12 @@ const AwsUtils = {
             secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
         },
     }),
-
     uploadFile: async function (bucketName, fileNameKey, filePath) {
-        console.log("Saving the .csv file to AWS S3 darksysbucket");
+        console.log(`Saving the .csv file to AWS S3 bucket: ${bucketName}`);
 
         const fileStream = fs.createReadStream(filePath);
         fileStream.on("error", (err) => {
-            console.log("File error", err);
+            console.error("File error:", err);
         });
 
         try {
@@ -27,9 +26,16 @@ const AwsUtils = {
                     Body: fileStream,
                 })
             );
-            console.log(response);
+
+            console.log(`File successfully uploaded to S3:
+            - Bucket: ${bucketName}
+            - Key: ${fileNameKey}
+            - ETag: ${response.ETag}
+            - Version ID: ${response.VersionId || "N/A"}
+            - Server-side encryption: ${response.ServerSideEncryption || "None"}
+            `);
         } catch (err) {
-            console.log("Unable to upload the file", err);
+            console.error("Unable to upload the file:", err);
         }
     },
 };
