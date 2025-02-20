@@ -1,69 +1,37 @@
+const { S3Client, PutObjectCommand } = require("@aws-sdk/client-s3");
 require('dotenv').config();
-const AWS = require('aws-sdk');
-const csv = require('csv-parser');
-const fs = require('fs');
-const { Parser } = require('json2csv');
+const fs = require("fs");
 
-AWS.config.update({
-    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
-    region: process.env.AWS_REGION
-});
+const AwsUtils = {
+    s3Client: new S3Client({
+        region: process.env.AWS_REGION,
+        credentials: {
+            accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+            secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+        },
+    }),
 
-const s3 = new AWS.S3();
-const bucketName = 'darksys';
+    uploadFile: async function (bucketName, fileNameKey, filePath) {
+        console.log("Saving the .csv file to AWS S3 darksysbucket");
 
-async function getCSVFromS3(fileName) {
-    return new Promise((resolve, reject) => {
+        const fileStream = fs.createReadStream(filePath);
+        fileStream.on("error", (err) => {
+            console.log("File error", err);
+        });
+
         try {
-            const objectKey = fileName;
-            const params = { Bucket: bucketName, Key: objectKey };
-            const s3Stream = s3.getObject(params).createReadStream();
-
-            const results = [];
-            s3Stream
-                .pipe(csv())
-                .on('data', (row) => results.push(row))
-                .on('end', () => resolve(results))
-                .on('error', (error) => reject(error));
-
-        } catch (error) {
-            reject(error);
+            const response = await this.s3Client.send(
+                new PutObjectCommand({
+                    Bucket: bucketName,
+                    Key: fileNameKey,
+                    Body: fileStream,
+                })
+            );
+            console.log(response);
+        } catch (err) {
+            console.log("Unable to upload the file", err);
         }
-    });
-}
+    },
+};
 
-async function uploadCSVToS3(data, folderName, fileName) {
-    return new Promise((resolve, reject) => {
-        try {
-            if (!Array.isArray(data) || data.length === 0) {
-                return reject(new Error("Data should be a non-empty array of objects"));
-            }
-
-            const parser = new Parser();
-            const csvData = parser.parse(data);
-
-            const objectKey = `${folderName}/${fileName}.csv`;
-            const params = {
-                Bucket: bucketName,
-                Key: objectKey,
-                Body: csvData,
-                ContentType: "text/csv"
-            };
-
-            s3.upload(params, (error, result) => {
-                if (error) {
-                    reject(error);
-                } else {
-                    resolve(result);
-                }
-            });
-
-        } catch (error) {
-            reject(error);
-        }
-    });
-}
-
-
-module.exports = { getCSVFromS3, uploadCSVToS3 };
+module.exports = AwsUtils;

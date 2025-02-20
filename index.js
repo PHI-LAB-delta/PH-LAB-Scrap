@@ -12,7 +12,7 @@ const { saveToCSV } = require('./utils/commonUtils');
 const util = require("util");
 const { exec } = require("child_process");
 const path = require("path");
-const { getCSVFromS3, uploadCSVToS3 } = require("./src/s3");
+const AwsUtils = require("./src/s3");
 const { getDataFromResponseG } = require("./Db/mlDb");
 const { processRecommendation } = require('./src/RecommProcess');
 
@@ -118,14 +118,16 @@ async function main() {
                 for (skuOuletcodeSubChannel of PJPloginOutletListMapping[loginId]) {
                     if (skuOuletcodeSubChannel.outletcode == outletCode) {
                         const skuList = getSKUList(payload);
-                        skuOuletcodeSubChannel["skuList"] = skuList;
+                        skuOuletcodeSubChannel["skuList"] = JSON.stringify(skuList);
                     }
                 }
             }
         }
-        const dataForOppoptunityOutlets = processRecommendation(PJPloginOutletListMapping, similarity_cache, `${pathNameDark}/pjp_${fileName.replace('.json', '.csv')}`)
+        const dataForOppoptunityOutlets = await processRecommendation(PJPloginOutletListMapping, similarity_cache, `${pathNameDark}/pjp_${fileName.replace('.json', '.csv')}`)
         console.log("Total number of opportunity outlets --> ", dataForOppoptunityOutlets.length);
-        uploadCSVToS3(dataForOppoptunityOutlets, 'harshprincegoogleparser', `${area}_${lob}_opportunityOutlets`)
+        const fileNameToSave = `final_${fileName.replace('.json', '.csv')}`;
+        await saveToCSV(pathNameDark, fileNameToSave, dataForOppoptunityOutlets);
+        await AwsUtils.uploadFile("darksysbucket", `harshprincegoogleparser/${lob}_PJP_opportunitiesOutlets.csv`, `${pathNameDark}/${fileNameToSave}`)
     }
 }
 const getSKUList = (payload) => {

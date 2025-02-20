@@ -3,35 +3,37 @@ const csv = require('csv-parser');
 const { getConst } = require('../utils/consts');
 
 const processRecommendation = (PJPloginOutletListMapping, similarity_cache, opportunityOutletsPath) => {
-    const results = [];
+    return new Promise((resolve, reject) => {
+        const results = [];
 
-    fs.createReadStream(opportunityOutletsPath)
-        .pipe(csv())
-        .on('data', (opportunityOutletsData) => {
-            const sub_channel_opportunity = opportunityOutletsData["sub_channel"];
-            const loginId = opportunityOutletsData["loginId"];
+        fs.createReadStream(opportunityOutletsPath)
+            .pipe(csv())
+            .on('data', (opportunityOutletsData) => {
+                const sub_channel_opportunity = opportunityOutletsData["sub_channel"];
+                const loginId = opportunityOutletsData["loginId"];
 
+                if (!PJPloginOutletListMapping[loginId]) return;
 
-            if (!PJPloginOutletListMapping[loginId]) return;
+                const threshold = getThresholdOfNumberOfSku(PJPloginOutletListMapping[loginId]);
 
-            const threshold = getThresholdOfNumberOfSku(PJPloginOutletListMapping[loginId]);
+                const skuToRec = getPotentialSkuCode(PJPloginOutletListMapping[loginId], sub_channel_opportunity, threshold, similarity_cache);
 
-
-            const skuToRec = getPotentialSkuCode(PJPloginOutletListMapping[loginId], sub_channel_opportunity, threshold, similarity_cache);
-
-            opportunityOutletsData["skus"] = skuToRec;
-            results.push(opportunityOutletsData);
-        })
-        .on('end', () => {
-            console.log('CSV file successfully processed');
-            return results
-        })
-        .on('error', (err) => {
-            console.error('Error reading the CSV file:', err);
-        });
-
-    return results;
+                opportunityOutletsData["skus"] = JSON.stringify(skuToRec);
+                results.push(opportunityOutletsData);
+            })
+            .on('end', () => {
+                console.log('CSV file successfully processed');
+                resolve(results);
+            })
+            .on('error', (err) => {
+                console.error('Error reading the CSV file:', err);
+                reject(err);
+            });
+    });
 };
+
+module.exports = { processRecommendation };
+
 
 const getThresholdOfNumberOfSku = (outletdetails) => {
     let threshold = Number.MAX_SAFE_INTEGER;

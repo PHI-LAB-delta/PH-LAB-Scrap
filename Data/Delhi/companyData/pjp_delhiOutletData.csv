@@ -1,6 +1,5 @@
 outlet_name,outletcode,location_hierarchy,sub_channel,coordinate,latitude,longitude,address,loginId
 LUXMI MEDICOS,PH099057,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.621967,77.0853987,SHOP NO .7 A5B/ A5C MKT,DSR-NCR-031
-CGS HOSPITAL-Gold,CL002874,Metro > ASE-SPT-NCR-South-West > Gurugram > Haryana > North > Gurugram > North Metro SPT > India,Clinic,[object Object],28.51906667,77.10896167,"S-25*2204,Dlf Phase3,Gurgaon,122102",FSA-SPT-NCR-104
 Narang Marche,DS007915,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,MG Supermarket,[object Object],28.5518539,77.2072082,E-44A HAUZ KHAS MAIN MARKET NEW DELHI-110016,DSR-GT-NCR-508
 Lord Medicos,PH127159,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.6180491,77.0929054,C4 janakpuri,DSR-GT-NCR-629
 M.D medicose,PH046215,Metro > ASE-GT-NCR-East > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.670637,77.2837321,gali no-4 bihari colony,DSR-GT-NCR-504
@@ -16,7 +15,6 @@ Anil Medicose,PH027504,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North > Ne
 RAMADHA PHARMACY,PH060613,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.5387191,77.1397217,"Vardhman Market,C-8,Vasant Kunj New Delhi-110070",DSR-GT-NCR-503
 TRINITY MART,MGS004966,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North > South Delhi > NCR-HAR > India,MG Supermarket,[object Object],28.5601517,77.2035,Shop no. 5 49B,DSR-GT-NCR-508
 Vaishno medical,PH051485,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.4892111,77.3111031,2520 60futa 2,DSR-GT-NCR-572
-Petpai Technologies-Gold,CL004477,Metro > ASE-SPT-NCR-South-West > New Delhi > Delhi > North > New Delhi > North Metro SPT > India,Clinic,[object Object],28.53273005,77.2079315,"E7/ 9&10, opp Geeta mandir,",FSA-SPT-NCR-104
 Saket Pet Clinic(ROA)-Silver,CL000558,Metro > ASE-SPT-NCR-North-West 1 > New Delhi > Delhi > North > New Delhi > North Metro SPT > India,Clinic,[object Object],28.5273379,77.205988,"A-1,Golf View Apartments,Anupam Pvr Road,",DSR-SPT-NCR-402
 Prince medicos,PH118794,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.6115627,77.0698141,A3/46 shop no 6 dal mil road uttam,DSR-GT-NCR-424
 BUDGET BAZZAR ( Janakpuri ),DS001248,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,MG Hypermarket,[object Object],28.6239802,77.0798537,"A3/233, JANAK PURI, OPP. ST, FRANCIS DE SALES SCHOOL ,NEW DELHI-110058",DSR-NCR-031
@@ -79,7 +77,6 @@ Supreme medicos,PH121952,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > 
 Gulabchand & Sons,WG000950,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Wholesale Grocery,[object Object],28.505413,77.3231306,"Nala road, near lavkush square,",DSR-GT-NCR-610
 APOLO VETS HEALTH CARE-Silver,CL000480,Metro > ASE-SPT-NCR-North-West 1 > New Delhi > Delhi > North > New Delhi > North Metro SPT > India,Clinic,[object Object],28.5620824,77.0629129,447 DDA Flats Pocket 1 Sec-22 Dwarka New Delhi-110075,FSA-SPT-HAR-014
 Sharma medical store,PH121301,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.5055792,77.324233,A5 sabji mandi men Market near Shiv,DSR-GT-NCR-610
-ADITRI   S PET SHOP-Gold,PS012290,Metro > ASE-SPT-NCR-East > New Delhi > Delhi > North > New Delhi > North Metro SPT > India,Petshop,[object Object],28.68046333,77.31901192,"978 JANTA FLATS , G.T.B ENCLAVE , DILSHAD GARDEN",DSR-SPT-NCR-530
 K9 FAMILY PET STORE-Silver,PS015164,Metro > ASE-SPT-NCR-North-West 1 > New Delhi > Delhi > North > New Delhi > North Metro SPT > India,Petshop,[object Object],28.577452,77.0482272,Hn -13.village ambrahi Dwarka sec -19 New Delhi,FSA-SPT-HAR-014
 CARE PHARMACY,PH122017,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.6666576,77.0657662,"RZE-49, NIHAL VIHAR,  NANGLOI",DSR-GT-NCR-652
 Shiv shakti medicos,PH082399,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.6082136,77.0971238,Gandhi market sagarpur,DSR-GT-NCR-760
@@ -116,7 +113,6 @@ Sharma Medicos,PH077563,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > N
 Ashish medicos,PH121955,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.6115648,77.0698261,A-96 nane park binda pur Matiala,DSR-GT-NCR-424
 Ankit medicos,PH095151,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.4904856,77.3055511,Shop no 68a tajpur road,DSR-GT-NCR-610
 Adarsh medicos,PH121957,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.6115669,77.0698228,Sanjay enclave opp Shanti nursing,DSR-GT-NCR-424
-Psm Pet Shop(ROA)-Platinum,PS007305,Metro > ASE-SPT-NCR-East > New Delhi > Delhi > North > New Delhi > North Metro SPT > India,Petshop,[object Object],28.68990558,77.31200358,"F-19 DILSHAD COLONY, SEEMA PURI",DSR-SPT-NCR-530
 Kawal Medical Store,PH043382,Metro > ASE-GT-NCR-East > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.6939814,77.2909764,"27/45,Jwala Nagar",DSR-GT-NCR-504
 Annpurna Mart,MGS02729,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,MG Supermarket,[object Object],28.6074614,77.0954451,"Rz-19-231-232 J Block,West Sagar pur",DSR-GT-NCR-760
 Bismillah meddicos,PH128927,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.7280662,77.2149875,Shop no-4 plot no-46 gali no-5,DSR-GT-NCR-857
@@ -328,7 +324,6 @@ Babloo medical store,PH093636,Metro > ASE-GT-NCR-South > New Delhi > Delhi > Nor
 Ganpati Chemist,PH043418,Metro > ASE-GT-NCR-East > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.5997212,77.3176596,"Shop No 36,37 D D A Mkt Vasundra Enclave",DSR-GT-NCR-504
 pawan store,DS015490,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,MG Supermarket,[object Object],28.5964067,77.1231717,New Delhi,DSR-NCR-032
 Deepak Medicos(ROA),PH035004,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.6115666,77.069812,Rz-129Santosh Park Opp.Sunil Dairy Uttam Nagar Nd110059,DSR-GT-NCR-424
-Tarun Pet Villa(ROA)-Gold,PS001094,Metro > ASE-SPT-NCR-East > New Delhi > Delhi > North > New Delhi > North Metro SPT > India,Petshop,[object Object],28.67109625,77.3066128,"SHOP NO G-2, PLOT NO 11, CENTRAL MARKET, SURAJMAL VIHAR,DELHI",DSR-SPT-NCR-530
 Pharma care,PH090524,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.519273,77.1688248,Kishan garh 125/9,DSR-NCR-036
 New Morning Store,WG000384,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Wholesale Grocery,[object Object],28.5197048,77.1716514,"Shop No.1, D-7, Vasant kunj New Delhi-110070",DSR-NCR-036
 chotta docters sagarpur,PH128473,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.6081155,77.10088258,SHOP NO 2 VASHISTH PARK,DSR-GT-NCR-760
@@ -408,7 +403,6 @@ HEALTHCARE MEDICAL & GEN,PH066722,Metro > ASE-GT-NCR-North > New Delhi > Delhi >
 RX CHEMISTS,PH129218,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.6253816,77.0761639,G2- VARDHMAN MARKET,DSR-NCR-031
 GURU NANAK MEDICOS,PH121945,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.6755365,77.1823329,"G26/61,62 SHOP NO 3 NEAR YUVA",DSR-NCR-160
 SHRI BALA JI MEDICOS (NV),PH122012,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.6666329,77.0656727,"RZE-254, A NIHAL VIHAR THANA",DSR-GT-NCR-652
-Dr Manish Kaushik(ROA)-Silver,CL000819,Metro > ASE-SPT-NCR-East > New Delhi > Delhi > North > New Delhi > North Metro SPT > India,Clinic,[object Object],28.68990558,77.31200358,"H-188 A DILSHAD GARDEN ,DELHI",DSR-SPT-NCR-530
 MAX Bazaar (Uttam Nagar),MGS004830,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,MG Supermarket,[object Object],28.6205385,77.0461487,Plot no 373 nawada main road uttam,DSR-GT-NCR-424
 Home Dep Store(ROA)-Gold,PS000675,Metro > ASE-SPT-NCR-North-West 1 > New Delhi > Delhi > North > New Delhi > North Metro SPT > India,Petshop,[object Object],28.5228007,77.21472984,(Pet Shop)Shop No-4 J Block Market Saket,FSA-SPT-NCR-018
 KRISHNA STORE,DS007829,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,MG Supermarket,[object Object],28.5125414,77.1698556,"LSC SEC-1, POCKET 1, VASANT KUNJ",DSR-GT-DEL-782
@@ -503,7 +497,6 @@ Sanjay Store(ROA),DS013264,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North 
 Krishna Medicose,PH058756,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.4921827,77.3110262,"plot 780,2nd 60 foota Road,Molarband Extension",DSR-GT-NCR-572
 Dr B K Chaudhary(ROA)-Silver,CL000551,Metro > ASE-SPT-NCR-North-West 1 > New Delhi > Delhi > North > New Delhi > North Metro SPT > India,Clinic,[object Object],28.5342876,77.2072696,Dog   Cat Clinic Savitri Nagar New Delhi,FSA-SPT-NCR-018
 Atul medicos,PH108765,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.5014925,77.3221931,142/main market Badarpur border,DSR-GT-NCR-610
-The Pet Store(ROA)-Platinum,PS006022,Metro > ASE-SPT-NCR-East > New Delhi > Delhi > North > New Delhi > North Metro SPT > India,Petshop,[object Object],28.68990558,77.31200358,"A-10 JHILIML COLONY , DELHI",DSR-SPT-NCR-530
 Barkat ram,PH076581,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.6271388,77.0599155,1/54 main hastal road,DSR-GT-NCR-424
 Avtar medical store,PH056701,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.4991099,77.2508743,"sharma mkt, near shree ram store, prahaladpur",DSR-GT-NCR-772
 SABKA DAWA BAZAR,PH129476,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.6655058,77.0538254,Shiv ram Park Najafgarh Road,DSR-GT-NCR-652
@@ -534,7 +527,6 @@ CHETAN MEDICOS,PH080144,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North > N
 Healing pharmacy,PH089152,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.5200567,77.1635044,Shop no-3 vasant kunj,DSR-GT-DEL-782
 SIYARAM MEDICOS,PH063169,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.6512541,77.0666061,"26_25 CHANDER VIHAR , NILOTHI EXTN NEW DELHI 110041",DSR-GT-NCR-652
 D K MEDICOS,PH083806,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.4981896,77.2928597,"D-382, pehladpur, DDA janta flat",DSR-GT-NCR-572
-UNIQUE PET CARE CLINIC-Silver,CL002497,Metro > ASE-SPT-NCR-East > New Delhi > Delhi > North > New Delhi > North Metro SPT > India,Clinic,[object Object],28.68990558,77.31200358,"G-10 (2) , NEAR AXIS BANK , DILSHAD COLONY",DSR-SPT-NCR-530
 2Fresh Supermarket(ROA),PH032191,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,MG Supermarket,[object Object],28.6115702,77.0698225,"Plot No 371, Opp Metro Pillar 724, Near Nawada Metro Station, Main Najafgarh Road , Nawada , New Delhi",DSR-GT-NCR-424
 Saraswati Medicos,PH121734,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.4935812,77.3097369,"B - 58/1, Main 1st 60 futa road",DSR-GT-NCR-572
 Durga MEDICOS,PH080714,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.5186773,77.1641231,Shop no 1 old property no 119,DSR-NCR-036
@@ -544,7 +536,6 @@ Sarthak pharmacy,PH098908,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North >
 Kms Pet Clinic(ROA)-Gold,CL002280,Metro > ASE-SPT-NCR-North-West 1 > New Delhi > Delhi > North > New Delhi > North Metro SPT > India,Clinic,[object Object],28.537695,77.2108433,"A-88,G.F.,MALVIYA NAGAR,NEW DLEHI",FSA-SPT-NCR-018
 Sobti Medicos(ROA),PH005407,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.6290445,77.0911209,"Shop No 12,B1 Market , Po. B1, Janakpuri Delhi-58",DSR-NCR-031
 Lifecare Pharmacy,PH107787,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.62106,77.1075961,Shop No.11 DB Block,DSR-GT-DEL-783
-Aditya Feeds(ROA)-Platinum,PS002344,Metro > ASE-SPT-NCR-East > New Delhi > Delhi > North > New Delhi > North Metro SPT > India,Petshop,[object Object],28.65963481,77.30650706,"Aditya feeds -339, teliwara shahdara, delhi",DSR-SPT-NCR-530
 Shivaay pharmacy,PH131579,Metro > ASE-GT-NCR-North > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.5968961,77.1336287,Gopi Nath MKT Delhi cantt,DSR-NCR-032
 R.K. Medicos,PH062383,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.5198681,77.1644276,"79-9,Kishan Garh, Near Gullu Dhaba, Vasant kunj, New Delhi-110070",DSR-GT-DEL-782
 Gaurav medicos,PH108768,Metro > ASE-GT-NCR-South > New Delhi > Delhi > North > New Delhi > NCR-HAR > India,Pharmacy,[object Object],28.501518,77.3222709,Main tanki road,DSR-GT-NCR-610
