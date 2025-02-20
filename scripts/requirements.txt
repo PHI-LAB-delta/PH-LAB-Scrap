@@ -4,3 +4,4 @@ google-generativeai
 geopy
 fuzzywuzzy
 python-Levenshtein
+load_dotenv

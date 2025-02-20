@@ -24,6 +24,7 @@ const processRecommendation = (PJPloginOutletListMapping, similarity_cache, oppo
         })
         .on('end', () => {
             console.log('CSV file successfully processed');
+            return results
         })
         .on('error', (err) => {
             console.error('Error reading the CSV file:', err);

@@ -3,9 +3,13 @@ import numpy as np
 import google.generativeai as genai
 import sys
 import json
+from dotenv import load_dotenv
+import os
 
 # Configure Google Gemini API (Make sure to replace with a valid API key)
-# genai.configure(api_key="")
+load_dotenv()
+api_key = os.getenv("Google_API")
+genai.configure(api_key=api_key)
 
 # Haversine Distance Function
 def haversine_distance(lat1, lon1, lat2, lon2):

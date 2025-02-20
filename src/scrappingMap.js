@@ -18,7 +18,7 @@ async function searchGoogleMaps(localArea, localAreaList, type) {
         puppeteer.use(stealthPlugin());
 
         browser = await puppeteer.launch({
-            headless: false,
+            headless: true,
         });
 
         const page = await browser.newPage();

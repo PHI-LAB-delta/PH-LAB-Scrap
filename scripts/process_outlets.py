@@ -8,9 +8,12 @@ from geopy.distance import geodesic
 import google.generativeai as genai
 from fuzzywuzzy import fuzz
 import time
+from dotenv import load_dotenv
 
 # Configure Gemini API
-genai.configure(api_key="") 
+load_dotenv()
+api_key = os.getenv("Google_API2")
+genai.configure(api_key=api_key) 
 model = genai.GenerativeModel("gemini-pro")
 
 def haversine_distance(lat1, lon1, lat2, lon2):
@@ -122,10 +125,11 @@ def map_login_subchannel(login_subchannel_mapping, df_filtered_dark_outlets):
                     dark_outlet_copy['similarity_score'] = similarity_score
                     dark_outlet_copy['loginId'] = login_id
                     dark_outlets_for_login_id.append(dark_outlet_copy)
+                    break
 
         dark_outlets_for_login_id.sort(key=lambda x: x['similarity_score'], reverse=True)
 
-        for dark_outlet in dark_outlets_for_login_id:
+        for dark_outlet in dark_outlets_for_login_id[:3]:
             unique_entries_based_on_place_id.add(dark_outlet['placeId'])
             result.append(dark_outlet) 
 

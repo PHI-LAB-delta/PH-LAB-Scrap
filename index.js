@@ -98,6 +98,7 @@ async function main() {
     if (handleExecution.toProvideRecomm) {
         if (similarity_cache.length === 0 || Object.keys(PJPloginOutletListMapping).length === 0) {
             console.log("PJP data is missing or has not been extracted for the day. Please extract the PJP before proceeding.");
+            return;
         }
         let listOfOutletCode = [];
         for (const [loginId, outlets] of Object.entries(PJPloginOutletListMapping)) {
@@ -116,18 +117,15 @@ async function main() {
             if (PJPloginOutletListMapping[loginId]) {
                 for (skuOuletcodeSubChannel of PJPloginOutletListMapping[loginId]) {
                     if (skuOuletcodeSubChannel.outletcode == outletCode) {
-                        console.log(skuOuletcodeSubChannel);
                         const skuList = getSKUList(payload);
-                        console.log(skuList);
-
                         skuOuletcodeSubChannel["skuList"] = skuList;
                     }
                 }
             }
         }
         const dataForOppoptunityOutlets = processRecommendation(PJPloginOutletListMapping, similarity_cache, `${pathNameDark}/pjp_${fileName.replace('.json', '.csv')}`)
-        console.log(dataForOppoptunityOutlets);
-        // uploadCSVToS3(dataForOppoptunityOutlets, 'harshprincegoogleparser', `${area}_${lob}_opportunityOutlets`)
+        console.log("Total number of opportunity outlets --> ", dataForOppoptunityOutlets.length);
+        uploadCSVToS3(dataForOppoptunityOutlets, 'harshprincegoogleparser', `${area}_${lob}_opportunityOutlets`)
     }
 }
 const getSKUList = (payload) => {
