@@ -2,6 +2,7 @@ require('dotenv').config();
 const AWS = require('aws-sdk');
 const csv = require('csv-parser');
 const fs = require('fs');
+const { Parser } = require('json2csv');
 
 AWS.config.update({
     accessKeyId: process.env.AWS_ACCESS_KEY_ID,
@@ -32,4 +33,37 @@ async function getCSVFromS3(fileName) {
     });
 }
 
-module.exports = { getCSVFromS3 };
+async function uploadCSVToS3(data, folderName, fileName) {
+    return new Promise((resolve, reject) => {
+        try {
+            if (!Array.isArray(data) || data.length === 0) {
+                return reject(new Error("Data should be a non-empty array of objects"));
+            }
+
+            const parser = new Parser();
+            const csvData = parser.parse(data);
+
+            const objectKey = `${folderName}/${fileName}.csv`;
+            const params = {
+                Bucket: bucketName,
+                Key: objectKey,
+                Body: csvData,
+                ContentType: "text/csv"
+            };
+
+            s3.upload(params, (error, result) => {
+                if (error) {
+                    reject(error);
+                } else {
+                    resolve(result);
+                }
+            });
+
+        } catch (error) {
+            reject(error);
+        }
+    });
+}
+
+
+module.exports = { getCSVFromS3, uploadCSVToS3 };

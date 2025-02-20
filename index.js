@@ -12,13 +12,15 @@ const { saveToCSV } = require('./utils/commonUtils');
 const util = require("util");
 const { exec } = require("child_process");
 const path = require("path");
-const { getCSVFromS3 } = require("./src/s3");
+const { getCSVFromS3, uploadCSVToS3 } = require("./src/s3");
 const { getDataFromResponseG } = require("./Db/mlDb");
+const { processRecommendation } = require('./src/RecommProcess');
 
 let area = 'delhi';
 let fileName = `${area}OutletData.json`;
 let pathName = "Data/delhi";
 let pathNameCompany = `${pathName}/companyData`;
+let pathNameDark = `${pathName}/DarkOutlet`;
 
 let lob = "";
 let env = "";
@@ -66,8 +68,7 @@ async function main() {
         try {
             const execPromise = util.promisify(exec);
             const darkOutlets = await runPythonScript(opportunitiesFile, companyOutletFile, execPromise, "llmSimalirity.py");
-            await saveToCSV(`${pathName}/DarkOutlet`, fileName.replace('.json', '.csv'), darkOutlets);
-            console.log("✅ Dark Outlets Save in CSV :", `${pathName}/DarkOutlet/${fileName.replace('.json', '.csv')}`);
+            await saveToCSV(`${pathNameDark}`, fileName.replace('.json', '.csv'), darkOutlets);
         } catch (error) {
             console.error("❌ Error in running Python script:", error);
         }
@@ -82,16 +83,16 @@ async function main() {
         await getOutletDataAndStoreinCSV(companyPJPDetails, lob, PJPloginOutletListMapping);
         try {
             const pjpOutletData = path.join(__dirname, `${pathNameCompany}/pjp_${fileName.replace('.json', '.csv')}`);
-            const darkOutletData = path.join(__dirname, `${pathName}/DarkOutlet/${fileName.replace('.json', '.csv')}`);
+            const darkOutletData = path.join(__dirname, `${pathNameDark}/${fileName.replace('.json', '.csv')}`);
             const execPromise = util.promisify(exec);
             const darkOutlets = await runPythonScript(pjpOutletData, darkOutletData, execPromise, "process_outlets.py");
-            await saveToCSV(`${pathName}/DarkOutlet`, `pjp_${fileName.replace('.json', '.csv')}`, darkOutlets.filtered_dark_outlets);
+            await saveToCSV(`${pathNameDark}`, `pjp_${fileName.replace('.json', '.csv')}`, darkOutlets.filtered_dark_outlets);
             similarity_cache = darkOutlets.similarity_cache;
-            console.log("✅ Dark Outlets Save in CSV :", `${pathName}/DarkOutlet/pjp_${fileName.replace('.json', '.csv')}`);
         } catch (error) {
             console.error("❌ Error in running Python script:", error);
         }
     }
+
 
     // Add Recc for opportunity outlets
     if (handleExecution.toProvideRecomm) {
@@ -124,12 +125,10 @@ async function main() {
                 }
             }
         }
-
-        console.log("PJPloginOutletListMapping : ", PJPloginOutletListMapping);
+        const dataForOppoptunityOutlets = processRecommendation(PJPloginOutletListMapping, similarity_cache, `${pathNameDark}/pjp_${fileName.replace('.json', '.csv')}`)
+        console.log(dataForOppoptunityOutlets);
+        // uploadCSVToS3(dataForOppoptunityOutlets, 'harshprincegoogleparser', `${area}_${lob}_opportunityOutlets`)
     }
-
-    // DB/S3 store ->
-
 }
 const getSKUList = (payload) => {
     if (!payload?.pbs || !Array.isArray(payload.pbs)) {
@@ -139,7 +138,8 @@ const getSKUList = (payload) => {
         .filter(value => value.spr === 0)
         .map(value => ({
             skuCode: value.sku,
-            qty: value.qty
+            qty: value.qty,
+            wgt: value.wgt
         }));
 };
 

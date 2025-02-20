@@ -145,7 +145,7 @@ def main(file1, file2):
         filtered_df = map_login_subchannel(LoginSubChannelMapping, df_filtered_dark_outlets)
 
         similarity_cache_serializable = {
-            f"{k[0]}|{k[1]}": v for k, v in similarity_cache.items()
+            f"{k[0]}::{k[1]}": v for k, v in similarity_cache.items()
         }
 
         output = {
