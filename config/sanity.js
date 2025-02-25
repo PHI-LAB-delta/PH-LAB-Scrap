@@ -57,7 +57,7 @@ const attributeToConsiderForLLMSimlarity = {
 
 
 const getAttributeToConsider = (val) => {
-    if (val === "llmSimalarity") {
+    if (val === "llmSimilarity") {
         return attributeToConsiderForLLMSimlarity;
     }
     if (val = "all") {

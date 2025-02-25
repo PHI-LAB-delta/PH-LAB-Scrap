@@ -100,8 +100,8 @@ async function main() {
             const darkOutletData = path.join(__dirname, `${pathNameDark}/${fileName.replace('.json', '.csv')}`);
             const execPromise = util.promisify(exec);
             const darkOutlets = await runPythonScript(pjpOutletData, darkOutletData, execPromise, "process_outlets.py");
-            await saveToCSV(`${pathNameDark}`, `pjp_${fileName.replace('.json', '.csv')}`, darkOutlets.filtered_dark_outlets);
             similarity_cache = darkOutlets.similarity_cache;
+            await saveToCSV(`${pathNameDark}`, `pjp_${fileName.replace('.json', '.csv')}`, darkOutlets.filtered_dark_outlets);
             console.log("✅ PJP outlet processing completed.");
         } catch (error) {
             console.error("❌ Error in running Python script for PJP outlets:", error);
@@ -194,7 +194,6 @@ async function runPythonScript(file1, file2, execPromise, scriptFileName) {
 
             console.log("✅ Python script executed successfully.");
             const darkOutlets = JSON.parse(stdout);
-            console.log("📊 Processed Data:", darkOutlets);
             resolve(darkOutlets);
         } catch (error) {
             console.error("❌ Error executing Python script:", error.message);
