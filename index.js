@@ -18,95 +18,109 @@ const { processRecommendation } = require('./src/RecommProcess');
 
 let area = 'delhi';
 let fileName = `${area}OutletData.json`;
-let pathName = "Data/delhi";
+let pathName = `Data/${area}`;
 let pathNameCompany = `${pathName}/companyData`;
 let pathNameDark = `${pathName}/DarkOutlet`;
 
 let lob = "";
 let env = "";
 async function main() {
-
     const args = process.argv;
-    console.log(args[2]);
+    console.log("ℹ️ Starting the process with arguments:", args.slice(2));
 
-    lob = args[2]
-    env = args[3]
+    lob = args[2];
+    env = args[3];
     const handleExecution = {
-        toScrapData: args[4] === "true" ? true : false,
-        toFindOppournityOutlets: args[5] === "true" ? true : false,
-        toGetPJPData: args[6] === "true" ? true : false,
-        toProvideRecomm: args[7] === "true" ? true : false
-    }
-    if (!lob || !lob.length || !env || !env.length) {
-        console.log("Please enter the lob to proceed");
+        toScrapData: args[4] === "true",
+        toFindOppournityOutlets: args[5] === "true",
+        toGetPJPData: args[6] === "true",
+        toProvideRecomm: args[7] === "true"
+    };
+
+    if (!lob || !env) {
+        console.error("❌ ERROR: Please provide both LOB and environment to proceed.");
         return;
     }
 
-    // scrapping
+    console.log(`🔄 Processing for LOB: ${lob}, Environment: ${env}`);
+    console.log("🔧 Execution flags:", handleExecution);
+
+    // Web Scraping
     if (handleExecution.toScrapData) {
-        console.log("🚀 Starting web scraping...");
+        console.log("🚀 Initiating web scraping...");
         await scrapping();
-        console.log("✅ Web scraping completed.");
+        console.log("✅ Web scraping completed successfully.");
     }
 
-    // finding opportunity outlets:
-
+    // Finding Opportunity Outlets
     if (handleExecution.toFindOppournityOutlets) {
-        // Code sanity check
         console.log("🔍 Running code sanity check...");
-        const sanityFor = "llmSimalarity";
+        const sanityFor = "llmSimilarity";
         const fileNameToSaveCompanyData = `${sanityFor}_${fileName}`;
-        const filterDarkOutlet = await sanity(sanityFor, fileNameToSaveCompanyData);
-        console.log("✅ Code sanity check passed.");
-        // // extracting all company outlets from DB
+
+        try {
+            const filterDarkOutlet = await sanity(sanityFor, fileNameToSaveCompanyData);
+            console.log("✅ Code sanity check passed.");
+        } catch (error) {
+            console.error("❌ Error in code sanity check:", error);
+            return;
+        }
+
+        console.log("📥 Fetching outlet data from database...");
         const brightOutlets = await getOutletData(lob);
         await saveToCSV(pathNameCompany, fileName.replace('.json', '.csv'), brightOutlets);
-        // simarlirity LLM code -
+        console.log("📤 Outlet data saved successfully.");
+
         const opportunitiesFile = path.join(__dirname, `${pathName}/${fileNameToSaveCompanyData.replace('.json', '.csv')}`);
         const companyOutletFile = path.join(__dirname, `${pathNameCompany}/${fileName.replace('.json', '.csv')}`);
 
         try {
+            console.log("⚙️ Running similarity analysis Python script...");
             const execPromise = util.promisify(exec);
-            const darkOutlets = await runPythonScript(opportunitiesFile, companyOutletFile, execPromise, "llmSimalirity.py");
+            const darkOutlets = await runPythonScript(opportunitiesFile, companyOutletFile, execPromise, "llmSimilarity.py");
             await saveToCSV(`${pathNameDark}`, fileName.replace('.json', '.csv'), darkOutlets);
+            console.log("✅ Similarity analysis completed.");
         } catch (error) {
             console.error("❌ Error in running Python script:", error);
         }
     }
 
-    // PJP - company data
     let similarity_cache = [];
     let PJPloginOutletListMapping = {};
 
     if (handleExecution.toGetPJPData) {
+        console.log("📊 Extracting PJP data for the day...");
         const companyPJPDetails = await getPJPForDay(lob, env);
         await getOutletDataAndStoreinCSV(companyPJPDetails, lob, PJPloginOutletListMapping);
+        console.log("✅ PJP data extraction completed.");
+
         try {
+            console.log("⚙️ Processing PJP outlet data with Python script...");
             const pjpOutletData = path.join(__dirname, `${pathNameCompany}/pjp_${fileName.replace('.json', '.csv')}`);
             const darkOutletData = path.join(__dirname, `${pathNameDark}/${fileName.replace('.json', '.csv')}`);
             const execPromise = util.promisify(exec);
             const darkOutlets = await runPythonScript(pjpOutletData, darkOutletData, execPromise, "process_outlets.py");
             await saveToCSV(`${pathNameDark}`, `pjp_${fileName.replace('.json', '.csv')}`, darkOutlets.filtered_dark_outlets);
             similarity_cache = darkOutlets.similarity_cache;
+            console.log("✅ PJP outlet processing completed.");
         } catch (error) {
-            console.error("❌ Error in running Python script:", error);
+            console.error("❌ Error in running Python script for PJP outlets:", error);
         }
     }
 
-
-    // Add Recc for opportunity outlets
     if (handleExecution.toProvideRecomm) {
+        console.log("📡 Initiating recommendations for opportunity outlets...");
         if (similarity_cache.length === 0 || Object.keys(PJPloginOutletListMapping).length === 0) {
-            console.log("PJP data is missing or has not been extracted for the day. Please extract the PJP before proceeding.");
+            console.error("⚠️ ERROR: PJP data is missing or has not been extracted for the day. Please extract the PJP data before proceeding.");
             return;
         }
+
         let listOfOutletCode = [];
-        for (const [loginId, outlets] of Object.entries(PJPloginOutletListMapping)) {
-            for (const outlet of outlets) {
-                listOfOutletCode.push(outlet.outletcode);
-            }
+        for (const outlets of Object.values(PJPloginOutletListMapping)) {
+            listOfOutletCode.push(...outlets.map(outlet => outlet.outletcode));
         }
 
+        console.log("📥 Fetching additional outlet data for recommendations...");
         const dataResponseG = await getDataFromResponseG(lob, listOfOutletCode);
 
         for (const data of dataResponseG) {
@@ -115,20 +129,27 @@ async function main() {
             const payload = JSON.parse(data.payload);
 
             if (PJPloginOutletListMapping[loginId]) {
-                for (skuOuletcodeSubChannel of PJPloginOutletListMapping[loginId]) {
-                    if (skuOuletcodeSubChannel.outletcode == outletCode) {
-                        const skuList = getSKUList(payload);
-                        skuOuletcodeSubChannel["skuList"] = skuList;
+                for (const skuOutlet of PJPloginOutletListMapping[loginId]) {
+                    if (skuOutlet.outletcode === outletCode) {
+                        skuOutlet["skuList"] = getSKUList(payload);
                     }
                 }
             }
         }
-        const dataForOppoptunityOutlets = await processRecommendation(PJPloginOutletListMapping, similarity_cache, `${pathNameDark}/pjp_${fileName.replace('.json', '.csv')}`)
-        console.log("Total number of opportunity outlets --> ", dataForOppoptunityOutlets.length);
+
+        console.log("🔎 Processing final recommendations...");
+        const dataForOpportunityOutlets = await processRecommendation(PJPloginOutletListMapping, similarity_cache, `${pathNameDark}/pjp_${fileName.replace('.json', '.csv')}`);
+        console.log("✅ Total opportunity outlets identified:", dataForOpportunityOutlets.length);
+
         const fileNameToSave = `final_${fileName.replace('.json', '.csv')}`;
-        await saveToCSV(pathNameDark, fileNameToSave, dataForOppoptunityOutlets);
-        await AwsUtils.uploadFile("darksysbucket", `harshprincegoogleparser/${lob}_PJP_opportunitiesOutlets.csv`, `${pathNameDark}/${fileNameToSave}`)
+        await saveToCSV(pathNameDark, fileNameToSave, dataForOpportunityOutlets);
+        console.log("📤 Final recommendations saved.");
+
+        console.log("☁️ Uploading final results to AWS...");
+        await AwsUtils.uploadFile("darksysbucket", `harshprincegoogleparser/${lob}_PJP_opportunitiesOutlets.csv`, `${pathNameDark}/${fileNameToSave}`);
+        console.log("✅ File successfully uploaded to AWS.");
     }
+    console.log("🎉 Process completed successfully.");
 }
 const getSKUList = (payload) => {
     if (!payload?.pbs || !Array.isArray(payload.pbs)) {
@@ -151,8 +172,8 @@ async function runPythonScript(file1, file2, execPromise, scriptFileName) {
         const pythonExec = path.join(venvPath, "bin", "python3"); // Ensure correct Python environment
         const packageDependency = path.join(__dirname, "scripts", "requirements.txt");
 
-        console.log(file1);
-        console.log(file2);
+        console.log("📂 Input File 1:", file1);
+        console.log("📂 Input File 2:", file2);
 
 
         try {
@@ -164,16 +185,19 @@ async function runPythonScript(file1, file2, execPromise, scriptFileName) {
             await execPromise(`${pythonExec} -m pip install --upgrade pip`);
             await execPromise(`${pythonExec} -m pip install -r ${packageDependency}`);
 
-            console.log("🚀 Running Python script...");
+            console.log("🚀 Running Python script:", scriptPath);
             const { stdout, stderr } = await execPromise(`${pythonExec} ${scriptPath} ${file1} ${file2}`);
 
             if (stderr) {
                 console.warn(`⚠️ Python Script Warning: ${stderr}`);
             }
 
+            console.log("✅ Python script executed successfully.");
             const darkOutlets = JSON.parse(stdout);
+            console.log("📊 Processed Data:", darkOutlets);
             resolve(darkOutlets);
         } catch (error) {
+            console.error("❌ Error executing Python script:", error.message);
             reject(`❌ Error: ${error.message}`);
         }
     });
