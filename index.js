@@ -155,12 +155,14 @@ const getSKUList = (payload) => {
     if (!payload?.pbs || !Array.isArray(payload.pbs)) {
         return [];
     }
+    let outletCode = payload?.out
     return payload.pbs
         .filter(value => value.spr === 0)
         .map(value => ({
             skuCode: value.sku,
             qty: value.qty,
-            wgt: value.wgt
+            wgt: value.wgt,
+            outletCode: outletCode
         }));
 };
 
@@ -194,6 +196,13 @@ async function runPythonScript(file1, file2, execPromise, scriptFileName) {
 
             console.log("✅ Python script executed successfully.");
             const darkOutlets = JSON.parse(stdout);
+            let takeUniqueData = new Set();
+            if (darkOutlets.filtered_dark_outlets && Array.isArray(darkOutlets.filtered_dark_outlets)) {
+                darkOutlets.filtered_dark_outlets.forEach((val) => {
+                    takeUniqueData.add(val);
+                });
+            }
+            darkOutlets.filtered_dark_outlets = Array.from(takeUniqueData);
             resolve(darkOutlets);
         } catch (error) {
             console.error("❌ Error executing Python script:", error.message);
