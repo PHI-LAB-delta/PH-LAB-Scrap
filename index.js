@@ -101,6 +101,15 @@ async function main() {
             const execPromise = util.promisify(exec);
             const darkOutlets = await runPythonScript(pjpOutletData, darkOutletData, execPromise, "process_outlets.py");
             similarity_cache = darkOutlets.similarity_cache;
+            let takeUniqueData = new Map();
+            if (darkOutlets.filtered_dark_outlets && Array.isArray(darkOutlets.filtered_dark_outlets)) {
+                darkOutlets.filtered_dark_outlets.forEach((val) => {
+                    if (!takeUniqueData.has(val.placeId)) {
+                        takeUniqueData.set(val.placeId, val);
+                    }
+                });
+            }
+            darkOutlets.filtered_dark_outlets = Array.from(takeUniqueData.values());
             await saveToCSV(`${pathNameDark}`, `pjp_${fileName.replace('.json', '.csv')}`, darkOutlets.filtered_dark_outlets);
             console.log("✅ PJP outlet processing completed.");
         } catch (error) {
@@ -196,13 +205,6 @@ async function runPythonScript(file1, file2, execPromise, scriptFileName) {
 
             console.log("✅ Python script executed successfully.");
             const darkOutlets = JSON.parse(stdout);
-            let takeUniqueData = new Set();
-            if (darkOutlets.filtered_dark_outlets && Array.isArray(darkOutlets.filtered_dark_outlets)) {
-                darkOutlets.filtered_dark_outlets.forEach((val) => {
-                    takeUniqueData.add(val);
-                });
-            }
-            darkOutlets.filtered_dark_outlets = Array.from(takeUniqueData);
             resolve(darkOutlets);
         } catch (error) {
             console.error("❌ Error executing Python script:", error.message);
