@@ -162,7 +162,7 @@ const getSKUList = (payload) => {
             skuCode: value.sku,
             qty: value.qty,
             wgt: value.wgt,
-            outletCode: outletCode
+            outletCode: [outletCode]
         }));
 };
 
