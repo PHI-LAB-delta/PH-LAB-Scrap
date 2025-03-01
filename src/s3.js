@@ -1,4 +1,4 @@
-const { S3Client, PutObjectCommand } = require("@aws-sdk/client-s3");
+const { S3Client, PutObjectCommand, GetObjectCommand } = require("@aws-sdk/client-s3");
 require('dotenv').config();
 const fs = require("fs");
 
@@ -38,6 +38,35 @@ const AwsUtils = {
             console.error("Unable to upload the file:", err);
         }
     },
+    readFile: async function (bucketName, fileNameKey, downloadPath) {
+        console.log(`Reading file from AWS S3 bucket: ${bucketName}`);
+
+        try {
+            const response = await this.s3Client.send(
+                new GetObjectCommand({
+                    Bucket: bucketName,
+                    Key: fileNameKey,
+                })
+            );
+
+            const fileStream = fs.createWriteStream(downloadPath);
+            response.Body.pipe(fileStream);
+
+            return new Promise((resolve, reject) => {
+                fileStream.on("finish", () => {
+                    console.log(`File successfully downloaded to: ${downloadPath}`);
+                    resolve(downloadPath);
+                });
+
+                fileStream.on("error", (err) => {
+                    console.error("File write error:", err);
+                    reject(err);
+                });
+            });
+        } catch (err) {
+            console.error("Unable to read the file:", err);
+        }
+    }
 };
 
 module.exports = AwsUtils;

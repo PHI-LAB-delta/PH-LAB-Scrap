@@ -21,6 +21,7 @@ let fileName = `${area}OutletData.json`;
 let pathName = `Data/${area}`;
 let pathNameCompany = `${pathName}/companyData`;
 let pathNameDark = `${pathName}/DarkOutlet`;
+let pathNameSky = `Data/sky_reviews`;
 
 let lob = "";
 let env = "";
@@ -34,7 +35,8 @@ async function main() {
         toScrapData: args[4] === "true",
         toFindOppournityOutlets: args[5] === "true",
         toGetPJPData: args[6] === "true",
-        toProvideRecomm: args[7] === "true"
+        toProvideRecomm: args[7] === "true",
+        toProceedWithReview: args[8] === "true"
     };
 
     if (!lob || !env) {
@@ -157,6 +159,21 @@ async function main() {
         console.log("☁️ Uploading final results to AWS...");
         await AwsUtils.uploadFile("darksysbucket", `harshprincegoogleparser/${lob}_PJP_opportunitiesOutlets.csv`, `${pathNameDark}/${fileNameToSave}`);
         console.log("✅ File successfully uploaded to AWS.");
+    }
+    if (handleExecution.toProceedWithReview) {
+        console.log("🔎 Processing for Review ... ");
+        let fileName = `${lob}_review_result.csv`;
+        const FAQ = path.join(__dirname, `${pathNameSky}/${lob}_FAQ.csv`);
+        const QA = path.join(__dirname, `${pathNameSky}/${lob}_QA.csv`);
+        try {
+            console.log("⚙️ Running similarity analysis Python script...");
+            const execPromise = util.promisify(exec);
+            const responseResult = await runPythonScript(FAQ, QA, execPromise, "sky_review.py");
+            await saveToCSV(`${pathNameSky}`, fileName, responseResult);
+            console.log("✅ Process done for Review/feedback");
+        } catch (error) {
+            console.error("❌ Error in running Python script:", error);
+        }
     }
     console.log("🎉 Process completed successfully.");
 }

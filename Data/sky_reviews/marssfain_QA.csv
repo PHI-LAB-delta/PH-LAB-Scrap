@@ -1,0 +1,67 @@
+loginid,outletcode,payload
+pet_store_001,PS001,"[
+    {
+        ""qId"": 1001,
+        ""answer"": ""Haan bhaiya, Mars ke kaafi saare products rakhe hain hum. Pedigree ka dog food, Whiskas ki cat food aur Dreamies ke treats bhi hain. Aaj kal log Royal Canin bhi demand kar rahe hain, toh woh bhi rakhna shuru kiya hai!""
+    },
+    {
+        ""qId"": 1002,
+        ""answer"": ""Sabse zyada Pedigree ke biscuits aur Royal Canin ka dog food bikta hai. Log apne pets ke liye yahi prefer karte hain. Khud bhi kabhi-kabhi Dreamies ya Whiskas ka kuch naya try kar leta hoon!""
+    },
+    {
+        ""qId"": 1003,
+        ""answer"": ""Aaj kal log grain-free aur organic pet food ki demand kar rahe hain. Shayad health-conscious ho rahe hain ya phir naye cheezein try karna pasand karte hain. Pedigree ka naye flavor kaafi bik raha hai!""
+    },
+    {
+        ""qId"":1004,
+        ""answer"":""Haan, jab discount ya scheme lagti hai toh sales badhti hai. Log zyada quantity kharidte hain ya naye customers bhi try karte hain. Offer kaafi attractive hota hai toh demand bhi badh jati hai!""
+    },
+    {
+        ""qId"":1005,
+        ""answer"":""Haan, kaafi log naye products try karne me interested hote hain, especially agar koi naya flavor ya variant aata hai. Agar company koi scheme ya sample bhi deti hai toh aur zyada log try karne ke liye ready hote hain!""
+    }
+]"
+medical_store_002,MS002,"[
+    {
+        ""qId"": 1001,
+        ""answer"": ""Haan ji, Mars ke healthcare products rakhe hain, jaise Ensure aur Pediasure. Log apni health ke liye inhe lete hain, especially jo weak feel karte hain ya doctor ne recommend kiya ho.""
+    },
+    {
+        ""qId"": 1002,
+        ""answer"": ""Ensure aur Pediasure sabse zyada bikte hain. Kayi log rozana lete hain, aur mai bhi kabhi-kabhi ghar ke buzurgon ke liye lata hoon. Aaj kal diabetic patients ke liye special protein supplements bhi chal rahe hain.""
+    },
+    {
+        ""qId"": 1003,
+        ""answer"": ""Abhi thand ka time aa raha hai, toh immunity boost karne wale products zyada chal rahe hain. Vitamin C aur protein supplements kaafi log le rahe hain, shayad changing weather ki wajah se!""
+    },
+    {
+        ""qId"": 1004,
+        ""answer"": ""Kuch products pe scheme ka asar hota hai, jaise daily-use waale items par. Lekin premium products ke liye log discount ka wait nahi karte, agar zaroorat ho toh waise hi le lete hain.""
+    },
+    {
+        ""qId"": 1005,
+        ""answer"": ""Kuch customers naye products lene me hesitate karte hain, jab tak kisi aur se feedback na mil jaye. Lekin agar brand trusted hai aur product kaafi unique hai toh log try karne me interested hote hain.""
+    }
+]"
+general_store_003,GS003,"[
+    {
+        ""qId"": 1001,
+        ""answer"": ""Haan bhai, Mars ke chocolates aur snacks sab milenge. Snickers, M&M’s, Galaxy, Twix sab rakha hai. Bounty bhi le aaya hoon, kyunki kuch customers baar-baar pooch rahe the!""
+    },
+    {
+        ""qId"": 1002,
+        ""answer"": ""Snickers aur M&M’s sabse zyada bikte hain. Log khaane ke liye ya energy ke liye lete hain. Main bhi kabhi-kabhi Snickers le leta hoon, mitha bhi hai aur pet bhi bhar jata hai!""
+    },
+    {
+        ""qId"": 1003,
+        ""answer"": ""Abhi festivals chal rahe hain toh chocolates zyada bik rahi hain. Log gift dene ke liye bhi le rahe hain. M&M’s aur Galaxy kaafi demand mein hai kyunki thoda premium lagta hai!""
+    },
+    {
+        ""qId"": 1004,
+        ""answer"": ""Yeh depend karta hai discount kitna acha hai aur kitni der tak available hai. Chhoti chhoti schemes ka itna asar nahi hota, lekin agar bada offer ho, toh definitely sales par impact padta hai!""
+    },
+    {
+        ""qId"": 1005,
+        ""answer"": ""Yeh depend karta hai product kis category ka hai. Agar pet food ya healthcare product ho toh log pehle doosron ka review dekhte hain, lekin chocolates ya snacks wale naye products jaldi try kar lete hain!""
+    }
+]"
