@@ -162,14 +162,21 @@ async function main() {
     }
     if (handleExecution.toProceedWithReview) {
         console.log("🔎 Processing for Review ... ");
-        let fileName = `${lob}_review_result.csv`;
-        const FAQ = path.join(__dirname, `${pathNameSky}/${lob}_FAQ.csv`);
-        const QA = path.join(__dirname, `${pathNameSky}/${lob}_QA.csv`);
+        let fileNameResult = `${lob}_review_result.csv`;
+        let QAKeyName = `${lob}_QA.csv`;
+        let FAQKeyName = `${lob}_FAQ.csv`;
+        let FAQFileName = path.join(`${pathNameSky}/${FAQKeyName}`);
+        let QAFileName = path.join(`${pathNameSky}/${QAKeyName}`);
+
+        await AwsUtils.readFile("darksysbucket", `harshprincegoogleparser/${QAKeyName}`, QAFileName);
+        const FAQ = path.join(__dirname, FAQFileName);
+        const QA = path.join(__dirname, QAFileName);
         try {
             console.log("⚙️ Running similarity analysis Python script...");
             const execPromise = util.promisify(exec);
             const responseResult = await runPythonScript(FAQ, QA, execPromise, "sky_review.py");
-            await saveToCSV(`${pathNameSky}`, fileName, responseResult);
+            await saveToCSV(`${pathNameSky}`, fileNameResult, responseResult);
+            await AwsUtils.uploadFile("darksysbucket", `harshprincegoogleparser/${fileNameResult}`, `${pathNameSky}/${fileNameResult}`);
             console.log("✅ Process done for Review/feedback");
         } catch (error) {
             console.error("❌ Error in running Python script:", error);

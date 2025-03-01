@@ -58,7 +58,7 @@ def process_payload_with_llm(payload_df, questions_df):
                     "qId": qid,
                     "question": formatted_question,
                     "user_answer": formatted_answer,
-                    "llm_response": formatted_llm_response
+                    "llm_response": llm_response
                 })
 
                 time.sleep(1) 
