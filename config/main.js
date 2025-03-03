@@ -1,7 +1,7 @@
 const config = {
     areaFor: {
-        area: "delhi",
-        targetOsmId: "1942586",
+        area: "lucknow",
+        targetOsmId: "1959018",
         targetOsmType: "R",
     },
     scrapping: {
