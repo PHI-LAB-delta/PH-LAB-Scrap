@@ -1,5 +1,5 @@
 const { run } = require('./src/scrappingMap');
-const { pincodeList } = require('./Data/Delhi/pincode')
+const { pincodeList } = require('./config/pincode')
 const { promptList } = require('./config/prompts');
 const { removeAttributes } = require("./src/sanity");
 const { getAttributeToConsider } = require("./config/sanity");
@@ -16,7 +16,7 @@ const AwsUtils = require("./src/s3");
 const { getDataFromResponseG } = require("./Db/mlDb");
 const { processRecommendation } = require('./src/RecommProcess');
 
-let area = 'delhi';
+let area = config.areaFor.area;
 let fileName = `${area}OutletData.json`;
 let pathName = `Data/${area}`;
 let pathNameCompany = `${pathName}/companyData`;
