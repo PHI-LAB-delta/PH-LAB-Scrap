@@ -1,9 +1,9 @@
 const pincodeList = [
-    { "Pincode": "110054" },
-    { "Pincode": "110085" },
-    { "Pincode": "110006" },
-    { "Pincode": "110084" },
-    { "Pincode": "110007" }
+    { "Pincode": "226026" },
+    { "Pincode": "226021" },
+    { "Pincode": "226016" },
+    { "Pincode": "226017" },
+    { "Pincode": "226018" }
 ]
 
 

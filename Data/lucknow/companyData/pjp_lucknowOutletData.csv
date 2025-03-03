@@ -1,0 +1,52 @@
+outlet_name,outletcode,location_hierarchy,sub_channel,coordinate,latitude,longitude,address,loginId
+Shiv Shakti Enterprise,CC000153,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Traditional Grocery,,26.8966825,80.98751,Faridi Nagar  picnic spot road,DSR-UP-381
+Nandi Store,DS009680,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Super Grocery,,26.8565628,80.9036989,Rajni Khand,DSR-E/UP-051
+Sri Syam Super Store,DS014221,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Super Grocery,,26.8565476,80.9037075,bangla bazar aasiyana,DSR-E/UP-051
+Saksham Departmental,DS014623,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Super Grocery,,26.7805141,80.8997997,Parag road near mohita medicals l.d.a,DSR-E/UP-051
+Happy super mart,DS015085,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Super Grocery,,26.8578349,80.8793515,bangla bazar police chowki nitin medico,DSR-E/UP-051
+Neha Medical Store,PH007070,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.8893356,80.9961657,Lucknow,DSR-UP-381
+Shri Balaji Medical,PH007072,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.9205313,80.9542294,Lucknow,DSR-UP-381
+Nitin Medico,PH007073,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.7955651,80.923611,Aashiyana,DSR-E/UP-051
+Aashiyana Medical Hall,PH007076,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.794769,80.9157272,Aashiyana,DSR-E/UP-051
+Ma Laxmi Medical,PH007079,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.7911241,80.9106777,Aashiyana,DSR-E/UP-051
+Gaur Medicals.,PH007086,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.79531167,80.89872667,Hind Nagar Lda,DSR-E/UP-051
+New Saral Medical,PH007087,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.7881184,80.8905449,Hind Nagar Lda,DSR-E/UP-242
+New Sanjeevni Medical,PH007088,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.7826417,80.8952567,Hind Nagar Lda,DSR-E/UP-242
+Syam Medical Store,PH007093,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.8565364,80.9037066,Aashiyana,DSR-E/UP-051
+Wadhwa Medicos,PH007175,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.794985,80.8909417,Krishna Nagarkanpur Roadlucknow,DSR-E/UP-242
+Rajpal Medical Store,PH007176,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.794985,80.8909417,Krishna Nagar Kanpur Road Lucknow,DSR-E/UP-242
+Rajendra Medicine Point,PH007177,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.7951094,80.8909388,A1 Sindhi Market Krishna Nagar Lucknow,DSR-E/UP-242
+Mohan Store,PH007178,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.8009688,80.8853141,2239 Krishna Nagar Near Water Tank,DSR-E/UP-242
+Rajdhani Medical Store,PH007180,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.7826417,80.8952567,Shop No 2 1St Vijay Nagar Kanpur Road Lucknow,DSR-E/UP-242
+Uday Laxmi Medical,PH007291,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.8565456,80.9037067,3/166 Rajni Khand Lucknow,DSR-E/UP-051
+Sanjeevani Medical Store,PH007293,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.7803057,80.9306356,Ugf 116B Ratan Khand Lda Lucknow,DSR-E/UP-051
+Sri Guru Nanak Medical Store,PH007294,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.7803325,80.9304091,"Priyam Crossing Plaza, Rashmi Khand",DSR-E/UP-051
+P U Medicals,PH019088,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.7955536,80.9236315,"Shop 11 Bangla Bazzar, Jail Road",DSR-E/UP-051
+Nirmala Medical Store,PH019090,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.7909106,80.9248854,"Shop No 2, Bangla Bazzar",DSR-E/UP-051
+Bansal Medical Store,PH028028,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.77928,80.9034917,Parag Road,DSR-E/UP-242
+GOOD HEALTH MEDICALS,PH028029,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.7878544,80.8905377,Near L.D.A,DSR-E/UP-242
+Gurunanak Medical,PH028034,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.809724,80.9041819,"Bada Birwa, Alambagh",DSR-E/UP-242
+Kartik Medical Store,PH028153,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.9021075,81.0016459,Lucknow,DSR-UP-381
+Maa Ambey Pharmacy,PH028538,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.7979658,80.8856138,Lucknow,DSR-E/UP-242
+Krishna Medical,PH030077,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.9116649,80.9376791,Indranagar,DSR-UP-381
+Sidhi Medical,PH032133,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.8049902,80.9112454,Lda,DSR-E/UP-242
+H. K Medicos,PH036222,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.8565371,80.9037063,Ratankhand Telibagh,DSR-E/UP-051
+Ojas Medical& Convenience,PH044044,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.7937833,80.8851952,Opp.Metro Medical Sarojninagar,DSR-E/UP-242
+Lucknow Medicals,PH044317,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.7957353,80.883214,Near Pooja Medical Kheshri Khera,DSR-E/UP-242
+Maa medicals,PH047156,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.7580295,80.9118939,MD137 Lda colony kanpur rd lko,DSR-E/UP-051
+Chawla Medical,PH047656,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.7793467,80.9034433,Parag Road L.D.A.,DSR-E/UP-242
+Viraaj Medical Store,PH051193,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.7951043,80.8909514,Opp.Krishna Nagar Thans,DSR-E/UP-242
+Hind Medical Store,PH056541,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.7580306,80.9118872,Keshri Khera Sarojninagar,DSR-E/UP-242
+shree guru nanak medical store,PH058626,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Pharmacy,,26.7803073,80.9303921,priyam plaza lda,DSR-E/UP-051
+Anushka medical store,PH102698,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > North > Lucknow > Rest of UP > India,Pharmacy,,26.8104988,80.8914847,Manaknager station,DSR-E/UP-051
+Wow med,PH102704,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > North > Lucknow > Rest of UP > India,Pharmacy,,26.7794886,80.903064,Lda,DSR-E/UP-242
+Madhu meds pharma,PH102721,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > North > Lucknow > Rest of UP > India,Pharmacy,,26.8459473,80.8829786,Raja ji puram,DSR-E/UP-051
+Raj medical,PH114432,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > North > Lucknow > Rest of UP > India,Pharmacy,,26.7952453,80.8829076,Near new mohan medical,DSR-E/UP-242
+Narayan medical,PH114438,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > North > Lucknow > Rest of UP > India,Pharmacy,,26.7985619,80.8859204,Near mohan medical,DSR-E/UP-242
+Himalaya General Store,TG002336,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Traditional Grocery,,26.7816452,80.8970234,"C-20,Sec F ,Parag Dairy Road,Lda",DSR-E/UP-242
+Sai Medical Store,TG002341,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Traditional Grocery,,26.7846446,80.8917052,Parag Dairy Road,DSR-E/UP-242
+Sachdeva Store,TG002343,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Traditional Grocery,,26.8202239,80.9093547,Hig-39 Sector-G Lda Colony Kanpur Road Lucknow,DSR-E/UP-051
+Kesharwani Store,TG002344,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Traditional Grocery,,26.795665,80.89832333,"49 Sec G,Lda Colony",DSR-E/UP-051
+Real Value Family Store,TG002347,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Traditional Grocery,,26.787748,80.8911987,2/484 Ruchi Khand 2 Lda Lucknow,DSR-E/UP-051
+Kundan Gen Store,TG005918,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Traditional Grocery,,26.7976733,80.88558,Alambagh,DSR-E/UP-242
+Real value family mart,TG014858,Mini Metro > SS-GT-Lucknow > Lucknow > Uttar Pradesh > East > Lucknow > Uttar Pradesh > India,Traditional Grocery,,26.7874045,80.9312204,Rashmi khand lda,DSR-E/UP-051
