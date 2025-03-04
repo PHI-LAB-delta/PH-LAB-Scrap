@@ -120,41 +120,41 @@ async function main() {
     }
 
     if (handleExecution.toProvideRecomm) {
-        // console.log("📡 Initiating recommendations for opportunity outlets...");
-        // if (similarity_cache.length === 0 || Object.keys(PJPloginOutletListMapping).length === 0) {
-        //     console.error("⚠️ ERROR: PJP data is missing or has not been extracted for the day. Please extract the PJP data before proceeding.");
-        //     return;
-        // }
+        console.log("📡 Initiating recommendations for opportunity outlets...");
+        if (similarity_cache.length === 0 || Object.keys(PJPloginOutletListMapping).length === 0) {
+            console.error("⚠️ ERROR: PJP data is missing or has not been extracted for the day. Please extract the PJP data before proceeding.");
+            return;
+        }
 
-        // let listOfOutletCode = [];
-        // for (const outlets of Object.values(PJPloginOutletListMapping)) {
-        //     listOfOutletCode.push(...outlets.map(outlet => outlet.outletcode));
-        // }
+        let listOfOutletCode = [];
+        for (const outlets of Object.values(PJPloginOutletListMapping)) {
+            listOfOutletCode.push(...outlets.map(outlet => outlet.outletcode));
+        }
 
-        // console.log("📥 Fetching additional outlet data for recommendations...");
-        // const dataResponseG = await getDataFromResponseG(lob, listOfOutletCode);
+        console.log("📥 Fetching additional outlet data for recommendations...");
+        const dataResponseG = await getDataFromResponseG(lob, listOfOutletCode);
 
-        // for (const data of dataResponseG) {
-        //     const loginId = data.loginId;
-        //     const outletCode = data.outletCode;
-        //     const payload = JSON.parse(data.payload);
+        for (const data of dataResponseG) {
+            const loginId = data.loginId;
+            const outletCode = data.outletCode;
+            const payload = JSON.parse(data.payload);
 
-        //     if (PJPloginOutletListMapping[loginId]) {
-        //         for (const skuOutlet of PJPloginOutletListMapping[loginId]) {
-        //             if (skuOutlet.outletcode === outletCode) {
-        //                 skuOutlet["skuList"] = getSKUList(payload);
-        //             }
-        //         }
-        //     }
-        // }
+            if (PJPloginOutletListMapping[loginId]) {
+                for (const skuOutlet of PJPloginOutletListMapping[loginId]) {
+                    if (skuOutlet.outletcode === outletCode) {
+                        skuOutlet["skuList"] = getSKUList(payload);
+                    }
+                }
+            }
+        }
 
-        // console.log("🔎 Processing final recommendations...");
-        // const dataForOpportunityOutlets = await processRecommendation(PJPloginOutletListMapping, similarity_cache, `${pathNameDark}/pjp_${fileName.replace('.json', '.csv')}`);
-        // console.log("✅ Total opportunity outlets identified:", dataForOpportunityOutlets.length);
+        console.log("🔎 Processing final recommendations...");
+        const dataForOpportunityOutlets = await processRecommendation(PJPloginOutletListMapping, similarity_cache, `${pathNameDark}/pjp_${fileName.replace('.json', '.csv')}`);
+        console.log("✅ Total opportunity outlets identified:", dataForOpportunityOutlets.length);
 
         const fileNameToSave = `final_${fileName.replace('.json', '.csv')}`;
-        // await saveToCSV(pathNameDark, fileNameToSave, dataForOpportunityOutlets);
-        // console.log("📤 Final recommendations saved.");
+        await saveToCSV(pathNameDark, fileNameToSave, dataForOpportunityOutlets);
+        console.log("📤 Final recommendations saved.");
 
         console.log("☁️ Uploading final results to AWS...");
         await AwsUtils.uploadFile("darksysbucket", `harshprincegoogleparser/${lob}_PJP_opportunitiesOutlets.csv`, `${pathNameDark}/${fileNameToSave}`);
