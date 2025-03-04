@@ -14,7 +14,7 @@ from dotenv import load_dotenv
 load_dotenv()
 api_key = os.getenv("Google_API2")
 genai.configure(api_key=api_key) 
-model = genai.GenerativeModel("gemini-pro")
+model = genai.GenerativeModel("gemini-1.5-pro-latest")
 
 def haversine_distance(lat1, lon1, lat2, lon2):
     """Calculate the Haversine distance between two latitude-longitude points."""
@@ -53,9 +53,9 @@ def use_llm_for_comparison(sub_channel_bright, sub_channel_dark):
     similarity_score = fuzz.ratio(sub_channel_bright.lower(), sub_channel_dark.lower())
 
     if similarity_score > 85:
-        return similarity_score / 100.0  # Return normalized score (0 to 1)
+        return similarity_score / 100.0 
 
-    model = genai.GenerativeModel("gemini-pro")
+    model = genai.GenerativeModel("gemini-1.5-pro-latest")
     prompt = f"""
     Compare the similarity between these two business sub-channels:
     1. {sub_channel_bright}

@@ -40,7 +40,7 @@ def get_match_score(row):
     """
     
     try:
-        model = genai.GenerativeModel("gemini-pro")
+        model = genai.GenerativeModel("gemini-1.5-pro-latest")
         response = model.generate_content(prompt)
         score = int(response.text.strip())
         return max(0, min(100, score))
