@@ -282,8 +282,7 @@ function extractLatLongFromUrl(url) {
 
 const run = async (locationAreaList, businessDataJsonPath, businessFileName, type, lc) => {
     localContext = lc;
-    const filePath = path.join(businessDataJsonPath, businessFileName);
-    ensureFileExists(filePath);
+    ensureFileExists(businessDataJsonPath, businessFileName);
 
     for (const locationArea of locationAreaList) {
         console.log("Scrapping for : ", locationArea);

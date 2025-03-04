@@ -12,7 +12,12 @@ const extractTileId = (googleMapsUrl) => {
         return null;
     }
 }
-const ensureFileExists = (filePath) => {
+const ensureFileExists = (businessDataJsonPath, businessFileName) => {
+    if (!fs.existsSync(businessDataJsonPath)) {
+        fs.mkdirSync(businessDataJsonPath, { recursive: true });
+        console.log(`Directory created: ${businessDataJsonPath}`);
+    }
+    const filePath = path.join(businessDataJsonPath, businessFileName);
     if (!fs.existsSync(filePath)) {
         fs.writeFileSync(filePath, JSON.stringify([]));
         console.log(`File created: ${filePath}`);
