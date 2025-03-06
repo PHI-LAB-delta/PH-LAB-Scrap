@@ -84,7 +84,7 @@ async function searchGoogleMaps(localArea, localAreaList, type) {
         });
 
         for (const business of businessData) {
-            if (business.googleUrl) {
+            if (business.googleUrl && localContext.toConsiderDetails) {
                 // Business Data
                 const detailedData = await scrapeDetailsFromWebsite(browser, business.googleUrl);
                 for (const [key, value] of Object.entries(detailedData)) {

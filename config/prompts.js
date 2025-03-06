@@ -4,6 +4,9 @@ const promptList = [
     "Petshop",
     "Pharmacy",
     "Grocery",
+    "Breeder",
+    "Cash & Carry",
+    "Preferred Vet",
 ];
 
 module.exports = { promptList };

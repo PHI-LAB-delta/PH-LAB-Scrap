@@ -1,6 +1,7 @@
 const fs = require('fs');
 const { createObjectCsvWriter } = require('csv-writer');
 const readline = require('readline');
+const path = require("path");
 
 const extractTileId = (googleMapsUrl) => {
     const tileIdPattern = /16s%2F([^!]+)/;
