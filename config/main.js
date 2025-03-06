@@ -1,6 +1,6 @@
 const config = {
     areaFor: {
-        area: "delhi",
+        area: "bhopal",
         targetOsmId: "1942586",
         targetOsmType: "R",
     },
