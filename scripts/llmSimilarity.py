@@ -25,7 +25,7 @@ def haversine_distance(lat1, lon1, lat2, lon2):
 # Function to get similarity score using Google Gemini AI
 def get_match_score(row):
     fuzzy_score = fuzz.ratio(row['outlet_name'], row['outlet_name_company'])
-    if fuzzy_score >= 80:
+    if fuzzy_score >= 70:
         return fuzzy_score
     
     prompt = f"""
