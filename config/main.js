@@ -7,10 +7,13 @@ const config = {
     scrapping: {
         extractFrom3rdWeb: false,
         extractReviews: false,
-        toConsiderDetails: false
+        toConsiderDetails: true
     },
     companyData: {
         toExtractCordinate: false,
+    },
+    sanity: {
+        sanityFor: "llmSimilarity"
     }
 };
 

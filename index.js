@@ -57,7 +57,7 @@ async function main() {
     // Finding Opportunity Outlets
     if (handleExecution.toFindOppournityOutlets) {
         console.log("🔍 Running code sanity check...");
-        const sanityFor = "llmSimilarity";
+        const sanityFor = config.sanity.sanityFor;
         const fileNameToSaveCompanyData = `${sanityFor}_${fileName}`;
 
         try {
@@ -68,23 +68,23 @@ async function main() {
             return;
         }
 
-        console.log("📥 Fetching outlet data from database...");
-        const brightOutlets = await getOutletData(lob);
-        await saveToCSV(pathNameCompany, fileName.replace('.json', '.csv'), brightOutlets);
-        console.log("📤 Outlet data saved successfully.");
+        // console.log("📥 Fetching outlet data from database...");
+        // const brightOutlets = await getOutletData(lob);
+        // await saveToCSV(pathNameCompany, fileName.replace('.json', '.csv'), brightOutlets);
+        // console.log("📤 Outlet data saved successfully.");
 
-        const opportunitiesFile = path.join(__dirname, `${pathName}/${fileNameToSaveCompanyData.replace('.json', '.csv')}`);
-        const companyOutletFile = path.join(__dirname, `${pathNameCompany}/${fileName.replace('.json', '.csv')}`);
+        // const opportunitiesFile = path.join(__dirname, `${pathName}/${fileNameToSaveCompanyData.replace('.json', '.csv')}`);
+        // const companyOutletFile = path.join(__dirname, `${pathNameCompany}/${fileName.replace('.json', '.csv')}`);
 
-        try {
-            console.log("⚙️ Running similarity analysis Python script...");
-            const execPromise = util.promisify(exec);
-            const darkOutlets = await runPythonScript(opportunitiesFile, companyOutletFile, execPromise, "llmSimilarity.py");
-            await saveToCSV(`${pathNameDark}`, fileName.replace('.json', '.csv'), darkOutlets);
-            console.log("✅ Similarity analysis completed.");
-        } catch (error) {
-            console.error("❌ Error in running Python script:", error);
-        }
+        // try {
+        //     console.log("⚙️ Running similarity analysis Python script...");
+        //     const execPromise = util.promisify(exec);
+        //     const darkOutlets = await runPythonScript(opportunitiesFile, companyOutletFile, execPromise, "llmSimilarity.py");
+        //     await saveToCSV(`${pathNameDark}`, fileName.replace('.json', '.csv'), darkOutlets);
+        //     console.log("✅ Similarity analysis completed.");
+        // } catch (error) {
+        //     console.error("❌ Error in running Python script:", error);
+        // }
     }
 
     let similarity_cache = [];
