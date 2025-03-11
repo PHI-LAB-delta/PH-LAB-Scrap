@@ -13,7 +13,7 @@ const config = {
         toExtractCordinate: false,
     },
     sanity: {
-        sanityFor: "all"
+        sanityFor: "ol"
     }
 };
 

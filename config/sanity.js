@@ -1,4 +1,4 @@
-const attributeToConsider = {
+const attributeToConsiderOL = {
     "placeId": true,
     "address": true,
     "sub_channel": true,
@@ -59,6 +59,9 @@ const attributeToConsiderForLLMSimlarity = {
 const getAttributeToConsider = (val) => {
     if (val === "llmSimilarity") {
         return attributeToConsiderForLLMSimlarity;
+    }
+    if (val === "ol") {
+        return attributeToConsiderOL;
     }
     if (val = "all") {
         return defaultAttributeToConsider;

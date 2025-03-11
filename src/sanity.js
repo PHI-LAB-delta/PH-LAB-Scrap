@@ -55,6 +55,12 @@ function removeAttributes(fileNameTosave, fileName, pathName, attributeToConside
                 return acc;
             }, {});
 
+        filteredItem["coldCallProbabilityWeight"] = calculateWeight(
+            filteredItem["stars"],
+            filteredItem["numberOfReviews"],
+            filteredItem["websites"]
+        );
+
         filteredResults.push(filteredItem);
 
         if (toSaveInCSV) {
