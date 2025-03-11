@@ -287,7 +287,7 @@ const sanity = async (sanityFor, fileNameTosave, toSaveInCSV = true) => {
 
 async function scrapping() {
     const localContext = { ...config.areaFor, ...config.scrapping };
-    for (let i = promptList.length - 1; i < promptList.length; i++) {
+    for (let i = 0; i < promptList.length; i++) {
         console.log("Scrapping for type -> ", promptList[i]);
 
         const localAreaList = pincodeList.map((val, ind) => { return val.Pincode });

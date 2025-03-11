@@ -1,7 +1,7 @@
 const config = {
     areaFor: {
-        area: "bhopal",
-        targetOsmId: "1942586",
+        area: "Gurgaon",
+        targetOsmId: "10398244",
         targetOsmType: "R",
     },
     scrapping: {
@@ -13,7 +13,7 @@ const config = {
         toExtractCordinate: false,
     },
     sanity: {
-        sanityFor: "llmSimilarity"
+        sanityFor: "all"
     }
 };
 
